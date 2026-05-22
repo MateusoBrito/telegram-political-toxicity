@@ -1,0 +1,460 @@
+[2026-05-11 12:42:05] Iniciando ambiente Spark...
+[2026-05-11 12:42:11] Ambiente Spark distribuído preparado!
+[2026-05-11 12:42:12] Encontrados 0 canais já processados no destino.
+[2026-05-11 12:42:13] Arquivos pendentes para processar: 100
+[2026-05-11 12:42:13] --- Iniciando Lote 1/1 (100 arquivos) ---
+[2026-05-11 12:57:57] Lote 1 salvo com sucesso!
+[2026-05-11 12:57:57] ============================================================
+[2026-05-11 12:57:57] Processamento incremental finalizado!
+[2026-05-11 13:07:13] Iniciando ambiente Spark...
+[2026-05-11 13:07:19] Ambiente Spark distribuído preparado!
+[2026-05-11 13:07:19] Encontrados 0 canais já processados no destino.
+[2026-05-11 13:07:20] Arquivos pendentes para processar: 100
+[2026-05-11 13:07:20] --- Iniciando Lote 1/1 (100 arquivos) ---
+[2026-05-11 13:21:59] Lote 1 salvo com sucesso!
+[2026-05-11 13:21:59] ============================================================
+[2026-05-11 13:21:59] Processamento incremental finalizado!
+[2026-05-11 13:39:57] Iniciando ambiente Spark...
+[2026-05-11 13:40:03] Ambiente Spark distribuído preparado!
+[2026-05-11 13:40:03] Encontrados 54 canais já processados no destino.
+[2026-05-11 13:40:04] Arquivos pendentes para processar: 46
+[2026-05-11 13:40:04] --- Iniciando Lote 1/1 (46 arquivos) ---
+[2026-05-11 13:40:17] Lote 1 salvo com sucesso!
+[2026-05-11 13:40:17] ============================================================
+[2026-05-11 13:40:17] Processamento incremental finalizado!
+
+[2026-05-11 13:46:40] Iniciando ambiente Spark...
+[2026-05-11 13:46:47] Ambiente Spark distribuído preparado!
+[2026-05-11 13:46:47] Encontrados 54 canais já processados no destino.
+[2026-05-11 13:46:48] Arquivos pendentes para processar: 34050
+[2026-05-11 13:46:48] --- Iniciando Lote 1/69 (500 arquivos) ---
+[2026-05-11 13:53:16] ERRO no Lote 1. Detalhes: An error occurred while calling o96.parquet
+[2026-05-11 13:53:16] --- Iniciando Lote 2/69 (500 arquivos) ---
+[2026-05-11 13:53:16] ERRO no Lote 2. Detalhes: An error occurred while calling o108.csv
+[2026-05-11 13:53:16] --- Iniciando Lote 3/69 (500 arquivos) ---
+[2026-05-11 13:53:17] ERRO no Lote 3. Detalhes: An error occurred while calling o122.csv
+[2026-05-11 13:53:17] --- Iniciando Lote 4/69 (500 arquivos) ---
+[2026-05-11 13:53:17] ERRO no Lote 4. Detalhes: An error occurred while calling o136.csv
+[2026-05-11 13:53:17] --- Iniciando Lote 5/69 (500 arquivos) ---
+[2026-05-11 13:53:18] ERRO no Lote 5. Detalhes: An error occurred while calling o150.csv
+[2026-05-11 13:53:18] --- Iniciando Lote 6/69 (500 arquivos) ---
+[2026-05-11 13:55:43] ERRO no Lote 20. Detalhes: An error occurred while calling o420.parquet
+[2026-05-11 13:55:43] --- Iniciando Lote 21/69 (500 arquivos) ---
+[2026-05-11 13:56:21] ERRO no Lote 21. Detalhes: An error occurred while calling o463.parquet
+[2026-05-11 13:56:21] --- Iniciando Lote 22/69 (500 arquivos) ---
+[2026-05-11 13:56:25] ERRO no Lote 22. Detalhes: An error occurred while calling o506.parquet
+[2026-05-11 13:56:25] --- Iniciando Lote 23/69 (500 arquivos) ---
+[2026-05-11 13:56:25] ERRO no Lote 23. Detalhes: An error occurred while calling o518.csv
+[2026-05-11 13:56:25] --- Iniciando Lote 24/69 (500 arquivos) ---
+[2026-05-11 13:56:25] ERRO no Lote 24. Detalhes: An error occurred while calling o532.csv
+[2026-05-11 13:56:25] --- Iniciando Lote 25/69 (500 arquivos) ---
+[2026-05-11 13:56:26] ERRO no Lote 25. Detalhes: An error occurred while calling o546.csv
+[2026-05-11 13:56:26] --- Iniciando Lote 26/69 (500 arquivos) ---
+[2026-05-11 13:56:26] ERRO no Lote 26. Detalhes: An error occurred while calling o560.csv
+[2026-05-11 13:56:26] --- Iniciando Lote 27/69 (500 arquivos) ---
+[2026-05-11 13:56:26] ERRO no Lote 27. Detalhes: An error occurred while calling o574.csv
+[2026-05-11 13:56:26] --- Iniciando Lote 28/69 (500 arquivos) ---
+[2026-05-11 13:56:26] ERRO no Lote 28. Detalhes: An error occurred while calling o588.csv
+[2026-05-11 13:56:26] --- Iniciando Lote 29/69 (500 arquivos) ---
+[2026-05-11 13:56:26] ERRO no Lote 29. Detalhes: An error occurred while calling o602.csv
+[2026-05-11 13:56:26] --- Iniciando Lote 30/69 (500 arquivos) ---
+[2026-05-11 13:56:27] ERRO no Lote 30. Detalhes: An error occurred while calling o616.csv
+[2026-05-11 13:56:27] --- Iniciando Lote 31/69 (500 arquivos) ---
+[2026-05-11 13:56:27] ERRO no Lote 31. Detalhes: An error occurred while calling o630.csv
+[2026-05-11 13:56:27] --- Iniciando Lote 32/69 (500 arquivos) ---
+[2026-05-11 13:56:27] ERRO no Lote 32. Detalhes: An error occurred while calling o644.csv
+[2026-05-11 13:56:27] --- Iniciando Lote 33/69 (500 arquivos) ---
+[2026-05-11 13:56:27] ERRO no Lote 33. Detalhes: An error occurred while calling o658.csv
+[2026-05-11 13:56:27] --- Iniciando Lote 34/69 (500 arquivos) ---
+[2026-05-11 13:56:28] ERRO no Lote 34. Detalhes: An error occurred while calling o672.csv
+[2026-05-11 13:56:28] --- Iniciando Lote 35/69 (500 arquivos) ---
+[2026-05-11 13:56:28] ERRO no Lote 35. Detalhes: An error occurred while calling o686.csv
+[2026-05-11 13:56:28] --- Iniciando Lote 36/69 (500 arquivos) ---
+[2026-05-11 13:56:28] ERRO no Lote 36. Detalhes: An error occurred while calling o700.csv
+[2026-05-11 13:56:28] --- Iniciando Lote 37/69 (500 arquivos) ---
+[2026-05-11 13:56:28] ERRO no Lote 37. Detalhes: An error occurred while calling o714.csv
+[2026-05-11 13:56:28] --- Iniciando Lote 38/69 (500 arquivos) ---
+[2026-05-11 13:56:29] ERRO no Lote 38. Detalhes: An error occurred while calling o728.csv
+[2026-05-11 13:56:29] --- Iniciando Lote 39/69 (500 arquivos) ---
+[2026-05-11 13:56:29] ERRO no Lote 39. Detalhes: An error occurred while calling o742.csv
+[2026-05-11 13:56:29] --- Iniciando Lote 40/69 (500 arquivos) ---
+[2026-05-11 13:56:29] ERRO no Lote 40. Detalhes: An error occurred while calling o756.csv
+[2026-05-11 13:56:29] --- Iniciando Lote 41/69 (500 arquivos) ---
+[2026-05-11 13:56:29] ERRO no Lote 41. Detalhes: An error occurred while calling o770.csv
+[2026-05-11 13:56:29] --- Iniciando Lote 42/69 (500 arquivos) ---
+[2026-05-11 13:56:29] ERRO no Lote 42. Detalhes: An error occurred while calling o784.csv
+[2026-05-11 13:56:29] --- Iniciando Lote 43/69 (500 arquivos) ---
+[2026-05-11 13:56:30] ERRO no Lote 43. Detalhes: An error occurred while calling o798.csv
+[2026-05-11 13:56:30] --- Iniciando Lote 44/69 (500 arquivos) ---
+[2026-05-11 13:56:30] ERRO no Lote 44. Detalhes: An error occurred while calling o812.csv
+[2026-05-11 13:56:30] --- Iniciando Lote 45/69 (500 arquivos) ---
+[2026-05-11 13:56:30] ERRO no Lote 45. Detalhes: An error occurred while calling o828.csv
+[2026-05-11 13:56:30] --- Iniciando Lote 46/69 (500 arquivos) ---
+[2026-05-11 13:56:30] ERRO no Lote 46. Detalhes: An error occurred while calling o842.csv
+[2026-05-11 13:56:30] --- Iniciando Lote 47/69 (500 arquivos) ---
+[2026-05-11 14:00:19] Iniciando ambiente Spark...
+[2026-05-11 14:00:26] Ambiente Spark distribuído preparado!
+[2026-05-11 14:00:26] Encontrados 0 canais já processados no destino.
+[2026-05-11 14:00:26] Arquivos pendentes para processar: 34104
+[2026-05-11 14:00:26] --- Iniciando Lote 1/69 (500 arquivos) ---
+[2026-05-11 14:42:51] Lote 1 salvo com sucesso!
+[2026-05-11 14:42:51] --- Iniciando Lote 2/69 (500 arquivos) ---
+[2026-05-11 15:12:18] Lote 2 salvo com sucesso!
+[2026-05-11 15:12:18] --- Iniciando Lote 3/69 (500 arquivos) ---
+[2026-05-11 15:37:37] Lote 3 salvo com sucesso!
+[2026-05-11 15:37:37] --- Iniciando Lote 4/69 (500 arquivos) ---
+[2026-05-11 16:29:08] Lote 4 salvo com sucesso!
+[2026-05-11 16:29:08] --- Iniciando Lote 5/69 (500 arquivos) ---
+[2026-05-11 16:29:12] ERRO no Lote 5. Detalhes: An error occurred while calling o296.parquet.
+: org.apache.spark.SparkException: [FAILED_READ_FILE.NO_HINT] Encountered error while reading file file:///home/students/moliveira/messages_july/channel_2109324198-2024-07.tsv.gz.  SQLSTATE: KD001
+	at org.apache.spark.sql.errors.QueryExecutionErrors$.cannotReadFilesError(QueryExecutionErrors.scala:856)
+	at org.apache.spark.sql.execution.datasources.v2.FileDataSourceV2$.attachFilePath(FileDataSourceV2.scala:142)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.hasNext(FileScanRDD.scala:142)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage1.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenEvaluatorFactory$WholeStageCodegenPartitionEvaluator$$anon$1.hasNext(WholeStageCodegenEvaluatorFactory.scala:50)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+	at scala.collection.Iterator$GroupedIterator.fulfill(Iterator.scala:242)
+	at scala.collection.Iterator$GroupedIterator.fill(Iterator.scala:263)
+	at scala.collection.Iterator$GroupedIterator.hasNext(Iterator.scala:265)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+	at org.apache.spark.api.python.PythonRDD$.writeNextElementToStream(PythonRDD.scala:333)
+	at org.apache.spark.sql.execution.python.BasePythonUDFRunner$$anon$1.writeNextInputToStream(PythonUDFRunner.scala:69)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderInputStream.writeAdditionalInputToPythonWorker(PythonRunner.scala:844)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderInputStream.read(PythonRunner.scala:767)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:263)
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:393)
+	at org.apache.spark.sql.execution.python.BasePythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:98)
+	at org.apache.spark.sql.execution.python.BasePythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:90)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:532)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:601)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage2.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenEvaluatorFactory$WholeStageCodegenPartitionEvaluator$$anon$1.hasNext(WholeStageCodegenEvaluatorFactory.scala:50)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+	at scala.collection.Iterator$GroupedIterator.fill(Iterator.scala:263)
+	at scala.collection.Iterator$GroupedIterator.hasNext(Iterator.scala:265)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+	at org.apache.spark.api.python.PythonRDD$.writeNextElementToStream(PythonRDD.scala:333)
+	at org.apache.spark.sql.execution.python.BasePythonUDFRunner$$anon$1.writeNextInputToStream(PythonUDFRunner.scala:69)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderInputStream.writeAdditionalInputToPythonWorker(PythonRunner.scala:844)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderInputStream.read(PythonRunner.scala:767)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:263)
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:393)
+	at org.apache.spark.sql.execution.python.BasePythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:98)
+	at org.apache.spark.sql.execution.python.BasePythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:90)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:532)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:601)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage3.sort_addToSorter_0$(Unknown Source)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage3.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenEvaluatorFactory$WholeStageCodegenPartitionEvaluator$$anon$1.hasNext(WholeStageCodegenEvaluatorFactory.scala:50)
+	at org.apache.spark.sql.execution.aggregate.SortAggregateExec.$anonfun$doExecute$1(SortAggregateExec.scala:63)
+	at org.apache.spark.sql.execution.aggregate.SortAggregateExec.$anonfun$doExecute$1$adapted(SortAggregateExec.scala:60)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsWithIndexInternal$2(RDD.scala:888)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsWithIndexInternal$2$adapted(RDD.scala:888)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:107)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:54)
+	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:171)
+	at org.apache.spark.scheduler.Task.run(Task.scala:147)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$5(Executor.scala:647)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:80)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:77)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:99)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:650)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.spark.util.Utils$.getTryWithCallerStacktrace(Utils.scala:1439)
+	at org.apache.spark.util.LazyTry.get(LazyTry.scala:58)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:131)
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:192)
+	at org.apache.spark.sql.classic.DataFrameWriter.runCommand(DataFrameWriter.scala:622)
+	at org.apache.spark.sql.classic.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:273)
+	at org.apache.spark.sql.classic.DataFrameWriter.saveInternal(DataFrameWriter.scala:241)
+	at org.apache.spark.sql.classic.DataFrameWriter.save(DataFrameWriter.scala:118)
+	at org.apache.spark.sql.DataFrameWriter.parquet(DataFrameWriter.scala:369)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:184)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:108)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+	Suppressed: org.apache.spark.util.Utils$OriginalTryStackTraceException: Full stacktrace of original doTryWithCallerStacktrace caller
+		at org.apache.spark.sql.errors.QueryExecutionErrors$.cannotReadFilesError(QueryExecutionErrors.scala:856)
+		at org.apache.spark.sql.execution.datasources.v2.FileDataSourceV2$.attachFilePath(FileDataSourceV2.scala:142)
+		at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.hasNext(FileScanRDD.scala:142)
+		at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+		at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage1.processNext(Unknown Source)
+		at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+		at org.apache.spark.sql.execution.WholeStageCodegenEvaluatorFactory$WholeStageCodegenPartitionEvaluator$$anon$1.hasNext(WholeStageCodegenEvaluatorFactory.scala:50)
+		at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+		at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+		at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+		at scala.collection.Iterator$GroupedIterator.fulfill(Iterator.scala:242)
+		at scala.collection.Iterator$GroupedIterator.fill(Iterator.scala:263)
+		at scala.collection.Iterator$GroupedIterator.hasNext(Iterator.scala:265)
+		at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+		at org.apache.spark.api.python.PythonRDD$.writeNextElementToStream(PythonRDD.scala:333)
+		at org.apache.spark.sql.execution.python.BasePythonUDFRunner$$anon$1.writeNextInputToStream(PythonUDFRunner.scala:69)
+		at org.apache.spark.api.python.BasePythonRunner$ReaderInputStream.writeAdditionalInputToPythonWorker(PythonRunner.scala:844)
+		at org.apache.spark.api.python.BasePythonRunner$ReaderInputStream.read(PythonRunner.scala:767)
+		at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+		at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:263)
+		at java.base/java.io.DataInputStream.readInt(DataInputStream.java:393)
+		at org.apache.spark.sql.execution.python.BasePythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:98)
+		at org.apache.spark.sql.execution.python.BasePythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:90)
+		at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:532)
+		at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+		at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:601)
+		at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+		at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+		at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage2.processNext(Unknown Source)
+		at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+		at org.apache.spark.sql.execution.WholeStageCodegenEvaluatorFactory$WholeStageCodegenPartitionEvaluator$$anon$1.hasNext(WholeStageCodegenEvaluatorFactory.scala:50)
+		at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+		at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+		at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+		at scala.collection.Iterator$GroupedIterator.fill(Iterator.scala:263)
+		at scala.collection.Iterator$GroupedIterator.hasNext(Iterator.scala:265)
+		at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+		at org.apache.spark.api.python.PythonRDD$.writeNextElementToStream(PythonRDD.scala:333)
+		at org.apache.spark.sql.execution.python.BasePythonUDFRunner$$anon$1.writeNextInputToStream(PythonUDFRunner.scala:69)
+		at org.apache.spark.api.python.BasePythonRunner$ReaderInputStream.writeAdditionalInputToPythonWorker(PythonRunner.scala:844)
+		at org.apache.spark.api.python.BasePythonRunner$ReaderInputStream.read(PythonRunner.scala:767)
+		at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+		at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:263)
+		at java.base/java.io.DataInputStream.readInt(DataInputStream.java:393)
+		at org.apache.spark.sql.execution.python.BasePythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:98)
+		at org.apache.spark.sql.execution.python.BasePythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:90)
+		at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:532)
+		at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+		at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:601)
+		at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+		at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+		at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage3.sort_addToSorter_0$(Unknown Source)
+		at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage3.processNext(Unknown Source)
+		at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+		at org.apache.spark.sql.execution.WholeStageCodegenEvaluatorFactory$WholeStageCodegenPartitionEvaluator$$anon$1.hasNext(WholeStageCodegenEvaluatorFactory.scala:50)
+		at org.apache.spark.sql.execution.aggregate.SortAggregateExec.$anonfun$doExecute$1(SortAggregateExec.scala:63)
+		at org.apache.spark.sql.execution.aggregate.SortAggregateExec.$anonfun$doExecute$1$adapted(SortAggregateExec.scala:60)
+		at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsWithIndexInternal$2(RDD.scala:888)
+		at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsWithIndexInternal$2$adapted(RDD.scala:888)
+		at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+		at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+		at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+		at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+		at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+		at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+		at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:107)
+		at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:54)
+		at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:171)
+		at org.apache.spark.scheduler.Task.run(Task.scala:147)
+		at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$5(Executor.scala:647)
+		at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:80)
+		at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:77)
+		at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:99)
+		at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:650)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		... 1 more
+Caused by: com.univocity.parsers.common.TextParsingException: java.lang.IllegalStateException - Error reading from input
+Parser Configuration: CsvParserSettings:
+	Auto configuration enabled=true
+	Auto-closing enabled=true
+	Autodetect column delimiter=false
+	Autodetect quotes=false
+	Column reordering enabled=true
+	Delimiters for detection=null
+	Empty value=
+	Escape unquoted values=false
+	Header extraction enabled=null
+	Headers=null
+	Ignore leading whitespaces=false
+	Ignore leading whitespaces in quotes=false
+	Ignore trailing whitespaces=false
+	Ignore trailing whitespaces in quotes=false
+	Input buffer size=1048576
+	Input reading on separate thread=false
+	Keep escape sequences=false
+	Keep quotes=false
+	Length of content displayed on error=1000
+	Line separator detection enabled=true
+	Maximum number of characters per column=-1
+	Maximum number of columns=20480
+	Normalize escaped line separators=true
+	Null value=
+	Number of records to read=all
+	Processor=none
+	Restricting data in exceptions=false
+	RowProcessor error handler=null
+	Selected fields=none
+	Skip bits as whitespace=true
+	Skip empty lines=true
+	Unescaped quote handling=STOP_AT_DELIMITERFormat configuration:
+	CsvFormat:
+		Comment character=#
+		Field delimiter=\t
+		Line separator (normalized)=\n
+		Line separator sequence=\n
+		Quote character="
+		Quote escape character="
+		Quote escape escape character=null
+Internal state when error was thrown: line=0, column=0, record=0
+	at com.univocity.parsers.common.AbstractParser.handleException(AbstractParser.java:402)
+	at com.univocity.parsers.common.AbstractParser.beginParsing(AbstractParser.java:277)
+	at com.univocity.parsers.common.AbstractParser.beginParsing(AbstractParser.java:843)
+	at org.apache.spark.sql.catalyst.csv.UnivocityParser$$anon$1.<init>(UnivocityParser.scala:436)
+	at org.apache.spark.sql.catalyst.csv.UnivocityParser$.convertStream(UnivocityParser.scala:435)
+	at org.apache.spark.sql.catalyst.csv.UnivocityParser$.parseStream(UnivocityParser.scala:425)
+	at org.apache.spark.sql.execution.datasources.csv.MultiLineCSVDataSource$.readFile(CSVDataSource.scala:194)
+	at org.apache.spark.sql.execution.datasources.csv.CSVFileFormat.$anonfun$buildReader$2(CSVFileFormat.scala:147)
+	at org.apache.spark.sql.execution.datasources.FileFormat$$anon$1.apply(FileFormat.scala:155)
+	at org.apache.spark.sql.execution.datasources.FileFormat$$anon$1.apply(FileFormat.scala:140)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.org$apache$spark$sql$execution$datasources$FileScanRDD$$anon$$readCurrentFile(FileScanRDD.scala:230)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.nextIterator(FileScanRDD.scala:289)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.hasNext0(FileScanRDD.scala:131)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.hasNext(FileScanRDD.scala:140)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage1.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenEvaluatorFactory$WholeStageCodegenPartitionEvaluator$$anon$1.hasNext(WholeStageCodegenEvaluatorFactory.scala:50)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+	at scala.collection.Iterator$GroupedIterator.fulfill(Iterator.scala:242)
+	at scala.collection.Iterator$GroupedIterator.fill(Iterator.scala:263)
+	at scala.collection.Iterator$GroupedIterator.hasNext(Iterator.scala:265)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+	at org.apache.spark.api.python.PythonRDD$.writeNextElementToStream(PythonRDD.scala:333)
+	at org.apache.spark.sql.execution.python.BasePythonUDFRunner$$anon$1.writeNextInputToStream(PythonUDFRunner.scala:69)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderInputStream.writeAdditionalInputToPythonWorker(PythonRunner.scala:844)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderInputStream.read(PythonRunner.scala:767)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:263)
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:393)
+	at org.apache.spark.sql.execution.python.BasePythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:98)
+	at org.apache.spark.sql.execution.python.BasePythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:90)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:532)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:601)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage2.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenEvaluatorFactory$WholeStageCodegenPartitionEvaluator$$anon$1.hasNext(WholeStageCodegenEvaluatorFactory.scala:50)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+	at scala.collection.Iterator$GroupedIterator.fill(Iterator.scala:263)
+	at scala.collection.Iterator$GroupedIterator.hasNext(Iterator.scala:265)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+	at org.apache.spark.api.python.PythonRDD$.writeNextElementToStream(PythonRDD.scala:333)
+	at org.apache.spark.sql.execution.python.BasePythonUDFRunner$$anon$1.writeNextInputToStream(PythonUDFRunner.scala:69)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderInputStream.writeAdditionalInputToPythonWorker(PythonRunner.scala:844)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderInputStream.read(PythonRunner.scala:767)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:263)
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:393)
+	at org.apache.spark.sql.execution.python.BasePythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:98)
+	at org.apache.spark.sql.execution.python.BasePythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:90)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:532)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:601)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage3.sort_addToSorter_0$(Unknown Source)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage3.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenEvaluatorFactory$WholeStageCodegenPartitionEvaluator$$anon$1.hasNext(WholeStageCodegenEvaluatorFactory.scala:50)
+	at org.apache.spark.sql.execution.aggregate.SortAggregateExec.$anonfun$doExecute$1(SortAggregateExec.scala:63)
+	at org.apache.spark.sql.execution.aggregate.SortAggregateExec.$anonfun$doExecute$1$adapted(SortAggregateExec.scala:60)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsWithIndexInternal$2(RDD.scala:888)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsWithIndexInternal$2$adapted(RDD.scala:888)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:107)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:54)
+	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:171)
+	at org.apache.spark.scheduler.Task.run(Task.scala:147)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$5(Executor.scala:647)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:80)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:77)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:99)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:650)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	... 1 more
+Caused by: java.lang.IllegalStateException: Error reading from input
+	at com.univocity.parsers.common.input.DefaultCharInputReader.reloadBuffer(DefaultCharInputReader.java:84)
+	at com.univocity.parsers.common.input.AbstractCharInputReader.updateBuffer(AbstractCharInputReader.java:203)
+	at com.univocity.parsers.common.input.AbstractCharInputReader.start(AbstractCharInputReader.java:179)
+	at com.univocity.parsers.common.input.AbstractCharInputReader.start(AbstractCharInputReader.java:189)
+	at com.univocity.parsers.common.AbstractParser.beginParsing(AbstractParser.java:275)
+	... 86 more
+Caused by: java.io.IOException: not a gzip file
+	at org.apache.hadoop.io.compress.zlib.BuiltInGzipDecompressor.processBasicHeader(BuiltInGzipDecompressor.java:511)
+	at org.apache.hadoop.io.compress.zlib.BuiltInGzipDecompressor.executeHeaderState(BuiltInGzipDecompressor.java:270)
+	at org.apache.hadoop.io.compress.zlib.BuiltInGzipDecompressor.decompress(BuiltInGzipDecompressor.java:199)
+	at org.apache.hadoop.io.compress.DecompressorStream.decompress(DecompressorStream.java:111)
+	at org.apache.hadoop.io.compress.DecompressorStream.read(DecompressorStream.java:105)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:281)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:324)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:189)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:177)
+	at com.univocity.parsers.common.input.DefaultCharInputReader.reloadBuffer(DefaultCharInputReader.java:82)
+	... 90 more
+
+[2026-05-11 16:29:12] --- Iniciando Lote 6/69 (500 arquivos) ---
+[2026-05-11 16:59:49] Lote 6 salvo com sucesso!
+[2026-05-11 16:59:49] --- Iniciando Lote 7/69 (500 arquivos) ---
+[2026-05-11 17:26:05] Lote 7 salvo com sucesso!
+[2026-05-11 17:26:05] --- Iniciando Lote 8/69 (500 arquivos) ---
+[2026-05-11 17:52:00] Lote 8 salvo com sucesso!
+[2026-05-11 17:52:00] --- Iniciando Lote 9/69 (500 arquivos) ---
+[2026-05-11 18:41:59] Lote 9 salvo com sucesso!
+[2026-05-11 18:41:59] --- Iniciando Lote 10/69 (500 arquivos) ---
+[2026-05-11 19:10:51] Lote 10 salvo com sucesso!
+[2026-05-11 19:10:51] --- Iniciando Lote 11/69 (500 arquivos) ---
+[2026-05-11 19:39:03] Lote 11 salvo com sucesso!
+[2026-05-11 19:39:03] --- Iniciando Lote 12/69 (500 arquivos) ---
+[2026-05-11 20:01:06] Lote 12 salvo com sucesso!
+[2026-05-11 20:01:06] --- Iniciando Lote 13/69 (500 arquivos) ---
+[2026-05-11 20:54:54] Lote 13 salvo com sucesso!
+[2026-05-11 20:54:54] --- Iniciando Lote 14/69 (500 arquivos) ---
+[2026-05-11 22:37:10] ERRO no Lote 14. Detalhes: An error occurred while calling o750.parquet
+[2026-05-11 22:37:10] --- Iniciando Lote 15/69 (500 arquivos) ---
+[2026-05-11 22:37:13] ERRO no Lote 15. Detalhes: An error occurred while calling o802.parquet
+[2026-05-11 22:37:13] --- Iniciando Lote 16/69 (500 arquivos) ---
+[2026-05-11 23:20:01] Lote 16 salvo com sucesso!
+[2026-05-11 23:20:01] --- Iniciando Lote 17/69 (500 arquivos) ---
+[2026-05-12 00:12:21] Lote 17 salvo com sucesso!
+[2026-05-12 00:12:21] --- Iniciando Lote 18/69 (500 arquivos) ---

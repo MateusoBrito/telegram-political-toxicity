@@ -1,0 +1,87 @@
+1. Carregando lista de canais filtrados...
+   -> Canais a serem convertidos: 13238
+2. Preparando ambiente Spark...
+   -> Spark pronto!
+
+--- Processando Lote 1 de 27 (500 canais) ---
+   -> Lote 1 salvo com sucesso!
+
+--- Processando Lote 2 de 27 (500 canais) ---
+   -> Lote 2 salvo com sucesso!
+
+--- Processando Lote 3 de 27 (500 canais) ---
+   -> Lote 3 salvo com sucesso!
+
+--- Processando Lote 4 de 27 (500 canais) ---
+   -> Lote 4 salvo com sucesso!
+
+--- Processando Lote 5 de 27 (500 canais) ---
+   -> Lote 5 salvo com sucesso!
+
+--- Processando Lote 6 de 27 (500 canais) ---
+   -> Lote 6 salvo com sucesso!
+
+--- Processando Lote 7 de 27 (500 canais) ---
+   -> Lote 7 salvo com sucesso!
+
+--- Processando Lote 8 de 27 (500 canais) ---
+   -> Lote 8 salvo com sucesso!
+
+--- Processando Lote 9 de 27 (500 canais) ---
+   -> Lote 9 salvo com sucesso!
+
+--- Processando Lote 10 de 27 (500 canais) ---
+   -> Lote 10 salvo com sucesso!
+
+--- Processando Lote 11 de 27 (500 canais) ---
+   -> Lote 11 salvo com sucesso!
+
+--- Processando Lote 12 de 27 (500 canais) ---
+   -> Lote 12 salvo com sucesso!
+
+--- Processando Lote 13 de 27 (500 canais) ---
+   -> Lote 13 salvo com sucesso!
+
+--- Processando Lote 14 de 27 (500 canais) ---
+   -> Lote 14 salvo com sucesso!
+
+--- Processando Lote 15 de 27 (500 canais) ---
+   -> Lote 15 salvo com sucesso!
+
+--- Processando Lote 16 de 27 (500 canais) ---
+   -> Lote 16 salvo com sucesso!
+
+--- Processando Lote 17 de 27 (500 canais) ---
+   -> Lote 17 salvo com sucesso!
+
+--- Processando Lote 18 de 27 (500 canais) ---
+   -> Lote 18 salvo com sucesso!
+
+--- Processando Lote 19 de 27 (500 canais) ---
+   -> Lote 19 salvo com sucesso!
+
+--- Processando Lote 20 de 27 (500 canais) ---
+   -> Lote 20 salvo com sucesso!
+
+--- Processando Lote 21 de 27 (500 canais) ---
+   -> Lote 21 salvo com sucesso!
+
+--- Processando Lote 22 de 27 (500 canais) ---
+   -> Lote 22 salvo com sucesso!
+
+--- Processando Lote 23 de 27 (500 canais) ---
+   -> Lote 23 salvo com sucesso!
+
+--- Processando Lote 24 de 27 (500 canais) ---
+   -> Lote 24 salvo com sucesso!
+
+--- Processando Lote 25 de 27 (500 canais) ---
+   -> Lote 25 salvo com sucesso!
+
+--- Processando Lote 26 de 27 (500 canais) ---
+   -> Lote 26 salvo com sucesso!
+
+--- Processando Lote 27 de 27 (238 canais) ---
+   -> Lote 27 salvo com sucesso!
+
+Processamento em lotes finalizado!

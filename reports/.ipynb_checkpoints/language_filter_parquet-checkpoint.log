@@ -1,0 +1,25 @@
+[2026-05-11 12:42:05] Iniciando ambiente Spark...
+[2026-05-11 12:42:11] Ambiente Spark distribuído preparado!
+[2026-05-11 12:42:12] Encontrados 0 canais já processados no destino.
+[2026-05-11 12:42:13] Arquivos pendentes para processar: 100
+[2026-05-11 12:42:13] --- Iniciando Lote 1/1 (100 arquivos) ---
+[2026-05-11 12:57:57] Lote 1 salvo com sucesso!
+[2026-05-11 12:57:57] ============================================================
+[2026-05-11 12:57:57] Processamento incremental finalizado!
+[2026-05-11 13:07:13] Iniciando ambiente Spark...
+[2026-05-11 13:07:19] Ambiente Spark distribuído preparado!
+[2026-05-11 13:07:19] Encontrados 0 canais já processados no destino.
+[2026-05-11 13:07:20] Arquivos pendentes para processar: 100
+[2026-05-11 13:07:20] --- Iniciando Lote 1/1 (100 arquivos) ---
+[2026-05-11 13:21:59] Lote 1 salvo com sucesso!
+[2026-05-11 13:21:59] ============================================================
+[2026-05-11 13:21:59] Processamento incremental finalizado!
+[2026-05-11 13:39:57] Iniciando ambiente Spark...
+[2026-05-11 13:40:03] Ambiente Spark distribuído preparado!
+[2026-05-11 13:40:03] Encontrados 54 canais já processados no destino.
+[2026-05-11 13:40:04] Arquivos pendentes para processar: 46
+[2026-05-11 13:40:04] --- Iniciando Lote 1/1 (46 arquivos) ---
+[2026-05-11 13:40:17] Lote 1 salvo com sucesso!
+[2026-05-11 13:40:17] ============================================================
+[2026-05-11 13:40:17] Processamento incremental finalizado!
+

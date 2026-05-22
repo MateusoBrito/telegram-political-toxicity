@@ -1,0 +1,51 @@
+Lendo base de dados de: /home/students/moliveira/telegram-political-toxicity/data/raw
+Mensagens após pré processamento básico: 55,959,515
+
+Total de meses encontrados: 15
+
+Processando 2023-11
+Lote 2023-11 salvo com sucesso.
+
+Processando 2023-12
+Lote 2023-12 salvo com sucesso.
+
+Processando 2024-01
+Lote 2024-01 salvo com sucesso.
+
+Processando 2024-02
+Lote 2024-02 salvo com sucesso.
+
+Processando 2024-03
+Lote 2024-03 salvo com sucesso.
+
+Processando 2024-04
+Lote 2024-04 salvo com sucesso.
+
+Processando 2024-05
+Lote 2024-05 salvo com sucesso.
+
+Processando 2024-06
+Lote 2024-06 salvo com sucesso.
+
+Processando 2024-07
+Lote 2024-07 salvo com sucesso.
+
+Processando 2024-08
+Lote 2024-08 salvo com sucesso.
+
+Processando 2024-09
+Lote 2024-09 salvo com sucesso.
+
+Processando 2024-10
+Lote 2024-10 salvo com sucesso.
+
+Processando 2024-11
+Lote 2024-11 salvo com sucesso.
+
+Processando 2024-12
+Lote 2024-12 salvo com sucesso.
+
+Processando 2025-01
+Lote 2025-01 salvo com sucesso.
+
+Processamento finalizado.
