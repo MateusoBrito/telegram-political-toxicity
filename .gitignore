@@ -1,0 +1,14 @@
+# Dados
+data/
+
+# Artefatos gerados
+artifacts/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Ambiente virtual
+.venv/
+venv/

@@ -21,7 +21,6 @@ def get_spark_session(app_name="TelegramAnalysis"):
         .config("spark.sql.execution.arrow.pyspark.enabled", "true")
         .getOrCreate()
     )
-    spark.sparkContext.setLogLevel("ERROR")
     return spark
 
 def load_data(
@@ -38,8 +37,8 @@ def load_data(
         caminhos_texto = [str(p) for p in file_path]
     else:
         caminhos_texto = str(file_path)
-        
-    df = spark.read.parquet(caminhos_texto)
+
+    df = spark.read.parquet(caminhos_texto)  
 
     if columns is not None:
         df = df.select(columns)

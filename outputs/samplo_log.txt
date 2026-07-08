@@ -1,0 +1,5 @@
+Fase 1: Amostragem Estratificada - Extraindo apenas IDs...
+==================================================
+Total de mensagens filtradas: 22748992
+Salvando IDs da amostra em: /home/students/moliveira/telegram-political-toxicity/data/processed/stratified_sample_ids
+Fase 1 concluída com sucesso!

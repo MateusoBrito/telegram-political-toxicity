@@ -1,0 +1,5 @@
+Fase 1: Amostragem Estratificada - Extraindo apenas IDs...
+==================================================
+Total de mensagens: 48425268
+Total de mensagens filtradas: 22748992
+Amostra final: 998,376 mensagens

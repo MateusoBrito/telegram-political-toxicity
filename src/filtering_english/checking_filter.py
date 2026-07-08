@@ -42,5 +42,13 @@ if __name__ == "__main__":
     (
         df.filter(col("language") == "en")
         .select("group_name", "text_clean")
-        .show(10, truncate=120)
+        .show(20, truncate=2000)
+    )
+
+    print("\nExemplos de mensagens em outro idioma:")
+
+    (
+        df.filter(col("language") != "en")
+        .select("group_name", "text_clean")
+        .show(20, truncate=2000)
     )
