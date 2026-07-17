@@ -1,0 +1,2273 @@
+Carregando configurações de: /home/students/moliveira/telegram-political-toxicity/grid_search_config.yaml
+| 1. Carregando amostra das mensagens...
+   -> Foram encontrados 996055 mensagens provenientes de 7803 grupos.
+   -> Foram amostrados 99606 mensagens provenientes de 5385 grupos.
+   -> Textos únicos para treinamento: 89632
+
+############################################################
+[1/3] Modelo de embedding: paraphrase-MiniLM-L6-v2
+############################################################
+| 2. Gerando embeddings...
+   -> Dispositivo: cpu
+   -> Cache salva em: /home/students/moliveira/telegram-political-toxicity/data/cache/embeddings_grid/paraphrase-MiniLM-L6-v2.pkl
+| 3. Busca em Grade de hiperparâmetros...
+   -> 288 combinações
+
+[1/288] {'n_neighbors': 15, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 10, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 40048 (44.7%)
+   -> Silhoueta: 0.0575
+   -> Diversidade: 0.7359
+   -> Coerência (c_v): 0.4488
+
+[2/288] {'n_neighbors': 15, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 10, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 39308 (43.9%)
+   -> Silhoueta: 0.0594
+   -> Diversidade: 0.6965
+   -> Coerência (c_v): 0.4896
+
+[3/288] {'n_neighbors': 15, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 10, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 41395 (46.2%)
+   -> Silhoueta: 0.0634
+   -> Diversidade: 0.6598
+   -> Coerência (c_v): 0.5424
+
+[4/288] {'n_neighbors': 15, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 20, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 39387 (43.9%)
+   -> Silhoueta: 0.0655
+   -> Diversidade: 0.6508
+   -> Coerência (c_v): 0.5166
+
+[5/288] {'n_neighbors': 15, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 20, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 39546 (44.1%)
+   -> Silhoueta: 0.0681
+   -> Diversidade: 0.6300
+   -> Coerência (c_v): 0.5457
+
+[6/288] {'n_neighbors': 15, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 20, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 41519 (46.3%)
+   -> Silhoueta: 0.0696
+   -> Diversidade: 0.6271
+   -> Coerência (c_v): 0.5671
+
+[7/288] {'n_neighbors': 15, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 30, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 39342 (43.9%)
+   -> Silhoueta: 0.0657
+   -> Diversidade: 0.6358
+   -> Coerência (c_v): 0.5623
+
+[8/288] {'n_neighbors': 15, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 30, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 39830 (44.4%)
+   -> Silhoueta: 0.0740
+   -> Diversidade: 0.6304
+   -> Coerência (c_v): 0.5844
+
+[9/288] {'n_neighbors': 15, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 30, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 41953 (46.8%)
+   -> Silhoueta: 0.0819
+   -> Diversidade: 0.6159
+   -> Coerência (c_v): 0.6054
+
+[10/288] {'n_neighbors': 15, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 50, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 36574 (40.8%)
+   -> Silhoueta: 0.0694
+   -> Diversidade: 0.6427
+   -> Coerência (c_v): 0.6009
+
+[11/288] {'n_neighbors': 15, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 50, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 39040 (43.6%)
+   -> Silhoueta: 0.0750
+   -> Diversidade: 0.6202
+   -> Coerência (c_v): 0.6215
+
+[12/288] {'n_neighbors': 15, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 50, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 35152 (39.2%)
+   -> Silhoueta: 0.0557
+   -> Diversidade: 0.6214
+   -> Coerência (c_v): 0.6306
+
+[13/288] {'n_neighbors': 15, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 75, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 39106 (43.6%)
+   -> Silhoueta: 0.0775
+   -> Diversidade: 0.6263
+   -> Coerência (c_v): 0.6508
+
+[14/288] {'n_neighbors': 15, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 75, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 41196 (46.0%)
+   -> Silhoueta: 0.0872
+   -> Diversidade: 0.6427
+   -> Coerência (c_v): 0.6498
+
+[15/288] {'n_neighbors': 15, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 75, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 40464 (45.1%)
+   -> Silhoueta: 0.1047
+   -> Diversidade: 0.6507
+   -> Coerência (c_v): 0.6377
+
+[16/288] {'n_neighbors': 15, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 100, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 36173 (40.4%)
+   -> Silhoueta: 0.0895
+   -> Diversidade: 0.6515
+   -> Coerência (c_v): 0.6549
+
+[17/288] {'n_neighbors': 15, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 100, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 3148 (3.5%)
+   -> Silhoueta: -0.0420
+   -> Diversidade: 0.4233
+   -> Coerência (c_v): 0.7502
+
+[18/288] {'n_neighbors': 15, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 100, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 3318 (3.7%)
+   -> Silhoueta: -0.0462
+   -> Diversidade: 0.4217
+   -> Coerência (c_v): 0.7727
+
+[19/288] {'n_neighbors': 15, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 150, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 3949 (4.4%)
+   -> Silhoueta: -0.0328
+   -> Diversidade: 0.4574
+   -> Coerência (c_v): 0.7576
+
+[20/288] {'n_neighbors': 15, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 150, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 3378 (3.8%)
+   -> Silhoueta: -0.0367
+   -> Diversidade: 0.4571
+   -> Coerência (c_v): 0.7726
+
+[21/288] {'n_neighbors': 15, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 150, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 3472 (3.9%)
+   -> Silhoueta: -0.0356
+   -> Diversidade: 0.4392
+   -> Coerência (c_v): 0.7808
+
+[22/288] {'n_neighbors': 15, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 200, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 4804 (5.4%)
+   -> Silhoueta: -0.0292
+   -> Diversidade: 0.4884
+   -> Coerência (c_v): 0.7638
+
+[23/288] {'n_neighbors': 15, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 200, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 4652 (5.2%)
+   -> Silhoueta: -0.0316
+   -> Diversidade: 0.5000
+   -> Coerência (c_v): 0.7769
+
+[24/288] {'n_neighbors': 15, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 200, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 4747 (5.3%)
+   -> Silhoueta: -0.0398
+   -> Diversidade: 0.4900
+   -> Coerência (c_v): 0.7783
+
+[25/288] {'n_neighbors': 15, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 10, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 40939 (45.7%)
+   -> Silhoueta: 0.0823
+   -> Diversidade: 0.7152
+   -> Coerência (c_v): 0.4728
+
+[26/288] {'n_neighbors': 15, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 10, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 44198 (49.3%)
+   -> Silhoueta: 0.0914
+   -> Diversidade: 0.6993
+   -> Coerência (c_v): 0.4974
+
+[27/288] {'n_neighbors': 15, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 10, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 45009 (50.2%)
+   -> Silhoueta: 0.0966
+   -> Diversidade: 0.6622
+   -> Coerência (c_v): 0.5444
+
+[28/288] {'n_neighbors': 15, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 20, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 41879 (46.7%)
+   -> Silhoueta: 0.0864
+   -> Diversidade: 0.6554
+   -> Coerência (c_v): 0.5276
+
+[29/288] {'n_neighbors': 15, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 20, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 43361 (48.4%)
+   -> Silhoueta: 0.0946
+   -> Diversidade: 0.6479
+   -> Coerência (c_v): 0.5469
+
+[30/288] {'n_neighbors': 15, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 20, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 44605 (49.8%)
+   -> Silhoueta: 0.1011
+   -> Diversidade: 0.6404
+   -> Coerência (c_v): 0.5675
+
+[31/288] {'n_neighbors': 15, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 30, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 42099 (47.0%)
+   -> Silhoueta: 0.0863
+   -> Diversidade: 0.6320
+   -> Coerência (c_v): 0.5716
+
+[32/288] {'n_neighbors': 15, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 30, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 43624 (48.7%)
+   -> Silhoueta: 0.0956
+   -> Diversidade: 0.6241
+   -> Coerência (c_v): 0.5935
+
+[33/288] {'n_neighbors': 15, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 30, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 43334 (48.3%)
+   -> Silhoueta: 0.0935
+   -> Diversidade: 0.6145
+   -> Coerência (c_v): 0.6044
+
+[34/288] {'n_neighbors': 15, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 50, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 41637 (46.5%)
+   -> Silhoueta: 0.0907
+   -> Diversidade: 0.6388
+   -> Coerência (c_v): 0.6356
+
+[35/288] {'n_neighbors': 15, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 50, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 5590 (6.2%)
+   -> Silhoueta: -0.0659
+   -> Diversidade: 0.3527
+   -> Coerência (c_v): 0.7756
+
+[36/288] {'n_neighbors': 15, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 50, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 43239 (48.2%)
+   -> Silhoueta: 0.0938
+   -> Diversidade: 0.6163
+   -> Coerência (c_v): 0.6496
+
+[37/288] {'n_neighbors': 15, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 75, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 37812 (42.2%)
+   -> Silhoueta: 0.0855
+   -> Diversidade: 0.6382
+   -> Coerência (c_v): 0.6692
+
+[38/288] {'n_neighbors': 15, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 75, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 4855 (5.4%)
+   -> Silhoueta: -0.0460
+   -> Diversidade: 0.3938
+   -> Coerência (c_v): 0.7787
+
+[39/288] {'n_neighbors': 15, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 75, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 5490 (6.1%)
+   -> Silhoueta: -0.0578
+   -> Diversidade: 0.3913
+   -> Coerência (c_v): 0.7705
+
+[40/288] {'n_neighbors': 15, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 100, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 37416 (41.7%)
+   -> Silhoueta: 0.1059
+   -> Diversidade: 0.6615
+   -> Coerência (c_v): 0.6740
+
+[41/288] {'n_neighbors': 15, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 100, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 4338 (4.8%)
+   -> Silhoueta: -0.0340
+   -> Diversidade: 0.4245
+   -> Coerência (c_v): 0.7916
+
+[42/288] {'n_neighbors': 15, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 100, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 4887 (5.5%)
+   -> Silhoueta: -0.0399
+   -> Diversidade: 0.4263
+   -> Coerência (c_v): 0.7838
+
+[43/288] {'n_neighbors': 15, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 150, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 4105 (4.6%)
+   -> Silhoueta: -0.0314
+   -> Diversidade: 0.4761
+   -> Coerência (c_v): 0.7924
+
+[44/288] {'n_neighbors': 15, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 150, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 4270 (4.8%)
+   -> Silhoueta: -0.0313
+   -> Diversidade: 0.4489
+   -> Coerência (c_v): 0.7777
+
+[45/288] {'n_neighbors': 15, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 150, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 4267 (4.8%)
+   -> Silhoueta: -0.0301
+   -> Diversidade: 0.4556
+   -> Coerência (c_v): 0.7863
+
+[46/288] {'n_neighbors': 15, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 200, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 5142 (5.7%)
+   -> Silhoueta: -0.0324
+   -> Diversidade: 0.4900
+   -> Coerência (c_v): 0.7779
+
+[47/288] {'n_neighbors': 15, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 200, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 5029 (5.6%)
+   -> Silhoueta: -0.0331
+   -> Diversidade: 0.4816
+   -> Coerência (c_v): 0.7704
+
+[48/288] {'n_neighbors': 15, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 200, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 5058 (5.6%)
+   -> Silhoueta: -0.0313
+   -> Diversidade: 0.4872
+   -> Coerência (c_v): 0.7708
+
+[49/288] {'n_neighbors': 15, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 10, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 43702 (48.8%)
+   -> Silhoueta: 0.0934
+   -> Diversidade: 0.7238
+   -> Coerência (c_v): 0.4748
+
+[50/288] {'n_neighbors': 15, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 10, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 45263 (50.5%)
+   -> Silhoueta: 0.0963
+   -> Diversidade: 0.6984
+   -> Coerência (c_v): 0.5049
+
+[51/288] {'n_neighbors': 15, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 10, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 46694 (52.1%)
+   -> Silhoueta: 0.0957
+   -> Diversidade: 0.6613
+   -> Coerência (c_v): 0.5447
+
+[52/288] {'n_neighbors': 15, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 20, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 44103 (49.2%)
+   -> Silhoueta: 0.0932
+   -> Diversidade: 0.6600
+   -> Coerência (c_v): 0.5305
+
+[53/288] {'n_neighbors': 15, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 20, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 45310 (50.6%)
+   -> Silhoueta: 0.0985
+   -> Diversidade: 0.6451
+   -> Coerência (c_v): 0.5521
+
+[54/288] {'n_neighbors': 15, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 20, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 45883 (51.2%)
+   -> Silhoueta: 0.1015
+   -> Diversidade: 0.6356
+   -> Coerência (c_v): 0.5720
+
+[55/288] {'n_neighbors': 15, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 30, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 43784 (48.8%)
+   -> Silhoueta: 0.0961
+   -> Diversidade: 0.6282
+   -> Coerência (c_v): 0.5759
+
+[56/288] {'n_neighbors': 15, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 30, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 44936 (50.1%)
+   -> Silhoueta: 0.0940
+   -> Diversidade: 0.6207
+   -> Coerência (c_v): 0.5874
+
+[57/288] {'n_neighbors': 15, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 30, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 45382 (50.6%)
+   -> Silhoueta: 0.0996
+   -> Diversidade: 0.6155
+   -> Coerência (c_v): 0.6039
+
+[58/288] {'n_neighbors': 15, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 50, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 44466 (49.6%)
+   -> Silhoueta: 0.1202
+   -> Diversidade: 0.6325
+   -> Coerência (c_v): 0.6294
+
+[59/288] {'n_neighbors': 15, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 50, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 43986 (49.1%)
+   -> Silhoueta: 0.1148
+   -> Diversidade: 0.6262
+   -> Coerência (c_v): 0.6426
+
+[60/288] {'n_neighbors': 15, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 50, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 44617 (49.8%)
+   -> Silhoueta: 0.1227
+   -> Diversidade: 0.6276
+   -> Coerência (c_v): 0.6525
+
+[61/288] {'n_neighbors': 15, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 75, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 6113 (6.8%)
+   -> Silhoueta: -0.0522
+   -> Diversidade: 0.3957
+   -> Coerência (c_v): 0.7734
+
+[62/288] {'n_neighbors': 15, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 75, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 4773 (5.3%)
+   -> Silhoueta: -0.0492
+   -> Diversidade: 0.3957
+   -> Coerência (c_v): 0.7649
+
+[63/288] {'n_neighbors': 15, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 75, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 4631 (5.2%)
+   -> Silhoueta: -0.0471
+   -> Diversidade: 0.4015
+   -> Coerência (c_v): 0.7760
+
+[64/288] {'n_neighbors': 15, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 100, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 4479 (5.0%)
+   -> Silhoueta: -0.0384
+   -> Diversidade: 0.4222
+   -> Coerência (c_v): 0.7944
+
+[65/288] {'n_neighbors': 15, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 100, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 4721 (5.3%)
+   -> Silhoueta: -0.0392
+   -> Diversidade: 0.4200
+   -> Coerência (c_v): 0.7872
+
+[66/288] {'n_neighbors': 15, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 100, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 4726 (5.3%)
+   -> Silhoueta: -0.0385
+   -> Diversidade: 0.4193
+   -> Coerência (c_v): 0.7860
+
+[67/288] {'n_neighbors': 15, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 150, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 3970 (4.4%)
+   -> Silhoueta: -0.0288
+   -> Diversidade: 0.4628
+   -> Coerência (c_v): 0.7815
+
+[68/288] {'n_neighbors': 15, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 150, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 4509 (5.0%)
+   -> Silhoueta: -0.0296
+   -> Diversidade: 0.4419
+   -> Coerência (c_v): 0.7903
+
+[69/288] {'n_neighbors': 15, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 150, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 4636 (5.2%)
+   -> Silhoueta: -0.0291
+   -> Diversidade: 0.4432
+   -> Coerência (c_v): 0.7729
+
+[70/288] {'n_neighbors': 15, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 200, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 4466 (5.0%)
+   -> Silhoueta: -0.0230
+   -> Diversidade: 0.5051
+   -> Coerência (c_v): 0.7660
+
+[71/288] {'n_neighbors': 15, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 200, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 5202 (5.8%)
+   -> Silhoueta: -0.0304
+   -> Diversidade: 0.4821
+   -> Coerência (c_v): 0.7757
+
+[72/288] {'n_neighbors': 15, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 200, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 4906 (5.5%)
+   -> Silhoueta: -0.0223
+   -> Diversidade: 0.4949
+   -> Coerência (c_v): 0.7514
+
+[73/288] {'n_neighbors': 30, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 10, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 42831 (47.8%)
+   -> Silhoueta: 0.0590
+   -> Diversidade: 0.7294
+   -> Coerência (c_v): 0.4539
+
+[74/288] {'n_neighbors': 30, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 10, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 43238 (48.2%)
+   -> Silhoueta: 0.0753
+   -> Diversidade: 0.6948
+   -> Coerência (c_v): 0.4923
+
+[75/288] {'n_neighbors': 30, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 10, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 45573 (50.8%)
+   -> Silhoueta: 0.1047
+   -> Diversidade: 0.6483
+   -> Coerência (c_v): 0.5422
+
+[76/288] {'n_neighbors': 30, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 20, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 40420 (45.1%)
+   -> Silhoueta: 0.0723
+   -> Diversidade: 0.6468
+   -> Coerência (c_v): 0.5212
+
+[77/288] {'n_neighbors': 30, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 20, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 42932 (47.9%)
+   -> Silhoueta: 0.0965
+   -> Diversidade: 0.6361
+   -> Coerência (c_v): 0.5532
+
+[78/288] {'n_neighbors': 30, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 20, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 44172 (49.3%)
+   -> Silhoueta: 0.1050
+   -> Diversidade: 0.6064
+   -> Coerência (c_v): 0.5855
+
+[79/288] {'n_neighbors': 30, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 30, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 40768 (45.5%)
+   -> Silhoueta: 0.0955
+   -> Diversidade: 0.6231
+   -> Coerência (c_v): 0.5729
+
+[80/288] {'n_neighbors': 30, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 30, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 42287 (47.2%)
+   -> Silhoueta: 0.0867
+   -> Diversidade: 0.6138
+   -> Coerência (c_v): 0.5946
+
+[81/288] {'n_neighbors': 30, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 30, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 44462 (49.6%)
+   -> Silhoueta: 0.1118
+   -> Diversidade: 0.5993
+   -> Coerência (c_v): 0.6231
+
+[82/288] {'n_neighbors': 30, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 50, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 40208 (44.9%)
+   -> Silhoueta: 0.0986
+   -> Diversidade: 0.6111
+   -> Coerência (c_v): 0.6261
+
+[83/288] {'n_neighbors': 30, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 50, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 40673 (45.4%)
+   -> Silhoueta: 0.0852
+   -> Diversidade: 0.6153
+   -> Coerência (c_v): 0.6390
+
+[84/288] {'n_neighbors': 30, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 50, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 43055 (48.0%)
+   -> Silhoueta: 0.1031
+   -> Diversidade: 0.6033
+   -> Coerência (c_v): 0.6585
+
+[85/288] {'n_neighbors': 30, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 75, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 38355 (42.8%)
+   -> Silhoueta: 0.1012
+   -> Diversidade: 0.6319
+   -> Coerência (c_v): 0.6499
+
+[86/288] {'n_neighbors': 30, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 75, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 5432 (6.1%)
+   -> Silhoueta: -0.0488
+   -> Diversidade: 0.4235
+   -> Coerência (c_v): 0.7475
+
+[87/288] {'n_neighbors': 30, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 75, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 41795 (46.6%)
+   -> Silhoueta: 0.1144
+   -> Diversidade: 0.6221
+   -> Coerência (c_v): 0.6680
+
+[88/288] {'n_neighbors': 30, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 100, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 5243 (5.8%)
+   -> Silhoueta: -0.0352
+   -> Diversidade: 0.4313
+   -> Coerência (c_v): 0.7689
+
+[89/288] {'n_neighbors': 30, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 100, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 5954 (6.6%)
+   -> Silhoueta: -0.0434
+   -> Diversidade: 0.4323
+   -> Coerência (c_v): 0.7626
+
+[90/288] {'n_neighbors': 30, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 100, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 2894 (3.2%)
+   -> Silhoueta: -0.0306
+   -> Diversidade: 0.4169
+   -> Coerência (c_v): 0.7736
+
+[91/288] {'n_neighbors': 30, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 150, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 6164 (6.9%)
+   -> Silhoueta: -0.0309
+   -> Diversidade: 0.4360
+   -> Coerência (c_v): 0.7821
+
+[92/288] {'n_neighbors': 30, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 150, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 3645 (4.1%)
+   -> Silhoueta: -0.0428
+   -> Diversidade: 0.4265
+   -> Coerência (c_v): 0.7879
+
+[93/288] {'n_neighbors': 30, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 150, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 3301 (3.7%)
+   -> Silhoueta: -0.0359
+   -> Diversidade: 0.4204
+   -> Coerência (c_v): 0.7898
+
+[94/288] {'n_neighbors': 30, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 200, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 5998 (6.7%)
+   -> Silhoueta: -0.0250
+   -> Diversidade: 0.5049
+   -> Coerência (c_v): 0.7655
+
+[95/288] {'n_neighbors': 30, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 200, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 2705 (3.0%)
+   -> Silhoueta: -0.0214
+   -> Diversidade: 0.5154
+   -> Coerência (c_v): 0.7633
+
+[96/288] {'n_neighbors': 30, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 200, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 3283 (3.7%)
+   -> Silhoueta: -0.0293
+   -> Diversidade: 0.4950
+   -> Coerência (c_v): 0.7673
+
+[97/288] {'n_neighbors': 30, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 10, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 44848 (50.0%)
+   -> Silhoueta: 0.0839
+   -> Diversidade: 0.7068
+   -> Coerência (c_v): 0.4939
+
+[98/288] {'n_neighbors': 30, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 10, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 46712 (52.1%)
+   -> Silhoueta: 0.0951
+   -> Diversidade: 0.6884
+   -> Coerência (c_v): 0.5253
+
+[99/288] {'n_neighbors': 30, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 10, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 47870 (53.4%)
+   -> Silhoueta: 0.1003
+   -> Diversidade: 0.6390
+   -> Coerência (c_v): 0.5752
+
+[100/288] {'n_neighbors': 30, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 20, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 44164 (49.3%)
+   -> Silhoueta: 0.0922
+   -> Diversidade: 0.6447
+   -> Coerência (c_v): 0.5544
+
+[101/288] {'n_neighbors': 30, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 20, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 45378 (50.6%)
+   -> Silhoueta: 0.0979
+   -> Diversidade: 0.6357
+   -> Coerência (c_v): 0.5756
+
+[102/288] {'n_neighbors': 30, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 20, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 46399 (51.8%)
+   -> Silhoueta: 0.1194
+   -> Diversidade: 0.6177
+   -> Coerência (c_v): 0.6001
+
+[103/288] {'n_neighbors': 30, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 30, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 43845 (48.9%)
+   -> Silhoueta: 0.0979
+   -> Diversidade: 0.6218
+   -> Coerência (c_v): 0.5956
+
+[104/288] {'n_neighbors': 30, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 30, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 44478 (49.6%)
+   -> Silhoueta: 0.1212
+   -> Diversidade: 0.6218
+   -> Coerência (c_v): 0.6074
+
+[105/288] {'n_neighbors': 30, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 30, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 46319 (51.7%)
+   -> Silhoueta: 0.1292
+   -> Diversidade: 0.6142
+   -> Coerência (c_v): 0.6313
+
+[106/288] {'n_neighbors': 30, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 50, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 44108 (49.2%)
+   -> Silhoueta: 0.1036
+   -> Diversidade: 0.6225
+   -> Coerência (c_v): 0.6360
+
+[107/288] {'n_neighbors': 30, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 50, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 44921 (50.1%)
+   -> Silhoueta: 0.1213
+   -> Diversidade: 0.6164
+   -> Coerência (c_v): 0.6573
+
+[108/288] {'n_neighbors': 30, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 50, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 46258 (51.6%)
+   -> Silhoueta: 0.1274
+   -> Diversidade: 0.6134
+   -> Coerência (c_v): 0.6651
+
+[109/288] {'n_neighbors': 30, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 75, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 43024 (48.0%)
+   -> Silhoueta: 0.1233
+   -> Diversidade: 0.6372
+   -> Coerência (c_v): 0.6586
+
+[110/288] {'n_neighbors': 30, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 75, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 44784 (50.0%)
+   -> Silhoueta: 0.1351
+   -> Diversidade: 0.6358
+   -> Coerência (c_v): 0.6758
+
+[111/288] {'n_neighbors': 30, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 75, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 43036 (48.0%)
+   -> Silhoueta: 0.1281
+   -> Diversidade: 0.6326
+   -> Coerência (c_v): 0.6727
+
+[112/288] {'n_neighbors': 30, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 100, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 4601 (5.1%)
+   -> Silhoueta: -0.0385
+   -> Diversidade: 0.4169
+   -> Coerência (c_v): 0.7796
+
+[113/288] {'n_neighbors': 30, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 100, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 4629 (5.2%)
+   -> Silhoueta: -0.0373
+   -> Diversidade: 0.4183
+   -> Coerência (c_v): 0.7774
+
+[114/288] {'n_neighbors': 30, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 100, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 3666 (4.1%)
+   -> Silhoueta: -0.0360
+   -> Diversidade: 0.4200
+   -> Coerência (c_v): 0.7843
+
+[115/288] {'n_neighbors': 30, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 150, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 4826 (5.4%)
+   -> Silhoueta: -0.0383
+   -> Diversidade: 0.4311
+   -> Coerência (c_v): 0.7714
+
+[116/288] {'n_neighbors': 30, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 150, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 4748 (5.3%)
+   -> Silhoueta: -0.0303
+   -> Diversidade: 0.4532
+   -> Coerência (c_v): 0.7688
+
+[117/288] {'n_neighbors': 30, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 150, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 3669 (4.1%)
+   -> Silhoueta: -0.0297
+   -> Diversidade: 0.4479
+   -> Coerência (c_v): 0.7721
+
+[118/288] {'n_neighbors': 30, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 200, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 4681 (5.2%)
+   -> Silhoueta: -0.0222
+   -> Diversidade: 0.4944
+   -> Coerência (c_v): 0.7491
+
+[119/288] {'n_neighbors': 30, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 200, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 5029 (5.6%)
+   -> Silhoueta: -0.0210
+   -> Diversidade: 0.5026
+   -> Coerência (c_v): 0.7489
+
+[120/288] {'n_neighbors': 30, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 200, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 4220 (4.7%)
+   -> Silhoueta: -0.0286
+   -> Diversidade: 0.4949
+   -> Coerência (c_v): 0.7529
+
+[121/288] {'n_neighbors': 30, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 10, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 46552 (51.9%)
+   -> Silhoueta: 0.0981
+   -> Diversidade: 0.7153
+   -> Coerência (c_v): 0.4890
+
+[122/288] {'n_neighbors': 30, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 10, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 47331 (52.8%)
+   -> Silhoueta: 0.1051
+   -> Diversidade: 0.6942
+   -> Coerência (c_v): 0.5187
+
+[123/288] {'n_neighbors': 30, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 10, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 47908 (53.4%)
+   -> Silhoueta: 0.1028
+   -> Diversidade: 0.6521
+   -> Coerência (c_v): 0.5714
+
+[124/288] {'n_neighbors': 30, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 20, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 45403 (50.7%)
+   -> Silhoueta: 0.1032
+   -> Diversidade: 0.6399
+   -> Coerência (c_v): 0.5555
+
+[125/288] {'n_neighbors': 30, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 20, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 46528 (51.9%)
+   -> Silhoueta: 0.1113
+   -> Diversidade: 0.6399
+   -> Coerência (c_v): 0.5766
+
+[126/288] {'n_neighbors': 30, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 20, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 46811 (52.2%)
+   -> Silhoueta: 0.1262
+   -> Diversidade: 0.6249
+   -> Coerência (c_v): 0.5969
+
+[127/288] {'n_neighbors': 30, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 30, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 45333 (50.6%)
+   -> Silhoueta: 0.1115
+   -> Diversidade: 0.6171
+   -> Coerência (c_v): 0.6004
+
+[128/288] {'n_neighbors': 30, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 30, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 46412 (51.8%)
+   -> Silhoueta: 0.1146
+   -> Diversidade: 0.6178
+   -> Coerência (c_v): 0.6141
+
+[129/288] {'n_neighbors': 30, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 30, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 46808 (52.2%)
+   -> Silhoueta: 0.1277
+   -> Diversidade: 0.5996
+   -> Coerência (c_v): 0.6375
+
+[130/288] {'n_neighbors': 30, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 50, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 5363 (6.0%)
+   -> Silhoueta: -0.0717
+   -> Diversidade: 0.3412
+   -> Coerência (c_v): 0.7819
+
+[131/288] {'n_neighbors': 30, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 50, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 46321 (51.7%)
+   -> Silhoueta: 0.1114
+   -> Diversidade: 0.6036
+   -> Coerência (c_v): 0.6684
+
+[132/288] {'n_neighbors': 30, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 50, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 5224 (5.8%)
+   -> Silhoueta: -0.0615
+   -> Diversidade: 0.3580
+   -> Coerência (c_v): 0.7758
+
+[133/288] {'n_neighbors': 30, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 75, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 5522 (6.2%)
+   -> Silhoueta: -0.0588
+   -> Diversidade: 0.3671
+   -> Coerência (c_v): 0.7858
+
+[134/288] {'n_neighbors': 30, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 75, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 5309 (5.9%)
+   -> Silhoueta: -0.0566
+   -> Diversidade: 0.3757
+   -> Coerência (c_v): 0.7860
+
+[135/288] {'n_neighbors': 30, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 75, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 4082 (4.6%)
+   -> Silhoueta: -0.0439
+   -> Diversidade: 0.3826
+   -> Coerência (c_v): 0.7811
+
+[136/288] {'n_neighbors': 30, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 100, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 5022 (5.6%)
+   -> Silhoueta: -0.0478
+   -> Diversidade: 0.3934
+   -> Coerência (c_v): 0.7953
+
+[137/288] {'n_neighbors': 30, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 100, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 4830 (5.4%)
+   -> Silhoueta: -0.0475
+   -> Diversidade: 0.3934
+   -> Coerência (c_v): 0.7941
+
+[138/288] {'n_neighbors': 30, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 100, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 4098 (4.6%)
+   -> Silhoueta: -0.0386
+   -> Diversidade: 0.4083
+   -> Coerência (c_v): 0.7875
+
+[139/288] {'n_neighbors': 30, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 150, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 5358 (6.0%)
+   -> Silhoueta: -0.0332
+   -> Diversidade: 0.4467
+   -> Coerência (c_v): 0.8056
+
+[140/288] {'n_neighbors': 30, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 150, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 5096 (5.7%)
+   -> Silhoueta: -0.0349
+   -> Diversidade: 0.4234
+   -> Coerência (c_v): 0.7989
+
+[141/288] {'n_neighbors': 30, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 150, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 4475 (5.0%)
+   -> Silhoueta: -0.0344
+   -> Diversidade: 0.4348
+   -> Coerência (c_v): 0.8011
+
+[142/288] {'n_neighbors': 30, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 200, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 3380 (3.8%)
+   -> Silhoueta: 0.0024
+   -> Diversidade: 0.5371
+   -> Coerência (c_v): 0.7790
+
+[143/288] {'n_neighbors': 30, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 200, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 4627 (5.2%)
+   -> Silhoueta: -0.0186
+   -> Diversidade: 0.5027
+   -> Coerência (c_v): 0.7892
+
+[144/288] {'n_neighbors': 30, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 200, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 4037 (4.5%)
+   -> Silhoueta: -0.0200
+   -> Diversidade: 0.5053
+   -> Coerência (c_v): 0.7798
+
+[145/288] {'n_neighbors': 50, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 10, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 42278 (47.2%)
+   -> Silhoueta: 0.0581
+   -> Diversidade: 0.7440
+   -> Coerência (c_v): 0.4484
+
+[146/288] {'n_neighbors': 50, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 10, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 44035 (49.1%)
+   -> Silhoueta: 0.0748
+   -> Diversidade: 0.6970
+   -> Coerência (c_v): 0.5145
+
+[147/288] {'n_neighbors': 50, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 10, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 42147 (47.0%)
+   -> Silhoueta: 0.0961
+   -> Diversidade: 0.6359
+   -> Coerência (c_v): 0.5727
+
+[148/288] {'n_neighbors': 50, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 20, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 40789 (45.5%)
+   -> Silhoueta: 0.0771
+   -> Diversidade: 0.6554
+   -> Coerência (c_v): 0.5404
+
+[149/288] {'n_neighbors': 50, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 20, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 42162 (47.0%)
+   -> Silhoueta: 0.0881
+   -> Diversidade: 0.6364
+   -> Coerência (c_v): 0.5748
+
+[150/288] {'n_neighbors': 50, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 20, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 41920 (46.8%)
+   -> Silhoueta: 0.0970
+   -> Diversidade: 0.6061
+   -> Coerência (c_v): 0.6071
+
+[151/288] {'n_neighbors': 50, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 30, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 40532 (45.2%)
+   -> Silhoueta: 0.0989
+   -> Diversidade: 0.6367
+   -> Coerência (c_v): 0.5835
+
+[152/288] {'n_neighbors': 50, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 30, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 40663 (45.4%)
+   -> Silhoueta: 0.0952
+   -> Diversidade: 0.6091
+   -> Coerência (c_v): 0.6133
+
+[153/288] {'n_neighbors': 50, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 30, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 41238 (46.0%)
+   -> Silhoueta: 0.1010
+   -> Diversidade: 0.5975
+   -> Coerência (c_v): 0.6309
+
+[154/288] {'n_neighbors': 50, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 50, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 4148 (4.6%)
+   -> Silhoueta: -0.0493
+   -> Diversidade: 0.3844
+   -> Coerência (c_v): 0.7604
+
+[155/288] {'n_neighbors': 50, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 50, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 4395 (4.9%)
+   -> Silhoueta: -0.0488
+   -> Diversidade: 0.3857
+   -> Coerência (c_v): 0.7611
+
+[156/288] {'n_neighbors': 50, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 50, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 36936 (41.2%)
+   -> Silhoueta: 0.1068
+   -> Diversidade: 0.6037
+   -> Coerência (c_v): 0.6489
+
+[157/288] {'n_neighbors': 50, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 75, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 3740 (4.2%)
+   -> Silhoueta: -0.0401
+   -> Diversidade: 0.4069
+   -> Coerência (c_v): 0.7680
+
+[158/288] {'n_neighbors': 50, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 75, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 3840 (4.3%)
+   -> Silhoueta: -0.0398
+   -> Diversidade: 0.4101
+   -> Coerência (c_v): 0.7715
+
+[159/288] {'n_neighbors': 50, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 75, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 36669 (40.9%)
+   -> Silhoueta: 0.1150
+   -> Diversidade: 0.6286
+   -> Coerência (c_v): 0.6700
+
+[160/288] {'n_neighbors': 50, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 100, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 2614 (2.9%)
+   -> Silhoueta: -0.0351
+   -> Diversidade: 0.4361
+   -> Coerência (c_v): 0.7622
+
+[161/288] {'n_neighbors': 50, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 100, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 3799 (4.2%)
+   -> Silhoueta: -0.0392
+   -> Diversidade: 0.4238
+   -> Coerência (c_v): 0.7647
+
+[162/288] {'n_neighbors': 50, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 100, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 34399 (38.4%)
+   -> Silhoueta: 0.0996
+   -> Diversidade: 0.6283
+   -> Coerência (c_v): 0.6800
+
+[163/288] {'n_neighbors': 50, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 150, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 3174 (3.5%)
+   -> Silhoueta: -0.0286
+   -> Diversidade: 0.4388
+   -> Coerência (c_v): 0.7591
+
+[164/288] {'n_neighbors': 50, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 150, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 3980 (4.4%)
+   -> Silhoueta: -0.0271
+   -> Diversidade: 0.4408
+   -> Coerência (c_v): 0.7559
+
+[165/288] {'n_neighbors': 50, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 150, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 34931 (39.0%)
+   -> Silhoueta: 0.1003
+   -> Diversidade: 0.6317
+   -> Coerência (c_v): 0.7033
+
+[166/288] {'n_neighbors': 50, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 200, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 3630 (4.0%)
+   -> Silhoueta: -0.0270
+   -> Diversidade: 0.4930
+   -> Coerência (c_v): 0.7447
+
+[167/288] {'n_neighbors': 50, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 200, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 4062 (4.5%)
+   -> Silhoueta: -0.0267
+   -> Diversidade: 0.4976
+   -> Coerência (c_v): 0.7503
+
+[168/288] {'n_neighbors': 50, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 200, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 4407 (4.9%)
+   -> Silhoueta: -0.0254
+   -> Diversidade: 0.4952
+   -> Coerência (c_v): 0.7569
+
+[169/288] {'n_neighbors': 50, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 10, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 44931 (50.1%)
+   -> Silhoueta: 0.0835
+   -> Diversidade: 0.7107
+   -> Coerência (c_v): 0.4930
+
+[170/288] {'n_neighbors': 50, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 10, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 47248 (52.7%)
+   -> Silhoueta: 0.1051
+   -> Diversidade: 0.6798
+   -> Coerência (c_v): 0.5383
+
+[171/288] {'n_neighbors': 50, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 10, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 49129 (54.8%)
+   -> Silhoueta: 0.1310
+   -> Diversidade: 0.6389
+   -> Coerência (c_v): 0.5850
+
+[172/288] {'n_neighbors': 50, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 20, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 43177 (48.2%)
+   -> Silhoueta: 0.1020
+   -> Diversidade: 0.6404
+   -> Coerência (c_v): 0.5612
+
+[173/288] {'n_neighbors': 50, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 20, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 47080 (52.5%)
+   -> Silhoueta: 0.1089
+   -> Diversidade: 0.6207
+   -> Coerência (c_v): 0.5917
+
+[174/288] {'n_neighbors': 50, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 20, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 47833 (53.4%)
+   -> Silhoueta: 0.1291
+   -> Diversidade: 0.6063
+   -> Coerência (c_v): 0.6138
+
+[175/288] {'n_neighbors': 50, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 30, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 43570 (48.6%)
+   -> Silhoueta: 0.1161
+   -> Diversidade: 0.6158
+   -> Coerência (c_v): 0.6023
+
+[176/288] {'n_neighbors': 50, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 30, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 46602 (52.0%)
+   -> Silhoueta: 0.1171
+   -> Diversidade: 0.6059
+   -> Coerência (c_v): 0.6151
+
+[177/288] {'n_neighbors': 50, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 30, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 47646 (53.2%)
+   -> Silhoueta: 0.1358
+   -> Diversidade: 0.6016
+   -> Coerência (c_v): 0.6434
+
+[178/288] {'n_neighbors': 50, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 50, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 42580 (47.5%)
+   -> Silhoueta: 0.1164
+   -> Diversidade: 0.6104
+   -> Coerência (c_v): 0.6491
+
+[179/288] {'n_neighbors': 50, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 50, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 45054 (50.3%)
+   -> Silhoueta: 0.1122
+   -> Diversidade: 0.6103
+   -> Coerência (c_v): 0.6576
+
+[180/288] {'n_neighbors': 50, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 50, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 47650 (53.2%)
+   -> Silhoueta: 0.1373
+   -> Diversidade: 0.6084
+   -> Coerência (c_v): 0.6685
+
+[181/288] {'n_neighbors': 50, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 75, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 42621 (47.6%)
+   -> Silhoueta: 0.1207
+   -> Diversidade: 0.6206
+   -> Coerência (c_v): 0.6755
+
+[182/288] {'n_neighbors': 50, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 75, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 43179 (48.2%)
+   -> Silhoueta: 0.1143
+   -> Diversidade: 0.6058
+   -> Coerência (c_v): 0.6784
+
+[183/288] {'n_neighbors': 50, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 75, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 43104 (48.1%)
+   -> Silhoueta: 0.1112
+   -> Diversidade: 0.6056
+   -> Coerência (c_v): 0.6963
+
+[184/288] {'n_neighbors': 50, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 100, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 37741 (42.1%)
+   -> Silhoueta: 0.1047
+   -> Diversidade: 0.6336
+   -> Coerência (c_v): 0.6836
+
+[185/288] {'n_neighbors': 50, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 100, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 41350 (46.1%)
+   -> Silhoueta: 0.1061
+   -> Diversidade: 0.6259
+   -> Coerência (c_v): 0.6903
+
+[186/288] {'n_neighbors': 50, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 100, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 3713 (4.1%)
+   -> Silhoueta: -0.0345
+   -> Diversidade: 0.4083
+   -> Coerência (c_v): 0.7885
+
+[187/288] {'n_neighbors': 50, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 150, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 3055 (3.4%)
+   -> Silhoueta: -0.0295
+   -> Diversidade: 0.4400
+   -> Coerência (c_v): 0.7861
+
+[188/288] {'n_neighbors': 50, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 150, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 3222 (3.6%)
+   -> Silhoueta: -0.0256
+   -> Diversidade: 0.4458
+   -> Coerência (c_v): 0.7887
+
+[189/288] {'n_neighbors': 50, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 150, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 3944 (4.4%)
+   -> Silhoueta: -0.0309
+   -> Diversidade: 0.4340
+   -> Coerência (c_v): 0.7908
+
+[190/288] {'n_neighbors': 50, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 200, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 4011 (4.5%)
+   -> Silhoueta: -0.0271
+   -> Diversidade: 0.4837
+   -> Coerência (c_v): 0.7720
+
+[191/288] {'n_neighbors': 50, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 200, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 3809 (4.2%)
+   -> Silhoueta: -0.0245
+   -> Diversidade: 0.4927
+   -> Coerência (c_v): 0.7693
+
+[192/288] {'n_neighbors': 50, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 200, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 4349 (4.9%)
+   -> Silhoueta: -0.0243
+   -> Diversidade: 0.5050
+   -> Coerência (c_v): 0.7651
+
+[193/288] {'n_neighbors': 50, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 10, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 48075 (53.6%)
+   -> Silhoueta: 0.1233
+   -> Diversidade: 0.7165
+   -> Coerência (c_v): 0.4970
+
+[194/288] {'n_neighbors': 50, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 10, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 48503 (54.1%)
+   -> Silhoueta: 0.1235
+   -> Diversidade: 0.6840
+   -> Coerência (c_v): 0.5441
+
+[195/288] {'n_neighbors': 50, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 10, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 49004 (54.7%)
+   -> Silhoueta: 0.1364
+   -> Diversidade: 0.6482
+   -> Coerência (c_v): 0.5775
+
+[196/288] {'n_neighbors': 50, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 20, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 47573 (53.1%)
+   -> Silhoueta: 0.1322
+   -> Diversidade: 0.6474
+   -> Coerência (c_v): 0.5633
+
+[197/288] {'n_neighbors': 50, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 20, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 48385 (54.0%)
+   -> Silhoueta: 0.1343
+   -> Diversidade: 0.6321
+   -> Coerência (c_v): 0.5874
+
+[198/288] {'n_neighbors': 50, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 20, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 47086 (52.5%)
+   -> Silhoueta: 0.1404
+   -> Diversidade: 0.6249
+   -> Coerência (c_v): 0.6052
+
+[199/288] {'n_neighbors': 50, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 30, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 46207 (51.6%)
+   -> Silhoueta: 0.1340
+   -> Diversidade: 0.6261
+   -> Coerência (c_v): 0.6059
+
+[200/288] {'n_neighbors': 50, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 30, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 47969 (53.5%)
+   -> Silhoueta: 0.1371
+   -> Diversidade: 0.6004
+   -> Coerência (c_v): 0.6344
+
+[201/288] {'n_neighbors': 50, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 30, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 44991 (50.2%)
+   -> Silhoueta: 0.1372
+   -> Diversidade: 0.6222
+   -> Coerência (c_v): 0.6317
+
+[202/288] {'n_neighbors': 50, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 50, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 46709 (52.1%)
+   -> Silhoueta: 0.1383
+   -> Diversidade: 0.6184
+   -> Coerência (c_v): 0.6522
+
+[203/288] {'n_neighbors': 50, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 50, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 45973 (51.3%)
+   -> Silhoueta: 0.1315
+   -> Diversidade: 0.6114
+   -> Coerência (c_v): 0.6611
+
+[204/288] {'n_neighbors': 50, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 50, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 41568 (46.4%)
+   -> Silhoueta: 0.1208
+   -> Diversidade: 0.6195
+   -> Coerência (c_v): 0.6589
+
+[205/288] {'n_neighbors': 50, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 75, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 5069 (5.7%)
+   -> Silhoueta: -0.0430
+   -> Diversidade: 0.3829
+   -> Coerência (c_v): 0.7940
+
+[206/288] {'n_neighbors': 50, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 75, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 42477 (47.4%)
+   -> Silhoueta: 0.1302
+   -> Diversidade: 0.6180
+   -> Coerência (c_v): 0.6888
+
+[207/288] {'n_neighbors': 50, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 75, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 40361 (45.0%)
+   -> Silhoueta: 0.1302
+   -> Diversidade: 0.6161
+   -> Coerência (c_v): 0.6887
+
+[208/288] {'n_neighbors': 50, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 100, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 4462 (5.0%)
+   -> Silhoueta: -0.0373
+   -> Diversidade: 0.3983
+   -> Coerência (c_v): 0.8029
+
+[209/288] {'n_neighbors': 50, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 100, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 40913 (45.6%)
+   -> Silhoueta: 0.1149
+   -> Diversidade: 0.6288
+   -> Coerência (c_v): 0.6940
+
+[210/288] {'n_neighbors': 50, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 100, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 3595 (4.0%)
+   -> Silhoueta: -0.0293
+   -> Diversidade: 0.4190
+   -> Coerência (c_v): 0.7901
+
+[211/288] {'n_neighbors': 50, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 150, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 3943 (4.4%)
+   -> Silhoueta: -0.0286
+   -> Diversidade: 0.4271
+   -> Coerência (c_v): 0.8016
+
+[212/288] {'n_neighbors': 50, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 150, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 4973 (5.5%)
+   -> Silhoueta: -0.0257
+   -> Diversidade: 0.4383
+   -> Coerência (c_v): 0.7908
+
+[213/288] {'n_neighbors': 50, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 150, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 4140 (4.6%)
+   -> Silhoueta: -0.0256
+   -> Diversidade: 0.4292
+   -> Coerência (c_v): 0.7875
+
+[214/288] {'n_neighbors': 50, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 200, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 3531 (3.9%)
+   -> Silhoueta: -0.0189
+   -> Diversidade: 0.4927
+   -> Coerência (c_v): 0.7810
+
+[215/288] {'n_neighbors': 50, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 200, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 3723 (4.2%)
+   -> Silhoueta: -0.0090
+   -> Diversidade: 0.5231
+   -> Coerência (c_v): 0.7618
+
+[216/288] {'n_neighbors': 50, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 200, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 3844 (4.3%)
+   -> Silhoueta: -0.0238
+   -> Diversidade: 0.4976
+   -> Coerência (c_v): 0.7712
+
+[217/288] {'n_neighbors': 100, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 10, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 41886 (46.7%)
+   -> Silhoueta: 0.0529
+   -> Diversidade: 0.7476
+   -> Coerência (c_v): 0.4477
+
+[218/288] {'n_neighbors': 100, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 10, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 44515 (49.7%)
+   -> Silhoueta: 0.0803
+   -> Diversidade: 0.6998
+   -> Coerência (c_v): 0.5053
+
+[219/288] {'n_neighbors': 100, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 10, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 45174 (50.4%)
+   -> Silhoueta: 0.1088
+   -> Diversidade: 0.6574
+   -> Coerência (c_v): 0.5659
+
+[220/288] {'n_neighbors': 100, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 20, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 42286 (47.2%)
+   -> Silhoueta: 0.1016
+   -> Diversidade: 0.6706
+   -> Coerência (c_v): 0.5251
+
+[221/288] {'n_neighbors': 100, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 20, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 43175 (48.2%)
+   -> Silhoueta: 0.1094
+   -> Diversidade: 0.6424
+   -> Coerência (c_v): 0.5784
+
+[222/288] {'n_neighbors': 100, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 20, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 43984 (49.1%)
+   -> Silhoueta: 0.1134
+   -> Diversidade: 0.6116
+   -> Coerência (c_v): 0.6131
+
+[223/288] {'n_neighbors': 100, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 30, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 40959 (45.7%)
+   -> Silhoueta: 0.1037
+   -> Diversidade: 0.6340
+   -> Coerência (c_v): 0.5720
+
+[224/288] {'n_neighbors': 100, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 30, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 38140 (42.6%)
+   -> Silhoueta: 0.0989
+   -> Diversidade: 0.6152
+   -> Coerência (c_v): 0.6115
+
+[225/288] {'n_neighbors': 100, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 30, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 41580 (46.4%)
+   -> Silhoueta: 0.1164
+   -> Diversidade: 0.6000
+   -> Coerência (c_v): 0.6305
+
+[226/288] {'n_neighbors': 100, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 50, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 4003 (4.5%)
+   -> Silhoueta: -0.0453
+   -> Diversidade: 0.3627
+   -> Coerência (c_v): 0.7698
+
+[227/288] {'n_neighbors': 100, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 50, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 3892 (4.3%)
+   -> Silhoueta: -0.0431
+   -> Diversidade: 0.3659
+   -> Coerência (c_v): 0.7766
+
+[228/288] {'n_neighbors': 100, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 50, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 40092 (44.7%)
+   -> Silhoueta: 0.1172
+   -> Diversidade: 0.6014
+   -> Coerência (c_v): 0.6595
+
+[229/288] {'n_neighbors': 100, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 75, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 2670 (3.0%)
+   -> Silhoueta: -0.0303
+   -> Diversidade: 0.3937
+   -> Coerência (c_v): 0.7769
+
+[230/288] {'n_neighbors': 100, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 75, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 3306 (3.7%)
+   -> Silhoueta: -0.0300
+   -> Diversidade: 0.3806
+   -> Coerência (c_v): 0.7766
+
+[231/288] {'n_neighbors': 100, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 75, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 2538 (2.8%)
+   -> Silhoueta: -0.0313
+   -> Diversidade: 0.3894
+   -> Coerência (c_v): 0.7772
+
+[232/288] {'n_neighbors': 100, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 100, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 2581 (2.9%)
+   -> Silhoueta: -0.0282
+   -> Diversidade: 0.4200
+   -> Coerência (c_v): 0.7943
+
+[233/288] {'n_neighbors': 100, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 100, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 3060 (3.4%)
+   -> Silhoueta: -0.0284
+   -> Diversidade: 0.4196
+   -> Coerência (c_v): 0.7823
+
+[234/288] {'n_neighbors': 100, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 100, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 2515 (2.8%)
+   -> Silhoueta: -0.0306
+   -> Diversidade: 0.4236
+   -> Coerência (c_v): 0.7873
+
+[235/288] {'n_neighbors': 100, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 150, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 2875 (3.2%)
+   -> Silhoueta: -0.0251
+   -> Diversidade: 0.4383
+   -> Coerência (c_v): 0.7824
+
+[236/288] {'n_neighbors': 100, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 150, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 2641 (2.9%)
+   -> Silhoueta: -0.0260
+   -> Diversidade: 0.4404
+   -> Coerência (c_v): 0.7734
+
+[237/288] {'n_neighbors': 100, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 150, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 2152 (2.4%)
+   -> Silhoueta: -0.0252
+   -> Diversidade: 0.4444
+   -> Coerência (c_v): 0.7873
+
+[238/288] {'n_neighbors': 100, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 200, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 2898 (3.2%)
+   -> Silhoueta: -0.0243
+   -> Diversidade: 0.4950
+   -> Coerência (c_v): 0.7752
+
+[239/288] {'n_neighbors': 100, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 200, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 3194 (3.6%)
+   -> Silhoueta: -0.0244
+   -> Diversidade: 0.4950
+   -> Coerência (c_v): 0.7741
+
+[240/288] {'n_neighbors': 100, 'n_components': 3, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 200, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 2826 (3.2%)
+   -> Silhoueta: -0.0252
+   -> Diversidade: 0.4829
+   -> Coerência (c_v): 0.7743
+
+[241/288] {'n_neighbors': 100, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 10, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 47542 (53.0%)
+   -> Silhoueta: 0.1196
+   -> Diversidade: 0.7099
+   -> Coerência (c_v): 0.5037
+
+[242/288] {'n_neighbors': 100, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 10, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 46678 (52.1%)
+   -> Silhoueta: 0.1203
+   -> Diversidade: 0.6753
+   -> Coerência (c_v): 0.5525
+
+[243/288] {'n_neighbors': 100, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 10, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 47354 (52.8%)
+   -> Silhoueta: 0.1372
+   -> Diversidade: 0.6379
+   -> Coerência (c_v): 0.5973
+
+[244/288] {'n_neighbors': 100, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 20, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 44127 (49.2%)
+   -> Silhoueta: 0.1064
+   -> Diversidade: 0.6452
+   -> Coerência (c_v): 0.5752
+
+[245/288] {'n_neighbors': 100, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 20, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 45821 (51.1%)
+   -> Silhoueta: 0.1308
+   -> Diversidade: 0.6361
+   -> Coerência (c_v): 0.6032
+
+[246/288] {'n_neighbors': 100, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 20, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 46366 (51.7%)
+   -> Silhoueta: 0.1383
+   -> Diversidade: 0.6125
+   -> Coerência (c_v): 0.6269
+
+[247/288] {'n_neighbors': 100, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 30, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 45673 (51.0%)
+   -> Silhoueta: 0.1441
+   -> Diversidade: 0.6260
+   -> Coerência (c_v): 0.6229
+
+[248/288] {'n_neighbors': 100, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 30, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 45764 (51.1%)
+   -> Silhoueta: 0.1411
+   -> Diversidade: 0.6178
+   -> Coerência (c_v): 0.6327
+
+[249/288] {'n_neighbors': 100, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 30, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 46549 (51.9%)
+   -> Silhoueta: 0.1455
+   -> Diversidade: 0.6064
+   -> Coerência (c_v): 0.6420
+
+[250/288] {'n_neighbors': 100, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 50, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 43670 (48.7%)
+   -> Silhoueta: 0.1294
+   -> Diversidade: 0.6301
+   -> Coerência (c_v): 0.6543
+
+[251/288] {'n_neighbors': 100, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 50, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 45313 (50.6%)
+   -> Silhoueta: 0.1347
+   -> Diversidade: 0.6327
+   -> Coerência (c_v): 0.6562
+
+[252/288] {'n_neighbors': 100, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 50, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 46068 (51.4%)
+   -> Silhoueta: 0.1372
+   -> Diversidade: 0.6277
+   -> Coerência (c_v): 0.6586
+
+[253/288] {'n_neighbors': 100, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 75, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 42027 (46.9%)
+   -> Silhoueta: 0.1313
+   -> Diversidade: 0.6356
+   -> Coerência (c_v): 0.6808
+
+[254/288] {'n_neighbors': 100, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 75, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 43617 (48.7%)
+   -> Silhoueta: 0.1384
+   -> Diversidade: 0.6280
+   -> Coerência (c_v): 0.6798
+
+[255/288] {'n_neighbors': 100, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 75, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 2900 (3.2%)
+   -> Silhoueta: -0.0302
+   -> Diversidade: 0.4062
+   -> Coerência (c_v): 0.7784
+
+[256/288] {'n_neighbors': 100, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 100, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 40935 (45.7%)
+   -> Silhoueta: 0.1182
+   -> Diversidade: 0.6290
+   -> Coerência (c_v): 0.6863
+
+[257/288] {'n_neighbors': 100, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 100, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 42011 (46.9%)
+   -> Silhoueta: 0.1223
+   -> Diversidade: 0.6287
+   -> Coerência (c_v): 0.6881
+
+[258/288] {'n_neighbors': 100, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 100, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 3027 (3.4%)
+   -> Silhoueta: -0.0281
+   -> Diversidade: 0.4304
+   -> Coerência (c_v): 0.7744
+
+[259/288] {'n_neighbors': 100, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 150, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 37895 (42.3%)
+   -> Silhoueta: 0.1057
+   -> Diversidade: 0.6118
+   -> Coerência (c_v): 0.7117
+
+[260/288] {'n_neighbors': 100, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 150, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 38111 (42.5%)
+   -> Silhoueta: 0.1042
+   -> Diversidade: 0.6014
+   -> Coerência (c_v): 0.7291
+
+[261/288] {'n_neighbors': 100, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 150, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 3228 (3.6%)
+   -> Silhoueta: -0.0244
+   -> Diversidade: 0.4388
+   -> Coerência (c_v): 0.7768
+
+[262/288] {'n_neighbors': 100, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 200, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 36605 (40.8%)
+   -> Silhoueta: 0.1044
+   -> Diversidade: 0.6348
+   -> Coerência (c_v): 0.7033
+
+[263/288] {'n_neighbors': 100, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 200, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 37949 (42.3%)
+   -> Silhoueta: 0.1072
+   -> Diversidade: 0.6413
+   -> Coerência (c_v): 0.7287
+
+[264/288] {'n_neighbors': 100, 'n_components': 5, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 200, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 3377 (3.8%)
+   -> Silhoueta: -0.0235
+   -> Diversidade: 0.4818
+   -> Coerência (c_v): 0.7656
+
+[265/288] {'n_neighbors': 100, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 10, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 51049 (57.0%)
+   -> Silhoueta: 0.1340
+   -> Diversidade: 0.7010
+   -> Coerência (c_v): 0.5126
+
+[266/288] {'n_neighbors': 100, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 10, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 50914 (56.8%)
+   -> Silhoueta: 0.1434
+   -> Diversidade: 0.6805
+   -> Coerência (c_v): 0.5441
+
+[267/288] {'n_neighbors': 100, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 10, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 50914 (56.8%)
+   -> Silhoueta: 0.1422
+   -> Diversidade: 0.6415
+   -> Coerência (c_v): 0.5959
+
+[268/288] {'n_neighbors': 100, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 20, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 49341 (55.0%)
+   -> Silhoueta: 0.1402
+   -> Diversidade: 0.6427
+   -> Coerência (c_v): 0.5748
+
+[269/288] {'n_neighbors': 100, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 20, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 50038 (55.8%)
+   -> Silhoueta: 0.1439
+   -> Diversidade: 0.6270
+   -> Coerência (c_v): 0.6036
+
+[270/288] {'n_neighbors': 100, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 20, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 50272 (56.1%)
+   -> Silhoueta: 0.1521
+   -> Diversidade: 0.6172
+   -> Coerência (c_v): 0.6266
+
+[271/288] {'n_neighbors': 100, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 30, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 48977 (54.6%)
+   -> Silhoueta: 0.1461
+   -> Diversidade: 0.6133
+   -> Coerência (c_v): 0.6208
+
+[272/288] {'n_neighbors': 100, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 30, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 48975 (54.6%)
+   -> Silhoueta: 0.1453
+   -> Diversidade: 0.6043
+   -> Coerência (c_v): 0.6447
+
+[273/288] {'n_neighbors': 100, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 30, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 50250 (56.1%)
+   -> Silhoueta: 0.1600
+   -> Diversidade: 0.6031
+   -> Coerência (c_v): 0.6466
+
+[274/288] {'n_neighbors': 100, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 50, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 46553 (51.9%)
+   -> Silhoueta: 0.1433
+   -> Diversidade: 0.6330
+   -> Coerência (c_v): 0.6533
+
+[275/288] {'n_neighbors': 100, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 50, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 46123 (51.5%)
+   -> Silhoueta: 0.1328
+   -> Diversidade: 0.6255
+   -> Coerência (c_v): 0.6661
+
+[276/288] {'n_neighbors': 100, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 50, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 46946 (52.4%)
+   -> Silhoueta: 0.1295
+   -> Diversidade: 0.6170
+   -> Coerência (c_v): 0.6738
+
+[277/288] {'n_neighbors': 100, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 75, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 40526 (45.2%)
+   -> Silhoueta: 0.1073
+   -> Diversidade: 0.6127
+   -> Coerência (c_v): 0.6846
+
+[278/288] {'n_neighbors': 100, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 75, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 44564 (49.7%)
+   -> Silhoueta: 0.1257
+   -> Diversidade: 0.6120
+   -> Coerência (c_v): 0.7030
+
+[279/288] {'n_neighbors': 100, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 75, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 41590 (46.4%)
+   -> Silhoueta: 0.1178
+   -> Diversidade: 0.6157
+   -> Coerência (c_v): 0.6955
+
+[280/288] {'n_neighbors': 100, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 100, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 5723 (6.4%)
+   -> Silhoueta: -0.0258
+   -> Diversidade: 0.4481
+   -> Coerência (c_v): 0.7786
+
+[281/288] {'n_neighbors': 100, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 100, 'min_samples': 10, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 6293 (7.0%)
+   -> Silhoueta: -0.0328
+   -> Diversidade: 0.4298
+   -> Coerência (c_v): 0.7817
+
+[282/288] {'n_neighbors': 100, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 100, 'min_samples': 20, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...
+* - Avaliando modelo
+   -> Outliers (ruído): 5788 (6.5%)
+   -> Silhoueta: -0.0310
+   -> Diversidade: 0.4224
+   -> Coerência (c_v): 0.7833
+
+[283/288] {'n_neighbors': 100, 'n_components': 10, 'min_dist': 0.0, 'metric': 'cosine', 'min_cluster_size': 150, 'min_samples': 5, 'hdbscan_metric': 'euclidean', 'cluster_selection_method': 'eom', 'prediction_data': True}
+* - Treinando BERTopic (UMAP + HDBSCAN + c-TF-IDF)...

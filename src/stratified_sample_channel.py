@@ -2,8 +2,14 @@ from src.utils.data_loader import get_spark_session, load_data, ROOT
 from pyspark.sql.functions import col, year, month, count, concat_ws, when, rand
 from pathlib import Path
 
+from pyspark.sql.window import Window
+from pyspark.sql.functions import row_number
+from pyspark.sql.functions import rand
+
+from pyspark.sql.functions import round
+
 INPUT_PATH = ROOT / "data" / "processed" / "messages_preprocessed"
-OUTPUT_PATH = ROOT / "data" / "processed" / "stratified_sample"
+OUTPUT_IDS_PATH = ROOT / "data" / "processed" / "stratified_sample_ids"
 
 TOTAL_SAMPLE_SIZE = 1000000 
 
@@ -19,8 +25,8 @@ if __name__ == "__main__":
     print(f"Total de mensagens: {total_msg}")
 
     df_filtered = df.filter(
-        (month(col("datetime")) >= 7) & 
-        (month(col("datetime")) <= 12) & 
+       # (month(col("datetime")) >= 7) & 
+       # (month(col("datetime")) <= 12) & 
         (year(col("datetime")) == 2024)
     ).withColumn("msg_month", month(col("datetime")))
 
@@ -32,8 +38,6 @@ if __name__ == "__main__":
 
     # Conta quantas mensagens tem em cada estrato (Quantas mensagens tem em cada mês de cada grupo)
     counts_df = df_filtered.groupBy("strat_key").agg(count("*").alias("channel_month_count"))
-    
-    from pyspark.sql.functions import round
 
     counts_df = counts_df.withColumn(
         "sample_size",
@@ -42,10 +46,6 @@ if __name__ == "__main__":
             * TOTAL_SAMPLE_SIZE
         ).cast("int")
     )
-
-    from pyspark.sql.window import Window
-    from pyspark.sql.functions import row_number
-    from pyspark.sql.functions import rand
 
     df_joined = df_filtered.join(
         counts_df.select("strat_key", "sample_size"),
@@ -62,8 +62,7 @@ if __name__ == "__main__":
     df_sample = df_joined.filter(
         col("rn") <= col("sample_size")
     )
-
-    OUTPUT_IDS_PATH = ROOT / "data" / "processed" / "stratified_sample_ids"
+    
     df_sample_ids = (
         df_sample
         .select("id", "group_name")

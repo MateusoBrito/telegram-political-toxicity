@@ -1,0 +1,30 @@
+# config.yaml
+
+model:
+  embedding_names:
+    - "paraphrase-MiniLM-L6-v2"
+    - "all-MiniLM-L6-v2"
+    - "all-distilroberta-v1"
+
+paths:
+  input_path: "data/processed/stratified_sample_full"
+  stopwords: "data/processed/stopwords.txt"
+  cache_embeddings_dir: "data/cache/embeddings_grid"  
+  dir_reports: "reports/topic_modeling/grid_search"
+
+sampling:
+  frac: 0.1
+
+grid_search:
+  # --- UMAP ---
+  n_neighbors: [15, 30, 50, 100]
+  n_components: [3, 5, 10]
+  min_dist: [0.0]
+  metric: ["cosine"]
+
+  # --- HDBSCAN ---
+  min_cluster_size: [10, 20, 30, 50, 75, 100, 150, 200]
+  min_samples: [5, 10, 20]
+  hdbscan_metric: ["euclidean"]
+  cluster_selection_method: ["eom"]
+  prediction_data: [true]
