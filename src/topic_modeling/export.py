@@ -17,70 +17,73 @@ def export_topic_dictionary(
     output_dir.mkdir(parents=True, exist_ok=True)
 
     # 1. Cria o mapa base ligando o texto limpo ao número do tópico
-    topic_mapping = dict(zip(df_unique["text_clean"], topics))
+    topic_mapping = dict(zip(df_unique["clean_text"], topics))
     
-    # 2. Anexa temporariamente o tópico ao df_full para conseguirmos puxar os textos originais
+    # 2. Anexa temporariamente o tópico ao df_full para puxar os textos originais
     df_full_temp = df_full.copy()
-    df_full_temp["topic"] = df_full_temp["text_clean"].map(topic_mapping)
+    df_full_temp["topic"] = df_full_temp["clean_text"].map(topic_mapping)
 
-    # 3. Pega a tabela de informações básicas do BERTopic
+    # 3. Pega a tabela de informações básicas do BERTopic (Contém o -1 dos outliers)
     df_topic_info = topic_model.get_topic_info()
     topics_data = []
 
-    # 4. Constrói o JSON linha a linha, anexando os textos representativos e aleatórios
+    # 4. Constrói o JSON de descrição de todos os tópicos (incluindo o -1)
     for _, row in df_topic_info.iterrows():
         t = row['Topic']
         
-        # Estrutura base do tópico
         topic_dict = {
             "Topic": t,
             "Count": row["Count"],
             "Name": row["Name"],
-            "Representation": row["Representation"],
+            "Representation": row["Representation"], # <-- Aqui vão as 10 palavras c-TF-IDF do tópico!
             "Representative_Docs": [],
             "Sample_Docs": []
         }
 
-        # Ignoramos a amostragem para o tópico -1 (Outliers) para não poluir o LLM
-        if t != -1:
-            # Filtra apenas os posts originais deste tópico específico
-            # ATENÇÃO: Confirme se a coluna do texto original no seu df_full se chama 'text'
-            df_topico = df_full_temp[df_full_temp['topic'] == t].dropna(subset=['text_clean'])
-            
-            # Cria o tradutor: Texto Limpo (BERTopic) -> Texto Original (LLM)
-            tradutor = dict(zip(df_topico["text_clean"], df_topico["text"]))
+        # Filtra apenas os posts reais deste tópico específico
+        df_topico = df_full_temp[df_full_temp['topic'] == t].dropna(subset=['clean_text'])
+        
+        if len(df_topico) > 0:
+            # Tradutor de texto limpo para texto original com formatação original
+            tradutor = dict(zip(df_topico["clean_text"], df_topico["text"]))
 
-            # A. Extrai os 3 Documentos Representativos oficiais e traduz
-            rep_docs_limpos = topic_model.get_representative_docs(t)
-            rep_docs_limpos = rep_docs_limpos[:3] if rep_docs_limpos else []
-            rep_docs_originais = [tradutor.get(doc, doc) for doc in rep_docs_limpos]
-            
-            topic_dict["Representative_Docs"] = rep_docs_originais
+            # A. Extrai os 3 Documentos Representativos (Se houver - outliers não costumam ter representativos formais no BERTopic)
+            try:
+                rep_docs_limpos = topic_model.get_representative_docs(t)
+                rep_docs_limpos = rep_docs_limpos[:3] if rep_docs_limpos else []
+                rep_docs_originais = [tradutor.get(doc, doc) for doc in rep_docs_limpos]
+                topic_dict["Representative_Docs"] = rep_docs_originais
+            except Exception:
+                # O BERTopic pode reclamar se tentarmos buscar representativos oficiais do -1
+                topic_dict["Representative_Docs"] = []
 
-            # B. Extrai 7 Amostras Aleatórias únicas
+            # B. Extrai amostras aleatórias para vermos o que caiu lá (Funciona excelente para Outliers!)
             pool_amostra_original = df_topico["text"].dropna().drop_duplicates().tolist()
             
-            # Remove os representativos do pool para evitar que o LLM leia mensagens duplicadas
-            pool_amostra = [doc for doc in pool_amostra_original if doc not in rep_docs_originais]
+            # Evita duplicar representativos na amostragem
+            pool_amostra = [doc for doc in pool_amostra_original if doc not in topic_dict["Representative_Docs"]]
             
+            # Sorteia até 7 exemplos reais (seja tópico normal ou outlier)
             n_samples = min(7, len(pool_amostra))
             sample_docs = random.sample(pool_amostra, n_samples) if n_samples > 0 else []
-            
             topic_dict["Sample_Docs"] = sample_docs
 
         topics_data.append(topic_dict)
 
-    # 5. Salva o JSON final super formatado
+    # Salva o JSON final super formatado
     with open(output_dir / "topic_info.json", "w", encoding="utf-8") as f:
         json.dump(topics_data, f, indent=4, ensure_ascii=False)
 
-    # 6. Salva o Parquet para mapeamento de rede/estatística (Mantido idêntico)
-    df_mapping = df_full[["id", "text_clean"]].copy()
-    df_mapping["topic"] = df_mapping["text_clean"].map(topic_mapping)
-    df_mapping = df_mapping.drop(columns=["text_clean"])
+    # 5. Salva a relação final ID + Channel -> Tópico
+    colunas_identificacao = ["id", "channel"] if "channel" in df_full.columns else ["id"]
+    df_mapping = df_full[colunas_identificacao + ["clean_text"]].copy()
+    df_mapping["topic"] = df_mapping["clean_text"].map(topic_mapping)
+    df_mapping = df_mapping.drop(columns=["clean_text"])
+    
+    # Salva o Parquet que você usará no LFTK
     df_mapping.to_parquet(output_dir / "post_topics.parquet", index=False)
 
-    print(f"   -> Salvo em: {output_dir}")
+    print(f"   -> Dicionário e Parquet salvos em: {output_dir}")
 
 def export_visualizations(topic_model: BERTopic, output_dir: Path):
     """

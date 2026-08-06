@@ -2,17 +2,19 @@ from typing import List
 from pathlib import Path
 import numpy as np
 import torch
-
 from sentence_transformers import SentenceTransformer
 
 def generate_embeddings(
     documents: List[str],
-    cache_path: Path ,
+    cache_path: Path,
     model_name: str = "all-MiniLM-L6-v2"
 ) -> np.ndarray:
-    if cache_path.exists():
-        print(f"   -> Carregando da cache: {cache_path}")
-        return np.load(cache_path)
+    
+    actual_cache_path = cache_path.with_suffix(".npy")
+
+    if actual_cache_path.exists():
+        print(f"   -> Carregando da cache: {actual_cache_path}")
+        return np.load(actual_cache_path, allow_pickle=True)
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
     print(f"   -> Dispositivo: {device}")
@@ -25,8 +27,9 @@ def generate_embeddings(
         convert_to_numpy=True
     )
 
-    cache_path.parent.mkdir(parents=True, exist_ok=True)
-    np.save(cache_path, embeddings)
-    print(f"   -> Cache salva em: {cache_path}")
+    actual_cache_path.parent.mkdir(parents=True, exist_ok=True)
+    
+    np.save(actual_cache_path, embeddings)
+    print(f"   -> Cache salva em: {actual_cache_path}")
 
     return embeddings

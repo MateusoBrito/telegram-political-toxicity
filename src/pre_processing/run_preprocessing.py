@@ -93,4 +93,4 @@ if __name__ == "__main__":
             # Se um mês quebrar, o script apenas avisa e segue para o próximo mês
 
     print("\nProcessamento incremental finalizado!")
-    spark.stop()
+    spark.stop()                                                                        

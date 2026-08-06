@@ -1,9 +1,13 @@
+import os
+import sys 
+
+os.environ['PYSPARK_PYTHON'] = sys.executable
+os.environ['PYSPARK_DRIVER_PYTHON'] = sys.executable
+
 from pathlib import Path
 import pandas as pd
-from pyspark.sql.functions import col, pandas_udf, from_unixtime, year, month, length
-from pyspark.sql.types import StringType
-
-from detoxify import Detoxify
+from pyspark.sql.functions import col
+from pyspark.sql.types import StructType, StructField, FloatType
 
 from src.utils.data_loader import get_spark_session, load_data, ROOT
 
@@ -11,23 +15,22 @@ INPUT_PATH  = ROOT / "data" / "processed" / "messages_preprocessed"
 OUTPUT_PATH = ROOT / "data" / "processed" / "toxicity"
 OUTPUT_PATH.mkdir(parents=True, exist_ok=True)
 
-# class DetoxifyClient:
-#     def __inti__(self, model_type='original', device='cpu'):
-#         print(f"Loading Detoxify {model_type} model on {device}...")
-#         self.model = Detoxify(model_type, device=device)
 
-#     def analyze_text(self,text):
-#         predictions = self.model.predict(text)
-
-def analyze_partition_iterator(iterator, batch_size=256):
+def analyze_partition_iterator(iterator):
+    """
+    Processa os dados em lotes por partição.
+    O iterador recebe e retorna Pandas DataFrames.
+    """
     import torch
+    import pandas as pd
+    from detoxify import Detoxify
+    
+    # Otimização crucial: impede que o PyTorch sufoque os cores do worker
     torch.set_num_threads(1)
     
-    from detoxify import Detoxify
-    import pandas as pd
-    import numpy as np
-
+    # Inicializa o modelo (mude device='cuda' se tiver GPU nos workers)
     model = Detoxify('original', device='cpu')
+    batch_size = 256 
 
     for pdf in iterator:
         if pdf.empty:
@@ -49,7 +52,7 @@ def analyze_partition_iterator(iterator, batch_size=256):
                     results[k].extend([0.0] * len(batch))
                 continue
 
-            predictions = model.predict(batch
+            predictions = model.predict(batch)
 
             for key in results.keys():
                 results[key].extend(predictions[key])
@@ -61,16 +64,60 @@ def analyze_partition_iterator(iterator, batch_size=256):
 
 
 if __name__ == "__main__":
-    spark = get_spark_session("processDetoxify")
-    df = load_data(spark, INPUT_PATH)
+    spark = get_spark_session("processDetoxifyDynamic")
     
-    #df.show()
-    #print(df.count())
-    #print(df.select('year').distinct().count())
+    spark.conf.set("spark.sql.execution.arrow.pyspark.enabled", "true")
+    # A mágica: Sobrescreve apenas as partições filtradas, sem apagar a pasta toda
+    spark.conf.set("spark.sql.sources.partitionOverwriteMode", "dynamic")
+    
+    print("Carregando base de dados...")
+    columns_ip = ["id", "group_name", "clean_text", "datetime", "year", "month"]
+    df = load_data(spark, INPUT_PATH, columns_ip)
 
-    print("\nQuantidade de registros por ano:")
-    df.groupBy("year").count().orderBy("year").show()
+    # 1. Definir o Schema de saída 
+    output_schema = df.schema
+    new_columns = ['toxicity', 'severe_toxicity', 'obscene', 'threat', 'insult', 'identity_attack']
+    for col_name in new_columns:
+        output_schema = output_schema.add(StructField(col_name, FloatType(), True))
 
-    df_result = df.mapInPandas(analyze_partition_iterator)
+    # 2. Coletar partições disponíveis
+    print("Mapeando meses disponíveis para inferência...")
+    meses_unicos = df.select("year", "month").distinct().orderBy("year", "month").collect()
     
+    print(f"Total de blocos mensais a processar: {len(meses_unicos)}")
     
+    # 3. Processamento Incremental
+    for row in meses_unicos:
+        ano = row['year']
+        mes = row['month']
+        
+        if ano is None or mes is None:
+            continue
+            
+        partition_dir = OUTPUT_PATH / f"year={ano}" / f"month={mes}"
+        if partition_dir.exists() and any(partition_dir.glob("*.parquet")):
+            print(f"Pulando Lote: {ano}-{mes:02d} (Já processado anteriormente)")
+            continue
+            
+        print(f"\n--- Processando Lote: {ano}-{mes:02d} ---")
+
+        # Filtra os dados apenas para o mês atual
+        df_mes = df.filter((col("year") == ano) & (col("month") == mes))
+        
+        # Aplica o modelo
+        df_result = df_mes.mapInPandas(analyze_partition_iterator, schema=output_schema)
+        
+        try:
+            (
+                df_result.write
+                .mode("overwrite")
+                .partitionBy("year", "month")
+                .parquet(str(OUTPUT_PATH))
+            )
+            print(f"Lote {ano}-{mes:02d} salvo com sucesso!")
+            
+        except Exception as e:
+            print(f"ERRO CRÍTICO no lote {ano}-{mes:02d}: {e}")
+            
+    print("\nProcessamento total do Detoxify finalizado!")
+    spark.stop()

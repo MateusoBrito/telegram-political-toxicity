@@ -1,0 +1,29 @@
+model:
+  embedding_names:
+  - all-distilroberta-v1
+paths:
+  input_path: data/processed/stratified_sample_full
+  stopwords: data/processed/stopwords.txt
+  cache_embeddings_dir: data/cache/embeddings_grid
+  dir_reports: reports/topic_modeling/best_score_sdc_global
+sampling:
+  frac: 1.0
+grid_search:
+  n_neighbors:
+  - 100
+  n_components:
+  - 5
+  min_dist:
+  - 0.0
+  metric:
+  - cosine
+  min_cluster_size:
+  - 2000
+  min_samples:
+  - 20
+  hdbscan_metric:
+  - euclidean
+  cluster_selection_method:
+  - eom
+  prediction_data:
+  - true
