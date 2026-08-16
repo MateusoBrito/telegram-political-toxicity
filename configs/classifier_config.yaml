@@ -1,0 +1,33 @@
+# configs/classifier_config.yaml
+# Configuração centralizada do pipeline de classificação
+
+paths:
+  text_path: "data/processed/stratified_sample_full/texts.parquet"
+  topics_path: "data/processed/stratified_sample_full/topics.parquet"
+  cache_embeddings_dir: "data/cache/embeddings_classifier"
+  output_dir: "outputs/classifier"
+
+data:
+  merge_keys: ["id", "channel"]
+  text_col: "text"
+  label_col: "topic"
+
+embeddings:
+  models:
+    - "all-MiniLM-L6-v2"
+    - "all-distilroberta-v1"
+
+training:
+  validation: "stratified_kfold"
+  n_splits: 5
+
+classifiers:
+  knn:
+    n_neighbors: [3, 5, 7, 11]
+    metric: ["euclidean", "manhattan"]
+  svm:
+    C: [0.1, 1, 10]
+    kernel: ["linear", "rbf"]
+  dt:
+    criterion: ["gini", "entropy"]
+    max_depth: [null, 5, 10, 20]
