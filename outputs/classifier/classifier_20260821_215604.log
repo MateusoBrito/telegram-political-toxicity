@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/students/moliveira/telegram-political-toxicity/src/run_classifier.py", line 8, in <module>
+    from src.classifier.models import get_classifier
+  File "/home/students/moliveira/telegram-political-toxicity/src/classifier/models.py", line 10, in <module>
+    from xgboost import XGBClassifier
+ModuleNotFoundError: No module named 'xgboost'

@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/students/moliveira/paperMessages/src/train_best_classifier.py", line 10, in <module>
+    from src.run_compare_classifields import load_config, sanitize_model_name
+ModuleNotFoundError: No module named 'src.run_compare_classifields'

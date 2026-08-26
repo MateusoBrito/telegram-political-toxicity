@@ -1,0 +1,62 @@
+Carregando modelo treinado de /home/students/moliveira/paperMessages/reports/classifier/lr_all-distilroberta-v1_producao.joblib...
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+/share/spark/latest/python/pyspark/testing/utils.py:127: FutureWarning: PySpark does not yet fully support pandas >= 3.0.0. Some features may not work correctly. It is recommended to use pandas < 3.0.0 for now.
+  require_minimum_pandas_version()
+26/08/25 01:02:41 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+26/08/25 01:02:42 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+Carregando base de dados para inferência...
+Lendo base de dados de: /home/students/moliveira/paperMessages/data/processed/messages_preprocessed
+[Stage 0:>                                                          (0 + 1) / 1]                                                                                Mapeando meses disponíveis para inferência...
+[Stage 1:>                                                       (0 + 60) / 206][Stage 1:=========>                                             (37 + 60) / 206][Stage 1:==============>                                        (55 + 60) / 206][Stage 1:=================================>                    (126 + 60) / 206][Stage 1:=========================================>            (159 + 47) / 206][Stage 1:=================================================>    (189 + 17) / 206][Stage 1:====================================================>  (198 + 8) / 206][Stage 1:=====================================================> (200 + 6) / 206][Stage 1:=====================================================> (202 + 4) / 206][Stage 1:======================================================>(203 + 3) / 206][Stage 1:======================================================>(205 + 1) / 206]                                                                                Total de blocos mensais a processar: 15
+
+--- Processando Lote: 2023-11 ---
+/share/spark/latest/python/pyspark/sql/pandas/functions.py:777: FutureWarning: PySpark does not yet fully support pandas >= 3.0.0. Some features may not work correctly. It is recommended to use pandas < 3.0.0 for now.
+  require_minimum_pandas_version()
+ERRO CRÍTICO no lote 2023-11: Partition column `year` not found in schema struct<id:string,group_name:string,predicted_class:string>.
+
+--- Processando Lote: 2023-12 ---
+ERRO CRÍTICO no lote 2023-12: Partition column `year` not found in schema struct<id:string,group_name:string,predicted_class:string>.
+
+--- Processando Lote: 2024-01 ---
+ERRO CRÍTICO no lote 2024-01: Partition column `year` not found in schema struct<id:string,group_name:string,predicted_class:string>.
+
+--- Processando Lote: 2024-02 ---
+ERRO CRÍTICO no lote 2024-02: Partition column `year` not found in schema struct<id:string,group_name:string,predicted_class:string>.
+
+--- Processando Lote: 2024-03 ---
+ERRO CRÍTICO no lote 2024-03: Partition column `year` not found in schema struct<id:string,group_name:string,predicted_class:string>.
+
+--- Processando Lote: 2024-04 ---
+ERRO CRÍTICO no lote 2024-04: Partition column `year` not found in schema struct<id:string,group_name:string,predicted_class:string>.
+
+--- Processando Lote: 2024-05 ---
+ERRO CRÍTICO no lote 2024-05: Partition column `year` not found in schema struct<id:string,group_name:string,predicted_class:string>.
+
+--- Processando Lote: 2024-06 ---
+ERRO CRÍTICO no lote 2024-06: Partition column `year` not found in schema struct<id:string,group_name:string,predicted_class:string>.
+
+--- Processando Lote: 2024-07 ---
+ERRO CRÍTICO no lote 2024-07: Partition column `year` not found in schema struct<id:string,group_name:string,predicted_class:string>.
+
+--- Processando Lote: 2024-08 ---
+ERRO CRÍTICO no lote 2024-08: Partition column `year` not found in schema struct<id:string,group_name:string,predicted_class:string>.
+
+--- Processando Lote: 2024-09 ---
+ERRO CRÍTICO no lote 2024-09: Partition column `year` not found in schema struct<id:string,group_name:string,predicted_class:string>.
+
+--- Processando Lote: 2024-10 ---
+ERRO CRÍTICO no lote 2024-10: Partition column `year` not found in schema struct<id:string,group_name:string,predicted_class:string>.
+
+--- Processando Lote: 2024-11 ---
+ERRO CRÍTICO no lote 2024-11: Partition column `year` not found in schema struct<id:string,group_name:string,predicted_class:string>.
+
+--- Processando Lote: 2024-12 ---
+ERRO CRÍTICO no lote 2024-12: Partition column `year` not found in schema struct<id:string,group_name:string,predicted_class:string>.
+
+--- Processando Lote: 2025-01 ---
+ERRO CRÍTICO no lote 2025-01: Partition column `year` not found in schema struct<id:string,group_name:string,predicted_class:string>.
+
+Classificação em batches finalizada!

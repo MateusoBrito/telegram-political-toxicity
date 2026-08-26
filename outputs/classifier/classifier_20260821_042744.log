@@ -1,0 +1,18 @@
+Lendo texto com colunas: ['text', 'group_name', 'id']
+Lendo tópicos com colunas: ['political_category', 'group_name', 'id']
+Dataset carregado: 996055 documentos
+Embeddings a testar: ['all-distilroberta-v1']
+Classificadores a testar: ['lr']
+Classes encontradas: ['Non Politic', 'Outliers', 'Politic']
+
+############################################################
+[1/1] Modelo de embedding: all-distilroberta-v1
+############################################################
+| Gerando/carregando embeddings...
+   -> Carregando da cache: /home/students/moliveira/telegram-political-toxicity/data/cache/embeddings_classifier/all-distilroberta-v1.npy
+
+==================================================
+  Classificador: LR | Embedding: all-distilroberta-v1
+==================================================
+
+--- Fold 1 ---

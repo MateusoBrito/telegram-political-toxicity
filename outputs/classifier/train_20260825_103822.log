@@ -1,0 +1,89 @@
+Lendo texto com colunas: ['text', 'id', 'group_name']
+Lendo tópicos com colunas: ['political_category', 'id', 'group_name']
+Dataset carregado: 996055 documentos
+Modelo Vencedor: LR com all-distilroberta-v1
+Classes encontradas para treino: ['Non Politic', 'Outliers', 'Politic']
+| Gerando/carregando embeddings...
+   -> Carregando da cache: /home/students/moliveira/paperMessages/data/cache/embeddings_classifier/all-distilroberta-v1.npy
+
+Otimizando hiperparâmetros com GridSearchCV em 100% da amostra...
+| Servidor com 72 núcleos. Alocando 36 para o Grid Search.
+joblib.externals.loky.process_executor._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.13/site-packages/joblib/externals/loky/process_executor.py", line 490, in _process_worker
+    r = call_item()
+  File "/opt/conda/lib/python3.13/site-packages/joblib/externals/loky/process_executor.py", line 291, in __call__
+    return self.fn(*self.args, **self.kwargs)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.13/site-packages/joblib/parallel.py", line 607, in __call__
+    return [func(*args, **kwargs) for func, args, kwargs in self.items]
+            ~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.13/site-packages/sklearn/utils/parallel.py", line 184, in __call__
+    return self.function(*args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.13/site-packages/sklearn/model_selection/_validation.py", line 832, in _fit_and_score
+    X_train, y_train = _safe_split(estimator, X, y, train)
+                       ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.13/site-packages/sklearn/utils/metaestimators.py", line 173, in _safe_split
+    y_subset = _safe_indexing(y, indices)
+  File "/opt/conda/lib/python3.13/site-packages/sklearn/utils/_indexing.py", line 314, in _safe_indexing
+    return _array_indexing(X, indices, indices_dtype, axis=axis)
+  File "/opt/conda/lib/python3.13/site-packages/sklearn/utils/_indexing.py", line 62, in _array_indexing
+    return array[key, ...] if axis == 0 else array[:, key]
+           ~~~~~^^^^^^^^^^
+  File "/opt/conda/lib/python3.13/site-packages/pandas/core/arrays/arrow/array.py", line 798, in __getitem__
+    value = self._pa_array[item]
+            ~~~~~~~~~~~~~~^^^^^^
+  File "pyarrow/table.pxi", line 316, in pyarrow.lib.ChunkedArray.__getitem__
+TypeError: only integer scalar arrays can be converted to a scalar index
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/students/moliveira/paperMessages/src/train_best_classifier.py", line 121, in <module>
+    main()
+    ~~~~^^
+  File "/home/students/moliveira/paperMessages/src/train_best_classifier.py", line 107, in main
+    trainer.optimize_hyperparameters(X, y)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/students/moliveira/paperMessages/src/classifier/trainer.py", line 35, in optimize_hyperparameters
+    search.fit(X,y)
+    ~~~~~~~~~~^^^^^
+  File "/opt/conda/lib/python3.13/site-packages/sklearn/base.py", line 1403, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/opt/conda/lib/python3.13/site-packages/sklearn/model_selection/_search.py", line 1131, in fit
+    self._run_search(evaluate_candidates, callback_ctx=root_callback_ctx)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.13/site-packages/sklearn/model_selection/_search.py", line 1718, in _run_search
+    evaluate_candidates(ParameterGrid(self.param_grid), callback_ctx=search_ctx)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.13/site-packages/sklearn/model_selection/_search.py", line 1080, in evaluate_candidates
+    out = parallel(
+        delayed(_fit_and_score)(
+    ...<15 lines>...
+        ) in zip(candidate_split_pairs, evaluation_contexts)
+    )
+  File "/opt/conda/lib/python3.13/site-packages/sklearn/utils/parallel.py", line 91, in __call__
+    return super().__call__(iterable_with_config_and_warning_filters)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.13/site-packages/joblib/parallel.py", line 2072, in __call__
+    return output if self.return_generator else list(output)
+                                                ~~~~^^^^^^^^
+  File "/opt/conda/lib/python3.13/site-packages/joblib/parallel.py", line 1682, in _get_outputs
+    yield from self._retrieve()
+  File "/opt/conda/lib/python3.13/site-packages/joblib/parallel.py", line 1784, in _retrieve
+    self._raise_error_fast()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/conda/lib/python3.13/site-packages/joblib/parallel.py", line 1859, in _raise_error_fast
+    error_job.get_result(self.timeout)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.13/site-packages/joblib/parallel.py", line 758, in get_result
+    return self._return_or_raise()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/conda/lib/python3.13/site-packages/joblib/parallel.py", line 773, in _return_or_raise
+    raise self._result
+TypeError: only integer scalar arrays can be converted to a scalar index

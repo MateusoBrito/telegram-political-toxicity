@@ -1,0 +1,4 @@
+Erro ao carregar configuração: while parsing a block mapping
+  in "/home/students/moliveira/telegram-political-toxicity/configs/classifier_config.yaml", line 26, column 3
+expected <block end>, but found '<block mapping start>'
+  in "/home/students/moliveira/telegram-political-toxicity/configs/classifier_config.yaml", line 36, column 4

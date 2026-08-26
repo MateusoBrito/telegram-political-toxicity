@@ -1,0 +1,20 @@
+Lendo texto com colunas: ['text', 'id', 'group_name']
+Lendo tópicos com colunas: ['political_category', 'id', 'group_name']
+Dataset carregado: 996055 documentos
+Embeddings a testar: ['paraphrase-MiniLM-L6-v2', 'all-MiniLM-L6-v2', 'all-distilroberta-v1']
+Classificadores a testar: ['dt', 'lr']
+Classes encontradas: ['Non Politic', 'Outliers', 'Politic']
+
+############################################################
+[1/3] Modelo de embedding: paraphrase-MiniLM-L6-v2
+############################################################
+| Gerando/carregando embeddings...
+   -> Carregando da cache: /home/students/moliveira/telegram-political-toxicity/data/cache/embeddings_classifier/paraphrase-MiniLM-L6-v2.npy
+
+==================================================
+  Classificador: DT | Embedding: paraphrase-MiniLM-L6-v2
+==================================================
+
+--- Fold 1 ---
+Otimizando parâmetros...
+| Servidor com 72 núcleos. Alocando 24 para o Grid Search.
