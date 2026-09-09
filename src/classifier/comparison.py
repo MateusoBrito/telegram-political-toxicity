@@ -12,34 +12,44 @@ class ResultsComparator:
         if not os.path.exists(self.base_dir):
             raise FileNotFoundError(f"Diretório de resultados não encontrado: {self.base_dir}")
         
+
     def get_model_data(self, dataset_name, representation, model_name=None):
         # AJUSTE: Se model_name for None ou vazio, busca direto na pasta da representação
         # Isso permite ler results/dataset/bert/experiment_log.csv
         if model_name:
-            file_path = os.path.join(self.base_dir, representation, model_name, 'experiment_log.csv')
+            file_path = os.path.join(
+                self.base_dir, representation, model_name, 'experiment_log.csv'
+            )
         else:
             file_path = os.path.join(self.base_dir, representation, 'experiment_log.csv')
         
         if not os.path.exists(file_path):
             return None
-
+        
         try:
             df = pd.read_csv(file_path)
         except Exception:
             return None
         
-        # Filtra pelo nome do dataset (ex: 'mpqa' ou 'SMSSpamCollection.csv')
         subset = df[df['dataset'] == dataset_name]
-        if subset.empty: return None
-
+        if subset.empty:
+            return None
+        
         subset = subset.sort_values('fold')
         
-        # Tenta pegar f1_weighted, se não tiver vai de macro
-        f1_col = 'f1_weighted' if 'f1_weighted' in subset.columns else 'f1_macro'
-
+        # Retorna explicitamente a acurácia, f1_macro e f1_weighted
         return {
-            'accuracy': subset['accuracy'].values,
-            'f1': subset[f1_col].values
+          'accuracy': subset['accuracy'].values,
+          'f1_macro': (
+              subset['f1_macro'].values
+              if 'f1_macro' in subset.columns
+              else np.zeros(len(subset))
+          ),
+          'f1_weighted': (
+              subset['f1_weighted'].values
+              if 'f1_weighted' in subset.columns
+              else np.zeros(len(subset))
+          ),
         }
 
     def plot_combined_bars(self, results_dict, title_suffix='', output_path=None):

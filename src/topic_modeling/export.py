@@ -75,12 +75,13 @@ def export_topic_dictionary(
         json.dump(topics_data, f, indent=4, ensure_ascii=False)
 
     # 5. Salva a relação final ID + Channel -> Tópico
-    colunas_identificacao = ["id", "channel"] if "channel" in df_full.columns else ["id"]
+    colunas_identificacao = ["id", "group_name"] if "group_name" in df_full.columns else ["id"]
+    
     df_mapping = df_full[colunas_identificacao + ["clean_text"]].copy()
     df_mapping["topic"] = df_mapping["clean_text"].map(topic_mapping)
     df_mapping = df_mapping.drop(columns=["clean_text"])
     
-    # Salva o Parquet que você usará no LFTK
+    # Salva o Parquet que você usará nas análises subsequentes
     df_mapping.to_parquet(output_dir / "post_topics.parquet", index=False)
 
     print(f"   -> Dicionário e Parquet salvos em: {output_dir}")

@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/students/moliveira/paperMessages/src/run_infer_class.py", line 15, in <module>
+    from src.run_compare_classifieds import load_config, sanitize_model_name
+  File "/home/students/moliveira/paperMessages/src/run_compare_classifieds.py", line 7, in <module>
+    from src.topic_modeling.embeddings import generate_embeddings
+  File "/home/students/moliveira/paperMessages/src/topic_modeling/embeddings.py", line 5, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'

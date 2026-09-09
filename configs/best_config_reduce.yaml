@@ -4,11 +4,12 @@ model:
   embedding_names:
     - "all-distilroberta-v1"
   reduce_outliers: true
+  
 paths:
   input_path: "data/processed/stratified_sample_full"
   stopwords: "data/processed/stopwords.txt"
   cache_embeddings_dir: "data/cache/embeddings_grid"  
-  dir_reports: "reports/topic_modeling/best_result"
+  dir_reports: "reports/topic_modeling/best_result_reduced"
   
 sampling:
   frac: 1.0

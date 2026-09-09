@@ -1,0 +1,6 @@
+run_id,dataset,embedding,model,fold,best_params,accuracy,f1_macro,f1_weighted
+2026-09-07T05:36:10.860131,stratified_sample_full,all-MiniLM-L6-v2,dt,1,"{'class_weight': 'balanced', 'criterion': 'gini', 'max_depth': 50, 'min_samples_split': 20}",0.48407610292211717,0.4047940576718321,0.5016822649329847
+2026-09-07T06:00:00.204837,stratified_sample_full,all-MiniLM-L6-v2,dt,2,"{'class_weight': 'balanced', 'criterion': 'gini', 'max_depth': 50, 'min_samples_split': 20}",0.48187253749913594,0.40440053799418996,0.5001863577924054
+2026-09-07T06:23:39.939570,stratified_sample_full,all-MiniLM-L6-v2,dt,3,"{'class_weight': 'balanced', 'criterion': 'gini', 'max_depth': 50, 'min_samples_split': 20}",0.4795050805280984,0.40013758813998745,0.49778486423730084
+2026-09-07T06:47:16.508991,stratified_sample_full,all-MiniLM-L6-v2,dt,4,"{'class_weight': 'balanced', 'criterion': 'gini', 'max_depth': 50, 'min_samples_split': 20}",0.4855878896799613,0.40723248547799873,0.5035717251567976
+2026-09-07T07:10:58.981387,stratified_sample_full,all-MiniLM-L6-v2,dt,5,"{'class_weight': 'balanced', 'criterion': 'gini', 'max_depth': 50, 'min_samples_split': 20}",0.48612359162231283,0.40532103398086566,0.5041539266085729

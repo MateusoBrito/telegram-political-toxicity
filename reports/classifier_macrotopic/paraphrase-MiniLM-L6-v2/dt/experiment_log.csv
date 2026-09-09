@@ -1,0 +1,6 @@
+run_id,dataset,embedding,model,fold,best_params,accuracy,f1_macro,f1_weighted
+2026-09-05T22:40:10.064854,stratified_sample_full,paraphrase-MiniLM-L6-v2,dt,1,"{'class_weight': None, 'criterion': 'entropy', 'max_depth': 20, 'min_samples_split': 100}",0.5428640550208229,0.39202616218797215,0.5264928520384192
+2026-09-05T23:31:00.324405,stratified_sample_full,paraphrase-MiniLM-L6-v2,dt,2,"{'class_weight': None, 'criterion': 'entropy', 'max_depth': 20, 'min_samples_split': 100}",0.543253611667934,0.3911771124244826,0.5267757920784901
+2026-09-06T00:21:53.101312,stratified_sample_full,paraphrase-MiniLM-L6-v2,dt,3,"{'class_weight': None, 'criterion': 'entropy', 'max_depth': 20, 'min_samples_split': 100}",0.5441176470588235,0.3905098966797813,0.5260388324861587
+2026-09-06T01:12:57.482040,stratified_sample_full,paraphrase-MiniLM-L6-v2,dt,4,"{'class_weight': None, 'criterion': 'entropy', 'max_depth': 50, 'min_samples_split': 100}",0.5467270339393101,0.3934752197662247,0.5294814630449959
+2026-09-06T02:04:06.265365,stratified_sample_full,paraphrase-MiniLM-L6-v2,dt,5,"{'class_weight': None, 'criterion': 'entropy', 'max_depth': 20, 'min_samples_split': 100}",0.5417156286721504,0.386023420772184,0.5242367355786943

@@ -72,6 +72,7 @@ def main():
     )
 
     reduce_outliers_flag = config.get("model", {}).get("reduce_outliers", False)
+    outlier_threshold = config["model"].get("outlier_threshold", 0.0)
 
     if reduce_outliers_flag:
         print("Reduzindo Outliers (Tópico -1) usando embeddings...")
@@ -80,7 +81,8 @@ def main():
             documents=documents_unique, 
             topics=topics, 
             strategy="embeddings", 
-            embeddings=embeddings
+            embeddings=embeddings,
+            threshold=outlier_threshold
         )
         
         topic_model.update_topics(documents_unique, topics=new_topics)

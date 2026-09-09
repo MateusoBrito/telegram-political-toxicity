@@ -49,6 +49,11 @@ def main():
     merge_keys = config['data']['merge_keys']
     text_col = config['data']['text_col']
     label_col = config['data']['label_col']
+    
+    corpus_cfg = config.get('corpus', {})
+    corpus_filter = corpus_cfg.get('filter', None)
+    col_filter = corpus_cfg.get('col', None)
+    filter_category = corpus_cfg.get('category', None)
 
     embedding_names = config['embeddings']['models']
     train_cfg = config['training']
@@ -57,18 +62,38 @@ def main():
     cache_embeddings_dir.mkdir(parents=True, exist_ok=True)
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    # --- Carregamento dos Dados ---
     try:
-        df_text = pd.read_parquet(text_path)
-        df_topics = pd.read_parquet(topics_path)
+        text_cols_to_load = list(set(merge_keys + [text_col]))
+
+        topics_cols = merge_keys + [label_col]
+        if corpus_filter == "just_politic" and col_filter:
+            topics_cols.append(col_filter)
+            
+        topics_cols_to_load = list(set(topics_cols))
+        
+        print(f"Lendo texto com colunas: {text_cols_to_load}")
+        df_text = pd.read_parquet(text_path, columns=text_cols_to_load)
+        
+        print(f"Lendo tópicos com colunas: {topics_cols_to_load}")
+        df_topics = pd.read_parquet(topics_path, columns=topics_cols_to_load)
+        
     except Exception as e:
         print(f"Erro ao carregar datasets: {e}")
         return
 
     df_merged = pd.merge(df_text, df_topics, on=merge_keys, how="inner")
-    documents = df_merged[text_col].tolist()
 
+    print(f"Dataset carregado: {len(df_merged)} documentos")
+
+    if corpus_filter == "just_politic" and col_filter:
+        print(f"Filtrando corpus para: {col_filter} == {filter_category}")
+        df_merged = df_merged[df_merged[col_filter] == filter_category].copy()
+    else:
+        print("Nenhum filtro de corpus ativado. Usando a base completa.")
+
+    documents = df_merged[text_col].tolist()
     print(f"Dataset carregado: {len(documents)} documentos")
+            
     print(f"Embeddings a testar: {embedding_names}")
     print(f"Classificadores a testar: {list(classifiers_cfg.keys())}")
 
@@ -107,6 +132,10 @@ def main():
 
             model_class = get_classifier(clf_name)
             clf_output_dir = output_dir / emb_slug / clf_name
+
+            if (clf_output_dir / "experiment_log.csv").exists():
+                print(f"Resultados já encontrados em {clf_output_dir}. Pulando...")
+                continue
 
             run_classic_pipeline(
                 X=embeddings,

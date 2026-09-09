@@ -1,0 +1,2538 @@
+[
+  {
+    "Topic": 0,
+    "Count": 32244,
+    "Original_Name": "0_russian_ukraine_ukrainian_russia",
+    "Title": "Russia-Ukraine Conflict Updates",
+    "Summary": "Cluster of messages about ongoing military operations and escalations in the Russia-Ukraine war, highlighting drone and air campaign developments, cross-border strikes and special operations, frontline advances and losses, weapon system deployments and political rhetoric.",
+    "Raw_Response": "{\"Title\":\"Russia-Ukraine Conflict Updates\",\"Summary\":\"Cluster of messages about ongoing military operations and escalations in the Russia-Ukraine war, highlighting drone and air campaign developments, cross-border strikes and special operations, frontline advances and losses, weapon system deployments and political rhetoric.\"}"
+  },
+  {
+    "Topic": 1,
+    "Count": 15768,
+    "Original_Name": "1_bank_bitcoin_usdt_currency",
+    "Title": "High-Yield Crypto Investment Schemes",
+    "Summary": "Telegram messages promoting USDT/bitcoin deposit platforms offering guaranteed daily returns, referral commissions, and rapid withdrawals—typical HYIP-style investment promotions and likely scams.",
+    "Raw_Response": "{\"Title\":\"High-Yield Crypto Investment Schemes\",\"Summary\":\"Telegram messages promoting USDT/bitcoin deposit platforms offering guaranteed daily returns, referral commissions, and rapid withdrawals—typical HYIP-style investment promotions and likely scams.\"}"
+  },
+  {
+    "Topic": 2,
+    "Count": 14742,
+    "Original_Name": "2_pumpfun_balance_wallet_exchange",
+    "Title": "Pump.fun Solana Token Listings",
+    "Summary": "Telegram posts advertising new Solana coins on pump.fun, listing contract addresses, supply, owner/dev wallet balances, transaction history, and short descriptions.",
+    "Raw_Response": "{\"Title\":\"Pump.fun Solana Token Listings\",\"Summary\":\"Telegram posts advertising new Solana coins on pump.fun, listing contract addresses, supply, owner/dev wallet balances, transaction history, and short descriptions.\"}"
+  },
+  {
+    "Topic": 3,
+    "Count": 11352,
+    "Original_Name": "3_own_dev_description_creator",
+    "Title": "New Token Mint Listings",
+    "Summary": "Announcements of newly minted tokens including mint address, name, symbol, description, creator, market cap and developer/whale ownership percentages.",
+    "Raw_Response": "{\"Title\":\"New Token Mint Listings\",\"Summary\":\"Announcements of newly minted tokens including mint address, name, symbol, description, creator, market cap and developer/whale ownership percentages.\"}"
+  },
+  {
+    "Topic": 4,
+    "Count": 10599,
+    "Original_Name": "4_token_deployer_developer_deploy",
+    "Title": "New Token Announcements",
+    "Summary": "Messages announcing newly deployed cryptocurrency tokens including mint addresses, deployer info, market cap, and social links.",
+    "Raw_Response": "{\"Title\":\"New Token Announcements\",\"Summary\":\"Messages announcing newly deployed cryptocurrency tokens including mint addresses, deployer info, market cap, and social links.\"}"
+  },
+  {
+    "Topic": 5,
+    "Count": 8589,
+    "Original_Name": "5_kamala_ballot_election_harris",
+    "Title": "Kamala Harris Election Speculation",
+    "Summary": "Posts discussing Kamala Harris in the 2024 election—polling swings, ballot and early-voting updates, partisan commentary, and speculation about Biden/Harris candidacy.",
+    "Raw_Response": "{\"Title\":\"Kamala Harris Election Speculation\",\"Summary\":\"Posts discussing Kamala Harris in the 2024 election—polling swings, ballot and early-voting updates, partisan commentary, and speculation about Biden/Harris candidacy.\"}"
+  },
+  {
+    "Topic": 6,
+    "Count": 7807,
+    "Original_Name": "6_god_jesus_lord_christ",
+    "Title": "Christian Scripture and Prophecy",
+    "Summary": "A mix of Bible passages and Christian teachings focused on Jesus’ death, resurrection, salvation, church life, and prophetic or political interpretations of scripture.",
+    "Raw_Response": "{\"Title\":\"Christian Scripture and Prophecy\",\"Summary\":\"A mix of Bible passages and Christian teachings focused on Jesus’ death, resurrection, salvation, church life, and prophetic or political interpretations of scripture.\"}"
+  },
+  {
+    "Topic": 7,
+    "Count": 6638,
+    "Original_Name": "7_event_sol_trend_txn",
+    "Title": "Solana Token Buy Alerts",
+    "Summary": "Notifications of buys for trending Solana (SOL) tokens that include transaction amounts, token quantities, holder changes, market cap and short performance indicators.",
+    "Raw_Response": "{\"Title\":\"Solana Token Buy Alerts\",\"Summary\":\"Notifications of buys for trending Solana (SOL) tokens that include transaction amounts, token quantities, holder changes, market cap and short performance indicators.\"}"
+  },
+  {
+    "Topic": 8,
+    "Count": 6616,
+    "Original_Name": "8_none_revoke_revoked_tokenomics",
+    "Title": "New Solana Token Listings",
+    "Summary": "Automated listings from a Solana token scanner reporting newly minted SPL tokens (Ray/Raydium), showing tokenomics (supply, decimals, tax), security flags (mint/freeze/update revoked) and creator wallet details/alerts.",
+    "Raw_Response": "{\"Title\":\"New Solana Token Listings\",\"Summary\":\"Automated listings from a Solana token scanner reporting newly minted SPL tokens (Ray/Raydium), showing tokenomics (supply, decimals, tax), security flags (mint/freeze/update revoked) and creator wallet details/alerts.\"}"
+  },
+  {
+    "Topic": 9,
+    "Count": 6304,
+    "Original_Name": "9_vaccine_covid_mrna_vaccination",
+    "Title": "COVID vaccine misinformation",
+    "Summary": "Cluster of messages promoting distrust and conspiracy theories about COVID-19 vaccines—especially mRNA shots—claiming long-term harms, deaths, and sharing anti-vaccine links and sources.",
+    "Raw_Response": "{\"Title\":\"COVID vaccine misinformation\",\"Summary\":\"Cluster of messages promoting distrust and conspiracy theories about COVID-19 vaccines—especially mRNA shots—claiming long-term harms, deaths, and sharing anti-vaccine links and sources.\"}"
+  },
+  {
+    "Topic": 10,
+    "Count": 6071,
+    "Original_Name": "10_woman_men_retard_faggot",
+    "Title": "Misogyny and Homophobic Slurs",
+    "Summary": "Group of messages featuring misogynistic, anti-feminist and homophobic insults, derogatory language toward women and LGBTQ people, and dismissive attitudes about gender roles.",
+    "Raw_Response": "{\"Title\":\"Misogyny and Homophobic Slurs\",\"Summary\":\"Group of messages featuring misogynistic, anti-feminist and homophobic insults, derogatory language toward women and LGBTQ people, and dismissive attitudes about gender roles.\"}"
+  },
+  {
+    "Topic": 11,
+    "Count": 5046,
+    "Original_Name": "11_token_deployer_developer_deploy",
+    "Title": "New Token Listings",
+    "Summary": "Automated posts announcing newly deployed tokens with name, symbol, MCAP, mint and deployer addresses, deployed-count and social links (from @pumpfundetector).",
+    "Raw_Response": "{\"Title\":\"New Token Listings\",\"Summary\":\"Automated posts announcing newly deployed tokens with name, symbol, MCAP, mint and deployer addresses, deployed-count and social links (from @pumpfundetector).\"}"
+  },
+  {
+    "Topic": 12,
+    "Count": 4477,
+    "Original_Name": "12_whale_own_supply_dev",
+    "Title": "Token Mint Listings with Holdings",
+    "Summary": "Telegram posts listing newly minted tokens with mint addresses, names/symbols, descriptions, creator info, market cap and whale/dev ownership percentages.",
+    "Raw_Response": "{\"Title\":\"Token Mint Listings with Holdings\",\"Summary\":\"Telegram posts listing newly minted tokens with mint addresses, names/symbols, descriptions, creator info, market cap and whale/dev ownership percentages.\"}"
+  },
+  {
+    "Topic": 13,
+    "Count": 4260,
+    "Original_Name": "13_judge_case_willis_court",
+    "Title": "Trump Trials and Prosecutor Fani Willis",
+    "Summary": "Coverage and commentary on multiple high‑profile legal cases—focusing on Donald Trump’s criminal and civil proceedings, related judge rulings and motions, and controversies surrounding prosecutor Fani Willis and prosecutorial conduct.",
+    "Raw_Response": "{\"Title\":\"Trump Trials and Prosecutor Fani Willis\",\"Summary\":\"Coverage and commentary on multiple high‑profile legal cases—focusing on Donald Trump’s criminal and civil proceedings, related judge rulings and motions, and controversies surrounding prosecutor Fani Willis and prosecutorial conduct.\"}"
+  },
+  {
+    "Topic": 14,
+    "Count": 4242,
+    "Original_Name": "14_ticker_min_dex_listing",
+    "Title": "New Crypto Token Listings",
+    "Summary": "Telegram announcements of newly listed crypto tokens providing each token's name, ticker, market cap, recent (60min) volume and quick links for Dex/Buy/TG/Web.",
+    "Raw_Response": "{\"Title\":\"New Crypto Token Listings\",\"Summary\":\"Telegram announcements of newly listed crypto tokens providing each token's name, ticker, market cap, recent (60min) volume and quick links for Dex/Buy/TG/Web.\"}"
+  },
+  {
+    "Topic": 15,
+    "Count": 3762,
+    "Original_Name": "15_reposts_chatter_shield_activate",
+    "Title": "Chatter Shield Activation Posts",
+    "Summary": "Automated messages announcing activation of the Chatter Shield Bot that solicit specific targets of likes, replies, reposts, and bookmarks to help promote linked tweets.",
+    "Raw_Response": "{\"Title\":\"Chatter Shield Activation Posts\",\"Summary\":\"Automated messages announcing activation of the Chatter Shield Bot that solicit specific targets of likes, replies, reposts, and bookmarks to help promote linked tweets.\"}"
+  },
+  {
+    "Topic": 16,
+    "Count": 3523,
+    "Original_Name": "16_trump_rally_president_donald",
+    "Title": "Trump Rally Coverage",
+    "Summary": "Social media posts and reports about Donald Trump's rallies, speeches, crowd sizes, supporter events, and media reactions.",
+    "Raw_Response": "{\"Title\":\"Trump Rally Coverage\",\"Summary\":\"Social media posts and reports about Donald Trump's rallies, speeches, crowd sizes, supporter events, and media reactions.\"}"
+  },
+  {
+    "Topic": 17,
+    "Count": 3177,
+    "Original_Name": "17_pool_top_flux_utc",
+    "Title": "New Solana Token Pools",
+    "Summary": "Announcements of newly created Solana token pools listing contract addresses, market cap, liquidity, distribution/top-holders, open time and buy links (SolScan, DexScreener), often promoted by SolDex and sniper bots.",
+    "Raw_Response": "{\"Title\":\"New Solana Token Pools\",\"Summary\":\"Announcements of newly created Solana token pools listing contract addresses, market cap, liquidity, distribution/top-holders, open time and buy links (SolScan, DexScreener), often promoted by SolDex and sniper bots.\"}"
+  },
+  {
+    "Topic": 18,
+    "Count": 3146,
+    "Original_Name": "18_hezbollah_lebanon_rocket_israeli",
+    "Title": "Hezbollah Attacks on Israel",
+    "Summary": "Reports of Hezbollah launching rockets and drones from southern Lebanon into northern Israel and ensuing Israeli airstrikes, accompanied by propaganda and escalation updates.",
+    "Raw_Response": "{\"Title\":\"Hezbollah Attacks on Israel\",\"Summary\":\"Reports of Hezbollah launching rockets and drones from southern Lebanon into northern Israel and ensuing Israeli airstrikes, accompanied by propaganda and escalation updates.\"}"
+  },
+  {
+    "Topic": 19,
+    "Count": 3112,
+    "Original_Name": "19_uptrend_position_dex_old",
+    "Title": "Crypto Token Uptrend Alerts",
+    "Summary": "Automated Telegram posts (powered by @MajorTrending) announcing uptrend rank changes for various crypto tokens with buy/Dex links, brief market details (e.g., market cap, MACWIF), and social/web references.",
+    "Raw_Response": "{\"Title\":\"Crypto Token Uptrend Alerts\",\"Summary\":\"Automated Telegram posts (powered by @MajorTrending) announcing uptrend rank changes for various crypto tokens with buy/Dex links, brief market details (e.g., market cap, MACWIF), and social/web references.\"}"
+  },
+  {
+    "Topic": 20,
+    "Count": 2956,
+    "Original_Name": "20_rumble_podcast_video_stream",
+    "Title": "Live Video and Podcast Promotion",
+    "Summary": "Discussions about scheduling, sharing, and promoting live video shows and podcasts across platforms like YouTube, Rumble, and Odysee, including links, channel updates, and viewer engagement.",
+    "Raw_Response": "{\n  \"Title\": \"Live Video and Podcast Promotion\",\n  \"Summary\": \"Discussions about scheduling, sharing, and promoting live video shows and podcasts across platforms like YouTube, Rumble, and Odysee, including links, channel updates, and viewer engagement.\"\n}"
+  },
+  {
+    "Topic": 21,
+    "Count": 2917,
+    "Original_Name": "21_jew_jewish_jews_judaism",
+    "Title": "Antisemitic Content",
+    "Summary": "Messages expressing hostility and hatred toward Jews and Judaism, featuring slurs, dehumanization, conspiracy claims, and calls for or celebration of violence.",
+    "Raw_Response": "{\"Title\":\"Antisemitic Content\",\"Summary\":\"Messages expressing hostility and hatred toward Jews and Judaism, featuring slurs, dehumanization, conspiracy claims, and calls for or celebration of violence.\"}"
+  },
+  {
+    "Topic": 22,
+    "Count": 2751,
+    "Original_Name": "22_oil_vitamin_magnesium_remedy",
+    "Title": "Natural Home Remedies and Detox",
+    "Summary": "Collection of DIY herbal recipes, supplement and topical oil tips for immunity and skin, plus detox and anti‑parasite protocols (e.g., borax, chlorine dioxide, enemas), often promoting unverified or alternative treatments.",
+    "Raw_Response": "{\"Title\":\"Natural Home Remedies and Detox\",\"Summary\":\"Collection of DIY herbal recipes, supplement and topical oil tips for immunity and skin, plus detox and anti‑parasite protocols (e.g., borax, chlorine dioxide, enemas), often promoting unverified or alternative treatments.\"}"
+  },
+  {
+    "Topic": 23,
+    "Count": 2636,
+    "Original_Name": "23_burn_renounce_top_flux",
+    "Title": "Burned & Renounced Solana Tokens",
+    "Summary": "Cluster of Solana token launch posts promoting newly created (often meme) tokens with burned/renounced contracts, distribution stats, market cap and LP values, SolScan/DexScreener links, and buy instructions via sniper bots (powered by SolDex).",
+    "Raw_Response": "{\"Title\":\"Burned & Renounced Solana Tokens\",\"Summary\":\"Cluster of Solana token launch posts promoting newly created (often meme) tokens with burned/renounced contracts, distribution stats, market cap and LP values, SolScan/DexScreener links, and buy instructions via sniper bots (powered by SolDex).\"}"
+  },
+  {
+    "Topic": 24,
+    "Count": 2625,
+    "Original_Name": "24_games_ton_holder_txn",
+    "Title": "TON Token Buy Alerts",
+    "Summary": "Telegram posts announcing buy alerts for various TON-chain tokens, listing TON spent, token amounts, holder counts, market caps, txn links and trending/chart/bridge prompts.",
+    "Raw_Response": "{\"Title\":\"TON Token Buy Alerts\",\"Summary\":\"Telegram posts announcing buy alerts for various TON-chain tokens, listing TON spent, token amounts, holder counts, market caps, txn links and trending/chart/bridge prompts.\"}"
+  },
+  {
+    "Topic": 25,
+    "Count": 2548,
+    "Original_Name": "25_bridge_liquidity_sniper_ton",
+    "Title": "TON Token Buy Alerts",
+    "Summary": "Automated Telegram alerts reporting token purchases on the TON blockchain (e.g., TDOG, TCAT), showing buy amounts, holder addresses, market cap, liquidity, position changes, and tags like 'Sniper Bot' and 'Bridge'.",
+    "Raw_Response": "{\"Title\":\"TON Token Buy Alerts\",\"Summary\":\"Automated Telegram alerts reporting token purchases on the TON blockchain (e.g., TDOG, TCAT), showing buy amounts, holder addresses, market cap, liquidity, position changes, and tags like 'Sniper Bot' and 'Bridge'.\"}"
+  },
+  {
+    "Topic": 26,
+    "Count": 2439,
+    "Original_Name": "26_china_taiwan_chinese_beijing",
+    "Title": "China-Taiwan Tensions",
+    "Summary": "Discussions and news on Beijing's sovereignty claims over Taiwan, rising cross-strait military and political developments, and related international security and diplomatic reactions.",
+    "Raw_Response": "{\"Title\":\"China-Taiwan Tensions\",\"Summary\":\"Discussions and news on Beijing's sovereignty claims over Taiwan, rising cross-strait military and political developments, and related international security and diplomatic reactions.\"}"
+  },
+  {
+    "Topic": 27,
+    "Count": 2431,
+    "Original_Name": "27_australia_australian_aussie_australias",
+    "Title": "Australian Nationalist Activism",
+    "Summary": "Cluster of messages promoting Australia One and National Strike campaigns and anti-government rhetoric in Australia, featuring calls for protests, racial grievances, conspiracy claims, and criticism of politicians and media.",
+    "Raw_Response": "{\"Title\":\"Australian Nationalist Activism\",\"Summary\":\"Cluster of messages promoting Australia One and National Strike campaigns and anti-government rhetoric in Australia, featuring calls for protests, racial grievances, conspiracy claims, and criticism of politicians and media.\"}"
+  },
+  {
+    "Topic": 28,
+    "Count": 2418,
+    "Original_Name": "28_canada_canadian_trudeau_justin",
+    "Title": "Criticism of Justin Trudeau",
+    "Summary": "Telegram posts criticizing Canadian Prime Minister Justin Trudeau, mixing political attacks, conspiracy allegations, and populist calls to protest or 'liberate' Canadian institutions and policies.",
+    "Raw_Response": "{\"Title\":\"Criticism of Justin Trudeau\",\"Summary\":\"Telegram posts criticizing Canadian Prime Minister Justin Trudeau, mixing political attacks, conspiracy allegations, and populist calls to protest or 'liberate' Canadian institutions and policies.\"}"
+  },
+  {
+    "Topic": 29,
+    "Count": 2417,
+    "Original_Name": "29_israeli_palestinian_gaza_occupation",
+    "Title": "Gaza and West Bank Casualties",
+    "Summary": "Reports documenting Palestinian martyrs, wounded, and hospital admissions resulting from Israeli strikes, massacres, and military incursions in the Gaza Strip and occupied West Bank.",
+    "Raw_Response": "{\"Title\":\"Gaza and West Bank Casualties\",\"Summary\":\"Reports documenting Palestinian martyrs, wounded, and hospital admissions resulting from Israeli strikes, massacres, and military incursions in the Gaza Strip and occupied West Bank.\"}"
+  },
+  {
+    "Topic": 30,
+    "Count": 2383,
+    "Original_Name": "30_brigade_alqassam_shell_alquds",
+    "Title": "Al-Qassam and Al-Quds Attacks",
+    "Summary": "Cluster of messages reporting and showcasing Izz ad-Din al-Qassam and Al-Quds Brigades' mortar, shell and anti-tank strikes against Israeli forces and vehicles across Gaza (Rafah, Khan Yunis, Gaza City) during the 'Al-Aqsa Flood' operations.",
+    "Raw_Response": "{\"Title\":\"Al-Qassam and Al-Quds Attacks\",\"Summary\":\"Cluster of messages reporting and showcasing Izz ad-Din al-Qassam and Al-Quds Brigades' mortar, shell and anti-tank strikes against Israeli forces and vehicles across Gaza (Rafah, Khan Yunis, Gaza City) during the 'Al-Aqsa Flood' operations.\"}"
+  },
+  {
+    "Topic": 31,
+    "Count": 2288,
+    "Original_Name": "31_nfa_tg_profile_dyor",
+    "Title": "Solana Token Buy Alerts",
+    "Summary": "Telegram-style 'DYOR NFA' alerts promoting new small-cap Solana token buys, listing market cap, token supply, SOL price, account profile and links.",
+    "Raw_Response": "{\"Title\":\"Solana Token Buy Alerts\",\"Summary\":\"Telegram-style 'DYOR NFA' alerts promoting new small-cap Solana token buys, listing market cap, token supply, SOL price, account profile and links.\"}"
+  },
+  {
+    "Topic": 32,
+    "Count": 2252,
+    "Original_Name": "32_liquidity_sniper_ton_chart",
+    "Title": "Toncoin Sniper Buy Alerts",
+    "Summary": "Buy signals for Toncoin ecosystem tokens generated by a sniper bot, listing TON amounts, position gains, market caps, liquidity and trending/chart indicators.",
+    "Raw_Response": "{\"Title\":\"Toncoin Sniper Buy Alerts\",\"Summary\":\"Buy signals for Toncoin ecosystem tokens generated by a sniper bot, listing TON amounts, position gains, market caps, liquidity and trending/chart indicators.\"}"
+  },
+  {
+    "Topic": 33,
+    "Count": 2127,
+    "Original_Name": "33_morning_good_happy_beautiful",
+    "Title": "Daily Morning and Night Greetings",
+    "Summary": "Cluster of short friendly salutations—mainly 'Good morning' and 'Goodnight' messages with positive emojis, blessings, and occasional holiday or personal notes.",
+    "Raw_Response": "{\"Title\":\"Daily Morning and Night Greetings\",\"Summary\":\"Cluster of short friendly salutations—mainly 'Good morning' and 'Goodnight' messages with positive emojis, blessings, and occasional holiday or personal notes.\"}"
+  },
+  {
+    "Topic": 34,
+    "Count": 2105,
+    "Original_Name": "34_trade_eth_bnb_txn",
+    "Title": "Crypto Token Buy Alerts",
+    "Summary": "Notifications of token purchases on Ethereum and BNB networks showing transaction hashes, amounts (ETH/BNB), holder changes, position gains, market caps, charts and trending/whale activity.",
+    "Raw_Response": "{\"Title\":\"Crypto Token Buy Alerts\",\"Summary\":\"Notifications of token purchases on Ethereum and BNB networks showing transaction hashes, amounts (ETH/BNB), holder changes, position gains, market caps, charts and trending/whale activity.\"}"
+  },
+  {
+    "Topic": 35,
+    "Count": 2046,
+    "Original_Name": "35_buyer_bought_spent_marketcap",
+    "Title": "TON Token Buy Alerts",
+    "Summary": "Notifications of new buys on TON tokens, listing TON spent, tokens purchased, buyer profit/position, market cap and holder counts with chart/wallet/trending links.",
+    "Raw_Response": "{\"Title\":\"TON Token Buy Alerts\",\"Summary\":\"Notifications of new buys on TON tokens, listing TON spent, tokens purchased, buyer profit/position, market cap and holder counts with chart/wallet/trending links.\"}"
+  },
+  {
+    "Topic": 36,
+    "Count": 1965,
+    "Original_Name": "36_airline_flight_plane_boeing",
+    "Title": "Airline Disruptions and Cancellations",
+    "Summary": "Messages discuss airlines grounding or canceling flights—particularly routes to Israel and Lebanon—along with related aviation safety incidents, pilot reports, and security concerns affecting airports and passengers.",
+    "Raw_Response": "{\"Title\":\"Airline Disruptions and Cancellations\",\"Summary\":\"Messages discuss airlines grounding or canceling flights—particularly routes to Israel and Lebanon—along with related aviation safety incidents, pilot reports, and security concerns affecting airports and passengers.\"}"
+  },
+  {
+    "Topic": 37,
+    "Count": 1905,
+    "Original_Name": "37_followchannels_folder_group_gaza",
+    "Title": "Israel–Gaza conflict updates",
+    "Summary": "Collection of pro-Israel and pro-Hamas Telegram posts sharing news, casualty reports, prisoner releases, humanitarian conditions, and military developments related to the Israel–Gaza war.",
+    "Raw_Response": "{\"Title\":\"Israel–Gaza conflict updates\",\"Summary\":\"Collection of pro-Israel and pro-Hamas Telegram posts sharing news, casualty reports, prisoner releases, humanitarian conditions, and military developments related to the Israel–Gaza war.\"}"
+  },
+  {
+    "Topic": 38,
+    "Count": 1890,
+    "Original_Name": "38_islam_allah_quran_muslim",
+    "Title": "Debate and Criticism of Islam",
+    "Summary": "Messages debating the authenticity, origins, and teachings of Islam and the Quran, featuring defenses, historical critiques, theological arguments, invitations to Islamic resources, and occasional abusive or insulting remarks.",
+    "Raw_Response": "{\"Title\":\"Debate and Criticism of Islam\",\"Summary\":\"Messages debating the authenticity, origins, and teachings of Islam and the Quran, featuring defenses, historical critiques, theological arguments, invitations to Islamic resources, and occasional abusive or insulting remarks.\"}"
+  },
+  {
+    "Topic": 39,
+    "Count": 1844,
+    "Original_Name": "39_avedex_tracker_dext_txn",
+    "Title": "Solana Meme Token Buys",
+    "Summary": "Telegram buy alerts for trending Solana meme tokens showing SOL purchase amounts, transaction links, market caps, and tracker sources like Dext and AveDex.",
+    "Raw_Response": "{\"Title\":\"Solana Meme Token Buys\",\"Summary\":\"Telegram buy alerts for trending Solana meme tokens showing SOL purchase amounts, transaction links, market caps, and tracker sources like Dext and AveDex.\"}"
+  },
+  {
+    "Topic": 40,
+    "Count": 1818,
+    "Original_Name": "40_spend_price_trend_usd",
+    "Title": "Solana Token Buy Alerts",
+    "Summary": "Telegram notifications announcing purchases of Solana-based tokens, reporting USD spent, tokens bought, price, market cap, transaction/chart links and trending ranks.",
+    "Raw_Response": "{\"Title\":\"Solana Token Buy Alerts\",\"Summary\":\"Telegram notifications announcing purchases of Solana-based tokens, reporting USD spent, tokens bought, price, market cap, transaction/chart links and trending ranks.\"}"
+  },
+  {
+    "Topic": 41,
+    "Count": 1797,
+    "Original_Name": "41_irish_ireland_dublin_asylum",
+    "Title": "Anti-Immigrant Messaging in Ireland",
+    "Summary": "Telegram/WhatsApp posts and shared content expressing hostility toward migrants and asylum seekers in Ireland, offering voting advice, promoting population-replacement and foreign-interference claims, and calling for local opposition to immigration.",
+    "Raw_Response": "{\"Title\":\"Anti-Immigrant Messaging in Ireland\",\"Summary\":\"Telegram/WhatsApp posts and shared content expressing hostility toward migrants and asylum seekers in Ireland, offering voting advice, promoting population-replacement and foreign-interference claims, and calling for local opposition to immigration.\"}"
+  },
+  {
+    "Topic": 42,
+    "Count": 1792,
+    "Original_Name": "42_yemen_ship_yemeni_sea",
+    "Title": "Houthi Attacks on Ships",
+    "Summary": "Reports of Yemen's Houthi rebels launching missile and drone attacks on commercial and military vessels in the Red Sea, prompting naval responses and US strikes.",
+    "Raw_Response": "{\"Title\":\"Houthi Attacks on Ships\",\"Summary\":\"Reports of Yemen's Houthi rebels launching missile and drone attacks on commercial and military vessels in the Red Sea, prompting naval responses and US strikes.\"}"
+  },
+  {
+    "Topic": 43,
+    "Count": 1748,
+    "Original_Name": "43_listing_ton_holder_txn",
+    "Title": "TON Trending Token Buys",
+    "Summary": "Promotional Telegram posts signaling buys of small-cap tokens on the TON blockchain, listing TON amounts, token metrics (holders, price, market cap, txn), and urging users to view listings/charts and buy.",
+    "Raw_Response": "{\"Title\":\"TON Trending Token Buys\",\"Summary\":\"Promotional Telegram posts signaling buys of small-cap tokens on the TON blockchain, listing TON amounts, token metrics (holders, price, market cap, txn), and urging users to view listings/charts and buy.\"}"
+  },
+  {
+    "Topic": 44,
+    "Count": 1731,
+    "Original_Name": "44_roi_maestro_socials_gem",
+    "Title": "Telegram Token Call Alerts",
+    "Summary": "Collection of Telegram 'calls' for newly launched crypto tokens—listing token names and contracts, honeypot/pass status, signal providers and ROIs, plus recommended snipe tools and socials.",
+    "Raw_Response": "{\"Title\":\"Telegram Token Call Alerts\",\"Summary\":\"Collection of Telegram 'calls' for newly launched crypto tokens—listing token names and contracts, honeypot/pass status, signal providers and ROIs, plus recommended snipe tools and socials.\"}"
+  },
+  {
+    "Topic": 45,
+    "Count": 1729,
+    "Original_Name": "45_biden_joe_debate_bidens",
+    "Title": "Biden Debate and Reelection Crisis",
+    "Summary": "Discussion of Biden's poor debate performance and its impact on his 2024 reelection bid, including calls for him to withdraw, internal Democratic concern, and pressure from Trump to debate.",
+    "Raw_Response": "{\"Title\":\"Biden Debate and Reelection Crisis\",\"Summary\":\"Discussion of Biden's poor debate performance and its impact on his 2024 reelection bid, including calls for him to withdraw, internal Democratic concern, and pressure from Trump to debate.\"}"
+  },
+  {
+    "Topic": 46,
+    "Count": 1713,
+    "Original_Name": "46_white_race_black_racist",
+    "Title": "Race and Racism Discussions",
+    "Summary": "Messages centered on racial identity, prejudice, slurs, and personal experiences involving white, Black, Asian, Indian, and multiracial people and communities.",
+    "Raw_Response": "{\"Title\":\"Race and Racism Discussions\",\"Summary\":\"Messages centered on racial identity, prejudice, slurs, and personal experiences involving white, Black, Asian, Indian, and multiracial people and communities.\"}"
+  },
+  {
+    "Topic": 47,
+    "Count": 1700,
+    "Original_Name": "47_assassination_attempt_secret_shooter",
+    "Title": "Assassination Attempt on Trump",
+    "Summary": "Coverage and social media discussion of an alleged assassination attempt on Donald Trump at a Pennsylvania rally by shooter Thomas Crooks, focusing on Secret Service failures, political questioning of director Kimberly Cheatle, and conflicting video/false-flag claims.",
+    "Raw_Response": "{\"Title\":\"Assassination Attempt on Trump\",\"Summary\":\"Coverage and social media discussion of an alleged assassination attempt on Donald Trump at a Pennsylvania rally by shooter Thomas Crooks, focusing on Secret Service failures, political questioning of director Kimberly Cheatle, and conflicting video/false-flag claims.\"}"
+  },
+  {
+    "Topic": 48,
+    "Count": 1635,
+    "Original_Name": "48_hitler_german_adolf_holocaust",
+    "Title": "Praising Hitler and Nazism",
+    "Summary": "Messages praising Adolf Hitler and Nazi ideology, expressing antisemitic slurs and endorsement of violence against Jews and pro-German/Nazi sentiments.",
+    "Raw_Response": "{\"Title\":\"Praising Hitler and Nazism\",\"Summary\":\"Messages praising Adolf Hitler and Nazi ideology, expressing antisemitic slurs and endorsement of violence against Jews and pro-German/Nazi sentiments.\"}"
+  },
+  {
+    "Topic": 49,
+    "Count": 1624,
+    "Original_Name": "49_cat_pumpfun_balance_wallet",
+    "Title": "Cat-themed Solana Tokens",
+    "Summary": "Cluster of cat-themed Solana meme tokens (listed on pump.fun) documenting contract addresses, owner/dev wallet balances, supply, transaction history and risk flags about fresh or low-balance wallets.",
+    "Raw_Response": "{\"Title\":\"Cat-themed Solana Tokens\",\"Summary\":\"Cluster of cat-themed Solana meme tokens (listed on pump.fun) documenting contract addresses, owner/dev wallet balances, supply, transaction history and risk flags about fresh or low-balance wallets.\"}"
+  },
+  {
+    "Topic": 50,
+    "Count": 1586,
+    "Original_Name": "50_police_officer_shoot_cop",
+    "Title": "Police Shootings and Murders",
+    "Summary": "Cluster of messages reporting violent incidents—school shootings, attacks on officers, murders, related arrests, and legal developments involving firearms and police actions.",
+    "Raw_Response": "{\"Title\":\"Police Shootings and Murders\",\"Summary\":\"Cluster of messages reporting violent incidents—school shootings, attacks on officers, murders, related arrests, and legal developments involving firearms and police actions.\"}"
+  },
+  {
+    "Topic": 51,
+    "Count": 1583,
+    "Original_Name": "51_netanyahu_hamas_ceasefire_israel",
+    "Title": "Netanyahu and Ceasefire Deal",
+    "Summary": "Messages discuss Israeli Prime Minister Benjamin Netanyahu's responses, domestic political tensions, and international negotiations around a proposed Israel–Hamas ceasefire and hostage-release deal.",
+    "Raw_Response": "{\"Title\":\"Netanyahu and Ceasefire Deal\",\"Summary\":\"Messages discuss Israeli Prime Minister Benjamin Netanyahu's responses, domestic political tensions, and international negotiations around a proposed Israel–Hamas ceasefire and hostage-release deal.\"}"
+  },
+  {
+    "Topic": 52,
+    "Count": 1575,
+    "Original_Name": "52_cat_token_deployer_developer",
+    "Title": "Cat Meme Token Listings",
+    "Summary": "Announcements of newly deployed low-market-cap cat-themed crypto tokens listing mint and deployer addresses, market cap and social links.",
+    "Raw_Response": "{\"Title\":\"Cat Meme Token Listings\",\"Summary\":\"Announcements of newly deployed low-market-cap cat-themed crypto tokens listing mint and deployer addresses, market cap and social links.\"}"
+  },
+  {
+    "Topic": 53,
+    "Count": 1567,
+    "Original_Name": "53_maestro_passed_honeypot_gem",
+    "Title": "Token Launch Snipe Alerts",
+    "Summary": "Telegram messages providing first-call alerts for newly launched blockchain tokens with honeypot checks, market metrics (MCAP/volume/liq), contract addresses, DEX links and recommended snipe tools.",
+    "Raw_Response": "{\"Title\":\"Token Launch Snipe Alerts\",\"Summary\":\"Telegram messages providing first-call alerts for newly launched blockchain tokens with honeypot checks, market metrics (MCAP/volume/liq), contract addresses, DEX links and recommended snipe tools.\"}"
+  },
+  {
+    "Topic": 54,
+    "Count": 1508,
+    "Original_Name": "54_cat_own_dev_description",
+    "Title": "Cat-themed Crypto Tokens",
+    "Summary": "Listings of cat-themed cryptocurrency token mints showing mint addresses, names/symbols/descriptions, creators, market caps, and developer supply holdings.",
+    "Raw_Response": "{\"Title\":\"Cat-themed Crypto Tokens\",\"Summary\":\"Listings of cat-themed cryptocurrency token mints showing mint addresses, names/symbols/descriptions, creators, market caps, and developer supply holdings.\"}"
+  },
+  {
+    "Topic": 55,
+    "Count": 1488,
+    "Original_Name": "55_communism_democracy_socialism_fascism",
+    "Title": "Communism, Socialism, Fascism",
+    "Summary": "Debates and insults about communism, socialism, capitalism and fascism—especially distinctions between socialism and national socialism/Nazism, claims equating fascism with corporatism, and extremist-adjacent rhetoric and misconceptions.",
+    "Raw_Response": "{\"Title\":\"Communism, Socialism, Fascism\",\"Summary\":\"Debates and insults about communism, socialism, capitalism and fascism—especially distinctions between socialism and national socialism/Nazism, claims equating fascism with corporatism, and extremist-adjacent rhetoric and misconceptions.\"}"
+  },
+  {
+    "Topic": 56,
+    "Count": 1483,
+    "Original_Name": "56_dog_cat_animal_bear",
+    "Title": "Pet Welfare and Rescue Crisis",
+    "Summary": "Posts warning that shelters and rescues are overwhelmed by surrendered pets amid a cost-of-living and mortality crisis, urging adoption, backup plans, and sharing to prevent euthanasia.",
+    "Raw_Response": "{\"Title\":\"Pet Welfare and Rescue Crisis\",\"Summary\":\"Posts warning that shelters and rescues are overwhelmed by surrendered pets amid a cost-of-living and mortality crisis, urging adoption, backup plans, and sharing to prevent euthanasia.\"}"
+  },
+  {
+    "Topic": 57,
+    "Count": 1456,
+    "Original_Name": "57_farmer_french_france_macron",
+    "Title": "French and European Farmers' Protests",
+    "Summary": "Farmers across France and neighboring European countries are mobilizing with tractor convoys and protests in Paris, Brussels and border areas to oppose government and EU policies and pressure leaders such as Macron.",
+    "Raw_Response": "{\"Title\":\"French and European Farmers' Protests\",\"Summary\":\"Farmers across France and neighboring European countries are mobilizing with tractor convoys and protests in Paris, Brussels and border areas to oppose government and EU policies and pressure leaders such as Macron.\"}"
+  },
+  {
+    "Topic": 58,
+    "Count": 1292,
+    "Original_Name": "58_military_operation_cia_deep",
+    "Title": "Deep State Military Conspiracy",
+    "Summary": "QAnon-style messages alleging a global 'deep state' cabal (CIA/elite financiers) runs world systems and that coordinated 'white hat' military operations, BRICS/foreign raids, and tech/financial disclosures will expose the cabal, trigger mass arrests, and restore a Trump-led order.",
+    "Raw_Response": "{\"Title\":\"Deep State Military Conspiracy\",\"Summary\":\"QAnon-style messages alleging a global 'deep state' cabal (CIA/elite financiers) runs world systems and that coordinated 'white hat' military operations, BRICS/foreign raids, and tech/financial disclosures will expose the cabal, trigger mass arrests, and restore a Trump-led order.\"}"
+  },
+  {
+    "Topic": 59,
+    "Count": 1272,
+    "Original_Name": "59_trending_nfa_tg_profile",
+    "Title": "Solana Microcap Buy Alerts",
+    "Summary": "Telegram pump-style posts announcing new low-market-cap Solana token buys, listing market cap, token amounts, SOL price, profile links and DYOR/NFA disclaimers.",
+    "Raw_Response": "{\"Title\":\"Solana Microcap Buy Alerts\",\"Summary\":\"Telegram pump-style posts announcing new low-market-cap Solana token buys, listing market cap, token amounts, SOL price, profile links and DYOR/NFA disclaimers.\"}"
+  },
+  {
+    "Topic": 60,
+    "Count": 1260,
+    "Original_Name": "60_th_airdrop_nd_yur",
+    "Title": "Cryptocurrency Token Airdrops",
+    "Summary": "Cluster of messages promoting and announcing crypto token airdrops with claim links and wallet‑connect instructions, referral pushes, distribution notes and concerns about airdrop hunters/scams.",
+    "Raw_Response": "{\"Title\":\"Cryptocurrency Token Airdrops\",\"Summary\":\"Cluster of messages promoting and announcing crypto token airdrops with claim links and wallet‑connect instructions, referral pushes, distribution notes and concerns about airdrop hunters/scams.\"}"
+  },
+  {
+    "Topic": 61,
+    "Count": 1213,
+    "Original_Name": "61_migration_raydium_sniper_top",
+    "Title": "New Raydium Token Listings",
+    "Summary": "Announcements of new tokens migrating to Raydium DEX that list name, symbol, market cap and holder distribution alongside buy links and promotions (BONK sniper bot, SolDex).",
+    "Raw_Response": "{\"Title\":\"New Raydium Token Listings\",\"Summary\":\"Announcements of new tokens migrating to Raydium DEX that list name, symbol, market cap and holder distribution alongside buy links and promotions (BONK sniper bot, SolDex).\"}"
+  },
+  {
+    "Topic": 62,
+    "Count": 1187,
+    "Original_Name": "62_etherscan_price_initial_current",
+    "Title": "Token Price Pump Alerts",
+    "Summary": "Announcements of various crypto tokens' price increases showing initial and current prices, X‑multiples, and Etherscan links.",
+    "Raw_Response": "{\"Title\":\"Token Price Pump Alerts\",\"Summary\":\"Announcements of various crypto tokens' price increases showing initial and current prices, X‑multiples, and Etherscan links.\"}"
+  },
+  {
+    "Topic": 63,
+    "Count": 1182,
+    "Original_Name": "63_earthquake_duplicate_map_may",
+    "Title": "Earthquake Alert Posts",
+    "Summary": "Telegram messages sharing earthquake notifications and links—mostly VolcanoDiscovery reports—detailing magnitudes, locations, maps and side-notes about duplicate posts, redirects, Bing maps and occasional sensational headlines.",
+    "Raw_Response": "{\"Title\":\"Earthquake Alert Posts\",\"Summary\":\"Telegram messages sharing earthquake notifications and links—mostly VolcanoDiscovery reports—detailing magnitudes, locations, maps and side-notes about duplicate posts, redirects, Bing maps and occasional sensational headlines.\"}"
+  },
+  {
+    "Topic": 64,
+    "Count": 1175,
+    "Original_Name": "64_telegram_whatsapp_app_chat",
+    "Title": "Telegram and WhatsApp Invites",
+    "Summary": "Messages promoting Telegram channels and WhatsApp groups with join links, advice for accessing or bypassing Telegram restrictions (web app or APK), and user complaints about bans, censorship, and follower loss.",
+    "Raw_Response": "{\"Title\":\"Telegram and WhatsApp Invites\",\"Summary\":\"Messages promoting Telegram channels and WhatsApp groups with join links, advice for accessing or bypassing Telegram restrictions (web app or APK), and user complaints about bans, censorship, and follower loss.\"}"
+  },
+  {
+    "Topic": 65,
+    "Count": 1172,
+    "Original_Name": "65_hurricane_tornado_milton_florida",
+    "Title": "Category 4 Hurricane Milton",
+    "Summary": "Live reports and updates on Hurricane Milton's rapid intensification to a Category 4 storm and its expected impacts on Florida, including storm surge, damaging winds, watches/warnings, and related severe weather commentary.",
+    "Raw_Response": "{\"Title\":\"Category 4 Hurricane Milton\",\"Summary\":\"Live reports and updates on Hurricane Milton's rapid intensification to a Category 4 storm and its expected impacts on Florida, including storm surge, damaging winds, watches/warnings, and related severe weather commentary.\"}"
+  },
+  {
+    "Topic": 66,
+    "Count": 1147,
+    "Original_Name": "66_climate_weather_geoengineering_change",
+    "Title": "Climate and Geoengineering",
+    "Summary": "Posts about climate change and geoengineering that mix discussion of weather modification and cloud seeding with skepticism and conspiracy-oriented claims about a 'climate hoax' and man-made warming.",
+    "Raw_Response": "{\"Title\":\"Climate and Geoengineering\",\"Summary\":\"Posts about climate change and geoengineering that mix discussion of weather modification and cloud seeding with skepticism and conspiracy-oriented claims about a 'climate hoax' and man-made warming.\"}"
+  },
+  {
+    "Topic": 67,
+    "Count": 1144,
+    "Original_Name": "67_hill_king_social_deployer",
+    "Title": "New Token Launch Alerts",
+    "Summary": "Announcements of newly deployed tokens that list mint and deployer addresses, estimated market cap, and social/website links for each token launch.",
+    "Raw_Response": "{\"Title\":\"New Token Launch Alerts\",\"Summary\":\"Announcements of newly deployed tokens that list mint and deployer addresses, estimated market cap, and social/website links for each token launch.\"}"
+  },
+  {
+    "Topic": 68,
+    "Count": 1142,
+    "Original_Name": "68_dog_token_deployer_developer",
+    "Title": "Dog Meme Token Announcements",
+    "Summary": "Telegram posts announcing newly deployed low-marketcap dog-themed crypto tokens with token details, deployer addresses, mint info and social links.",
+    "Raw_Response": "{\"Title\":\"Dog Meme Token Announcements\",\"Summary\":\"Telegram posts announcing newly deployed low-marketcap dog-themed crypto tokens with token details, deployer addresses, mint info and social links.\"}"
+  },
+  {
+    "Topic": 69,
+    "Count": 1133,
+    "Original_Name": "69_dog_pumpfun_balance_wallet",
+    "Title": "Dog Meme Tokens on Solana",
+    "Summary": "Listings and analytics for Solana-based dog-themed meme tokens on pump.fun/MevX, showing contract addresses, owner wallets, supplies, balances (SOL/USD), transaction counts, and risk indicators.",
+    "Raw_Response": "{\"Title\":\"Dog Meme Tokens on Solana\",\"Summary\":\"Listings and analytics for Solana-based dog-themed meme tokens on pump.fun/MevX, showing contract addresses, owner wallets, supplies, balances (SOL/USD), transaction counts, and risk indicators.\"}"
+  },
+  {
+    "Topic": 70,
+    "Count": 1123,
+    "Original_Name": "70_soul_ttf_scan_chain",
+    "Title": "Solana Trending Token Alerts",
+    "Summary": "Automated Telegram alerts reporting newly trending Solana tokens with price, market cap, liquidity, 24h change, volume, token address, and scanner/bot tags (Soul Scan, TTF, Magnum, Birdeye).",
+    "Raw_Response": "{\"Title\":\"Solana Trending Token Alerts\",\"Summary\":\"Automated Telegram alerts reporting newly trending Solana tokens with price, market cap, liquidity, 24h change, volume, token address, and scanner/bot tags (Soul Scan, TTF, Magnum, Birdeye).\"}"
+  },
+  {
+    "Topic": 71,
+    "Count": 1122,
+    "Original_Name": "71_consciousness_love_energy_spiritual",
+    "Title": "Spiritual Ascension and Awakening",
+    "Summary": "New Age messages about spiritual ascension and awakening that emphasize raising consciousness, receiving higher light energy, soul healing, unconditional love, and embodying the higher self to manifest a New Earth.",
+    "Raw_Response": "{\"Title\":\"Spiritual Ascension and Awakening\",\"Summary\":\"New Age messages about spiritual ascension and awakening that emphasize raising consciousness, receiving higher light energy, soul healing, unconditional love, and embodying the higher self to manifest a New Earth.\"}"
+  },
+  {
+    "Topic": 72,
+    "Count": 1112,
+    "Original_Name": "72_apestore_eth_launch_txn",
+    "Title": "Ape.store Launch Token Buys",
+    "Summary": "Buy-alert posts for newly launched Ape.store tokens showing ETH amounts, market caps, and links to chart and transaction details.",
+    "Raw_Response": "{\"Title\":\"Ape.store Launch Token Buys\",\"Summary\":\"Buy-alert posts for newly launched Ape.store tokens showing ETH amounts, market caps, and links to chart and transaction details.\"}"
+  },
+  {
+    "Topic": 73,
+    "Count": 1082,
+    "Original_Name": "73_data_maestro_call_gem",
+    "Title": "Crypto Token Calls",
+    "Summary": "Telegram posts announcing new low-market-cap token \"calls\" (gems), listing blockchain, market metrics, contract address, DEX tools and snipe-bot recommendations.",
+    "Raw_Response": "{\"Title\":\"Crypto Token Calls\",\"Summary\":\"Telegram posts announcing new low-market-cap token \\\"calls\\\" (gems), listing blockchain, market metrics, contract address, DEX tools and snipe-bot recommendations.\"}"
+  },
+  {
+    "Topic": 74,
+    "Count": 1073,
+    "Original_Name": "74_hash_weth_eth_price",
+    "Title": "Trending ETH Token Buys",
+    "Summary": "Telegram-style alerts broadcasting purchases of ERC-20 tokens (WETH spent, token amounts, price, market cap) with new/whale holder tags and trending/chart/hash metadata.",
+    "Raw_Response": "{\"Title\":\"Trending ETH Token Buys\",\"Summary\":\"Telegram-style alerts broadcasting purchases of ERC-20 tokens (WETH spent, token amounts, price, market cap) with new/whale holder tags and trending/chart/hash metadata.\"}"
+  },
+  {
+    "Topic": 75,
+    "Count": 1061,
+    "Original_Name": "75_etherscan_growth_initial_current",
+    "Title": "Token Market Cap Alerts",
+    "Summary": "Notifications of rapid market-cap growth for various Ethereum tokens showing percent increases, initial and current market caps, and links to view on Etherscan.",
+    "Raw_Response": "{\"Title\":\"Token Market Cap Alerts\",\"Summary\":\"Notifications of rapid market-cap growth for various Ethereum tokens showing percent increases, initial and current market caps, and links to view on Etherscan.\"}"
+  },
+  {
+    "Topic": 76,
+    "Count": 1054,
+    "Original_Name": "76_border_illegal_migrant_patrol",
+    "Title": "U.S. Border and Immigration Crisis",
+    "Summary": "Messages center on illegal migration at the U.S. southern border, criticizing the Biden administration’s handling, promoting tougher enforcement and deportations (and Trump-era solutions), and highlighting related crime, migrant crossings, and border protests.",
+    "Raw_Response": "{\"Title\":\"U.S. Border and Immigration Crisis\",\"Summary\":\"Messages center on illegal migration at the U.S. southern border, criticizing the Biden administration’s handling, promoting tougher enforcement and deportations (and Trump-era solutions), and highlighting related crime, migrant crossings, and border protests.\"}"
+  },
+  {
+    "Topic": 77,
+    "Count": 1044,
+    "Original_Name": "77_token_deployer_developer_website",
+    "Title": "New Token Announcements",
+    "Summary": "Announcements of newly deployed crypto tokens listing name, symbol, mint address, market cap, deployer and social/website links (posted by @pumpfundetector).",
+    "Raw_Response": "{\"Title\":\"New Token Announcements\",\"Summary\":\"Announcements of newly deployed crypto tokens listing name, symbol, mint address, market cap, deployer and social/website links (posted by @pumpfundetector).\"}"
+  },
+  {
+    "Topic": 78,
+    "Count": 1010,
+    "Original_Name": "78_dog_own_dev_description",
+    "Title": "Dog-themed NFT Tokens",
+    "Summary": "Cluster of dog-themed NFT/crypto tokens listing mint addresses, names/symbols, creators, market caps, and developer-owned supply percentages.",
+    "Raw_Response": "{\"Title\":\"Dog-themed NFT Tokens\",\"Summary\":\"Cluster of dog-themed NFT/crypto tokens listing mint addresses, names/symbols, creators, market caps, and developer-owned supply percentages.\"}"
+  },
+  {
+    "Topic": 79,
+    "Count": 1005,
+    "Original_Name": "79_iran_israel_iranian_attack",
+    "Title": "Israel-Iran Attack Claims",
+    "Summary": "Messages discuss reports and speculation about Israeli strikes on Iran (including alleged attacks on nuclear sites), missile retaliations, political responses, and circulating misinformation.",
+    "Raw_Response": "{\"Title\":\"Israel-Iran Attack Claims\",\"Summary\":\"Messages discuss reports and speculation about Israeli strikes on Iran (including alleged attacks on nuclear sites), missile retaliations, political responses, and circulating misinformation.\"}"
+  },
+  {
+    "Topic": 80,
+    "Count": 1004,
+    "Original_Name": "80_raid_retweets_draidboard_bookmark",
+    "Title": "X Raidboard Campaigns",
+    "Summary": "Cluster of posts announcing coordinated X (Twitter) 'raid' engagement campaigns for crypto/NFT projects (often Solana), showing emoji banners, likes/retweets/replies/bookmarks, links and raidboard leaderboard positions.",
+    "Raw_Response": "{\"Title\":\"X Raidboard Campaigns\",\"Summary\":\"Cluster of posts announcing coordinated X (Twitter) 'raid' engagement campaigns for crypto/NFT projects (often Solana), showing emoji banners, likes/retweets/replies/bookmarks, links and raidboard leaderboard positions.\"}"
+  },
+  {
+    "Topic": 81,
+    "Count": 996,
+    "Original_Name": "81_chain_group_add_trade",
+    "Title": "Buy Bot New Groups",
+    "Summary": "Announcements of newly added buy-bot groups listing token contract addresses, blockchain (ETH/BSC/BASE), group names, and quick links for chart, trade, and trending.",
+    "Raw_Response": "{\"Title\":\"Buy Bot New Groups\",\"Summary\":\"Announcements of newly added buy-bot groups listing token contract addresses, blockchain (ETH/BSC/BASE), group names, and quick links for chart, trade, and trending.\"}"
+  },
+  {
+    "Topic": 82,
+    "Count": 993,
+    "Original_Name": "82_screener_snipe_dext_buyer",
+    "Title": "DexT Solana Token Screener",
+    "Summary": "Automated DexT alerts listing trending Solana tokens/NFTs with prices (USD and SOL), trade volumes, buyer activity, new holders and market cap information.",
+    "Raw_Response": "{\"Title\":\"DexT Solana Token Screener\",\"Summary\":\"Automated DexT alerts listing trending Solana tokens/NFTs with prices (USD and SOL), trade volumes, buyer activity, new holders and market cap information.\"}"
+  },
+  {
+    "Topic": 83,
+    "Count": 985,
+    "Original_Name": "83_venezuela_maduro_venezuelan_milei",
+    "Title": "Maduro, Venezuelan Elections & Reactions",
+    "Summary": "Discussion of Nicolás Maduro's candidacy and presidency, election controversies and voter mobilization, and international responses including Javier Milei's non-recognition and U.S. actions such as seizing Maduro's jet amid wider regional tensions.",
+    "Raw_Response": "{\"Title\":\"Maduro, Venezuelan Elections & Reactions\",\"Summary\":\"Discussion of Nicolás Maduro's candidacy and presidency, election controversies and voter mobilization, and international responses including Javier Milei's non-recognition and U.S. actions such as seizing Maduro's jet amid wider regional tensions.\"}"
+  },
+  {
+    "Topic": 84,
+    "Count": 981,
+    "Original_Name": "84_hash_marketcap_vote_bag",
+    "Title": "Solana Token Buy Alerts",
+    "Summary": "Telegram posts promoting trending Solana-based tokens with buy calls showing SOL transaction amounts, token price and market cap, ranking/competition badges, and voting prompts.",
+    "Raw_Response": "{\"Title\":\"Solana Token Buy Alerts\",\"Summary\":\"Telegram posts promoting trending Solana-based tokens with buy calls showing SOL transaction amounts, token price and market cap, ranking/competition badges, and voting prompts.\"}"
+  },
+  {
+    "Topic": 85,
+    "Count": 954,
+    "Original_Name": "85_ticker_min_leader_dex",
+    "Title": "Trending Telegram Crypto Tokens",
+    "Summary": "Telegram \"TRENDING LEADER\" posts promoting newly launched or trending meme/alt tokens, listing token name and ticker, market cap, 60‑min volume and buy/DEX/TG/Web links.",
+    "Raw_Response": "{\"Title\":\"Trending Telegram Crypto Tokens\",\"Summary\":\"Telegram \\\"TRENDING LEADER\\\" posts promoting newly launched or trending meme/alt tokens, listing token name and ticker, market cap, 60‑min volume and buy/DEX/TG/Web links.\"}"
+  },
+  {
+    "Topic": 86,
+    "Count": 939,
+    "Original_Name": "86_screener_dext_group_trend",
+    "Title": "Trending Solana & Ethereum Tokens",
+    "Summary": "Automated Telegram alerts announcing newly trending Solana and Ethereum tokens, listing token symbols, optional community/group links, and DexT/Screener trending tags.",
+    "Raw_Response": "{\"Title\":\"Trending Solana & Ethereum Tokens\",\"Summary\":\"Automated Telegram alerts announcing newly trending Solana and Ethereum tokens, listing token symbols, optional community/group links, and DexT/Screener trending tags.\"}"
+  },
+  {
+    "Topic": 87,
+    "Count": 927,
+    "Original_Name": "87_pumpfun_balance_wallet_exchange",
+    "Title": "Trump-themed Pump.fun memecoins",
+    "Summary": "Listings of Trump/US-themed Solana memecoins on pump.fun including contract addresses, supply, creator wallet balances, transaction history and dev-wallet safety notes.",
+    "Raw_Response": "{\"Title\":\"Trump-themed Pump.fun memecoins\",\"Summary\":\"Listings of Trump/US-themed Solana memecoins on pump.fun including contract addresses, supply, creator wallet balances, transaction history and dev-wallet safety notes.\"}"
+  },
+  {
+    "Topic": 88,
+    "Count": 921,
+    "Original_Name": "88_hair_finger_pant_wear",
+    "Title": "Hair and Grooming Comments",
+    "Summary": "Messages focused on personal appearance—especially hair, beards, shaving and body hair—with frequent insults and sexualized remarks.",
+    "Raw_Response": "{\"Title\":\"Hair and Grooming Comments\",\"Summary\":\"Messages focused on personal appearance—especially hair, beards, shaving and body hair—with frequent insults and sexualized remarks.\"}"
+  },
+  {
+    "Topic": 89,
+    "Count": 911,
+    "Original_Name": "89_flat_earth_earther_globe",
+    "Title": "Flat Earth Discussions",
+    "Summary": "Posts promoting, arguing for, and mocking flat-Earth views, sharing purported evidence (horizon/visibility, curvature/8in-per-mile claims), resources, and memes.",
+    "Raw_Response": "{\"Title\":\"Flat Earth Discussions\",\"Summary\":\"Posts promoting, arguing for, and mocking flat-Earth views, sharing purported evidence (horizon/visibility, curvature/8in-per-mile claims), resources, and memes.\"}"
+  },
+  {
+    "Topic": 90,
+    "Count": 910,
+    "Original_Name": "90_olympics_olympic_paris_ceremony",
+    "Title": "Paris 2024 Opening Ceremony Backlash",
+    "Summary": "Widespread controversy and condemnation—particularly from religious figures and commentators—over the 2024 Paris Olympics opening ceremony, including allegations of blasphemy, calls to boycott, and removal of ceremony videos.",
+    "Raw_Response": "{\"Title\":\"Paris 2024 Opening Ceremony Backlash\",\"Summary\":\"Widespread controversy and condemnation—particularly from religious figures and commentators—over the 2024 Paris Olympics opening ceremony, including allegations of blasphemy, calls to boycott, and removal of ceremony videos.\"}"
+  },
+  {
+    "Topic": 91,
+    "Count": 908,
+    "Original_Name": "91_fire_wildfire_evacuation_firefighter",
+    "Title": "Fires, Explosions, and Evacuations",
+    "Summary": "A cluster of reports on major wildfires, structural and industrial fires, explosions and derailments prompting evacuations and firefighter responses across multiple regions.",
+    "Raw_Response": "{\"Title\":\"Fires, Explosions, and Evacuations\",\"Summary\":\"A cluster of reports on major wildfires, structural and industrial fires, explosions and derailments prompting evacuations and firefighter responses across multiple regions.\"}"
+  },
+  {
+    "Topic": 92,
+    "Count": 844,
+    "Original_Name": "92_token_deployer_developer_deploy",
+    "Title": "New Token Launches",
+    "Summary": "Telegram posts announcing newly minted crypto tokens with name, symbol, market cap, mint and deployer addresses, and associated social links.",
+    "Raw_Response": "{\"Title\":\"New Token Launches\",\"Summary\":\"Telegram posts announcing newly minted crypto tokens with name, symbol, market cap, mint and deployer addresses, and associated social links.\"}"
+  },
+  {
+    "Topic": 93,
+    "Count": 837,
+    "Original_Name": "93_filter_monitorsjoin_blockspy_beta",
+    "Title": "Solana LP Burn Alerts",
+    "Summary": "Automated alerts reporting newly detected Solana token LP burns (often 100%) with marketcap/liquidity stats, mint/freeze authority revocation, contract links and promotion of BlockSpy/Overmind monitors and Discord.",
+    "Raw_Response": "{\"Title\":\"Solana LP Burn Alerts\",\"Summary\":\"Automated alerts reporting newly detected Solana token LP burns (often 100%) with marketcap/liquidity stats, mint/freeze authority revocation, contract links and promotion of BlockSpy/Overmind monitors and Discord.\"}"
+  },
+  {
+    "Topic": 94,
+    "Count": 835,
+    "Original_Name": "94_labour_starmer_tory_party",
+    "Title": "UK 2024 General Election",
+    "Summary": "Cluster of messages discussing Labour’s landslide victory under Keir Starmer — election results, vote and seat statistics, public and media reactions, criticisms of Labour policy, and responses from Conservatives and Reform UK/Nigel Farage.",
+    "Raw_Response": "{\"Title\":\"UK 2024 General Election\",\"Summary\":\"Cluster of messages discussing Labour’s landslide victory under Keir Starmer — election results, vote and seat statistics, public and media reactions, criticisms of Labour policy, and responses from Conservatives and Reform UK/Nigel Farage.\"}"
+  },
+  {
+    "Topic": 95,
+    "Count": 828,
+    "Original_Name": "95_token_deployer_developer_deploy",
+    "Title": "New Token Announcements",
+    "Summary": "Announcements of newly minted crypto tokens including name, symbol, market cap, mint address, deployer info and Telegram/social links posted by a pump-detection channel.",
+    "Raw_Response": "{\"Title\":\"New Token Announcements\",\"Summary\":\"Announcements of newly minted crypto tokens including name, symbol, market cap, mint address, deployer info and Telegram/social links posted by a pump-detection channel.\"}"
+  },
+  {
+    "Topic": 96,
+    "Count": 828,
+    "Original_Name": "96_ath_dex_power_buy",
+    "Title": "Crypto Token ATH Alerts",
+    "Summary": "Telegram messages from MajorTrending announcing new all-time highs (ATH) and latest prices for various tokens, with Dex/buy links and brief market indicators.",
+    "Raw_Response": "{\"Title\":\"Crypto Token ATH Alerts\",\"Summary\":\"Telegram messages from MajorTrending announcing new all-time highs (ATH) and latest prices for various tokens, with Dex/buy links and brief market indicators.\"}"
+  },
+  {
+    "Topic": 97,
+    "Count": 822,
+    "Original_Name": "97_cup_cook_teaspoon_salt",
+    "Title": "Telegram Recipe Posts",
+    "Summary": "Collection of cooking recipes and food posts—baked goods, savory dishes, ingredient lists, and step-by-step instructions—shared from the @FoodAndRecipesWithCherokee Telegram channel.",
+    "Raw_Response": "{\"Title\":\"Telegram Recipe Posts\",\"Summary\":\"Collection of cooking recipes and food posts—baked goods, savory dishes, ingredient lists, and step-by-step instructions—shared from the @FoodAndRecipesWithCherokee Telegram channel.\"}"
+  },
+  {
+    "Topic": 98,
+    "Count": 777,
+    "Original_Name": "98_hash_bag_weth_increase",
+    "Title": "Ethereum Token Buy Alerts",
+    "Summary": "Telegram-style alerts reporting ERC-20 token purchases and trending metrics on Ethereum, showing WETH spent, token amounts, price, bag increases, and market capitalization.",
+    "Raw_Response": "{\"Title\":\"Ethereum Token Buy Alerts\",\"Summary\":\"Telegram-style alerts reporting ERC-20 token purchases and trending metrics on Ethereum, showing WETH spent, token amounts, price, bag increases, and market capitalization.\"}"
+  },
+  {
+    "Topic": 99,
+    "Count": 756,
+    "Original_Name": "99_dextools_dextscore_maestro_dexview",
+    "Title": "DexTools Trending Tokens",
+    "Summary": "Automated DexTools/Dexscreener update posts promoting newly listed meme and other tokens with key stats (marketcap, supply, liquidity, holders, DextScore), contract links, chart references and buy tools (Maestro/Maestro Pro) plus invites to DexToolsPlus groups.",
+    "Raw_Response": "{\"Title\":\"DexTools Trending Tokens\",\"Summary\":\"Automated DexTools/Dexscreener update posts promoting newly listed meme and other tokens with key stats (marketcap, supply, liquidity, holders, DextScore), contract links, chart references and buy tools (Maestro/Maestro Pro) plus invites to DexToolsPlus groups.\"}"
+  },
+  {
+    "Topic": 100,
+    "Count": 750,
+    "Original_Name": "100_tcat_ton_listing_dexs",
+    "Title": "TON Token Buy Alerts",
+    "Summary": "Telegram posts announcing token buys—primarily TON Cat—sharing transaction amounts, holder counts, market caps and DexS listing/bridge details as trending alerts.",
+    "Raw_Response": "{\"Title\":\"TON Token Buy Alerts\",\"Summary\":\"Telegram posts announcing token buys—primarily TON Cat—sharing transaction amounts, holder counts, market caps and DexS listing/bridge details as trending alerts.\"}"
+  },
+  {
+    "Topic": 101,
+    "Count": 731,
+    "Original_Name": "101_mcliq_hr_ratio_photon",
+    "Title": "New Trending Token Alerts",
+    "Summary": "Telegram posts promoting newly launched crypto tokens and presales—mostly memecoins—showing price, market cap, liquidity, volume, holder stats and recommending buy tools/platforms (Dextools, Raydium, Maestro/Trojan) to drive purchases.",
+    "Raw_Response": "{\"Title\":\"New Trending Token Alerts\",\"Summary\":\"Telegram posts promoting newly launched crypto tokens and presales—mostly memecoins—showing price, market cap, liquidity, volume, holder stats and recommending buy tools/platforms (Dextools, Raydium, Maestro/Trojan) to drive purchases.\"}"
+  },
+  {
+    "Topic": 102,
+    "Count": 727,
+    "Original_Name": "102_korea_korean_north_kim",
+    "Title": "North Korea Military Activity",
+    "Summary": "Discussion of North Korea's recent missile and drone launches, alleged attack plans and weapons production under Kim Jong Un, and the resulting military tensions and responses from South Korea and international actors.",
+    "Raw_Response": "{\"Title\":\"North Korea Military Activity\",\"Summary\":\"Discussion of North Korea's recent missile and drone launches, alleged attack plans and weapons production under Kim Jong Un, and the resulting military tensions and responses from South Korea and international actors.\"}"
+  },
+  {
+    "Topic": 103,
+    "Count": 725,
+    "Original_Name": "103_police_southport_stab_riot",
+    "Title": "UK Protests Over Southport Stabbing",
+    "Summary": "Widespread protests and riots across UK cities following the Southport stabbing, featuring clashes with police, attacks on mosques, arson, and rising anti-immigrant/anti-Muslim and far-right mobilization.",
+    "Raw_Response": "{\"Title\":\"UK Protests Over Southport Stabbing\",\"Summary\":\"Widespread protests and riots across UK cities following the Southport stabbing, featuring clashes with police, attacks on mosques, arson, and rising anti-immigrant/anti-Muslim and far-right mobilization.\"}"
+  },
+  {
+    "Topic": 104,
+    "Count": 719,
+    "Original_Name": "104_movie_film_actor_watch",
+    "Title": "Movies and Film Discussion",
+    "Summary": "Messages sharing and discussing films—trailers, reviews, actor news, plot reactions, and links to movie content and recommendations.",
+    "Raw_Response": "{\"Title\":\"Movies and Film Discussion\",\"Summary\":\"Messages sharing and discussing films—trailers, reviews, actor news, plot reactions, and links to movie content and recommendations.\"}"
+  },
+  {
+    "Topic": 105,
+    "Count": 717,
+    "Original_Name": "105_pixa_cloody_fungi_nfa",
+    "Title": "Microcap Token Buy Alerts",
+    "Summary": "Telegram-style buy alerts for low-market-cap crypto tokens (e.g., PIXA, FUNGI, CLOODY, TFOX) listing market cap, supply, price, holder/profile and links, typically tagged with a 'DYOR NFA' disclaimer.",
+    "Raw_Response": "{\"Title\":\"Microcap Token Buy Alerts\",\"Summary\":\"Telegram-style buy alerts for low-market-cap crypto tokens (e.g., PIXA, FUNGI, CLOODY, TFOX) listing market cap, supply, price, holder/profile and links, typically tagged with a 'DYOR NFA' disclaimer.\"}"
+  },
+  {
+    "Topic": 106,
+    "Count": 701,
+    "Original_Name": "106_texas_border_abbott_governor",
+    "Title": "Texas Border Standoff",
+    "Summary": "Social posts backing Gov. Greg Abbott and the Texas National Guard in resisting federal orders to remove razor wire and defending state border sovereignty amid legal fights over immigration (SB4) and multi‑state GOP support.",
+    "Raw_Response": "{\"Title\":\"Texas Border Standoff\",\"Summary\":\"Social posts backing Gov. Greg Abbott and the Texas National Guard in resisting federal orders to remove razor wire and defending state border sovereignty amid legal fights over immigration (SB4) and multi‑state GOP support.\"}"
+  },
+  {
+    "Topic": 107,
+    "Count": 686,
+    "Original_Name": "107_flare_solar_geomagnetic_storm",
+    "Title": "Solar Flares & Space Weather",
+    "Summary": "Alerts and reports on solar flares, CMEs and consequent geomagnetic storms and aurora forecasts, including monitoring updates and impact advisories.",
+    "Raw_Response": "{\"Title\":\"Solar Flares & Space Weather\",\"Summary\":\"Alerts and reports on solar flares, CMEs and consequent geomagnetic storms and aurora forecasts, including monitoring updates and impact advisories.\"}"
+  },
+  {
+    "Topic": 108,
+    "Count": 680,
+    "Original_Name": "108_campaigns_ton_holder_kong",
+    "Title": "TON Token Buy Alerts",
+    "Summary": "Automated Telegram alerts announcing purchases and market stats for trending TON tokens (e.g., Notcoin, KONG, STON), showing TON spent, tokens received, holder counts, price and market cap.",
+    "Raw_Response": "{\"Title\":\"TON Token Buy Alerts\",\"Summary\":\"Automated Telegram alerts announcing purchases and market stats for trending TON tokens (e.g., Notcoin, KONG, STON), showing TON spent, tokens received, holder counts, price and market cap.\"}"
+  },
+  {
+    "Topic": 109,
+    "Count": 669,
+    "Original_Name": "109_tmepatriotarmy_youtubecompookzta_tmepookzta_spread",
+    "Title": "Pookzta Telegram News Channel",
+    "Summary": "A recurring feed sharing conservative and alternative media links (Epoch Times, ZeroHedge, Gateway Pundit, etc.) and videos with calls to “help us spread truth” and links to Pookzta/PatriotArmy Telegram and YouTube channels.",
+    "Raw_Response": "{\"Title\":\"Pookzta Telegram News Channel\",\"Summary\":\"A recurring feed sharing conservative and alternative media links (Epoch Times, ZeroHedge, Gateway Pundit, etc.) and videos with calls to “help us spread truth” and links to Pookzta/PatriotArmy Telegram and YouTube channels.\"}"
+  },
+  {
+    "Topic": 110,
+    "Count": 660,
+    "Original_Name": "110_propaganda_patriot_puppet_narrative",
+    "Title": "American Patriotism and Propaganda",
+    "Summary": "Cluster of messages celebrating U.S. patriots, veterans and national holidays while promoting religious blessings and anti-government/propaganda narratives.",
+    "Raw_Response": "{\"Title\":\"American Patriotism and Propaganda\",\"Summary\":\"Cluster of messages celebrating U.S. patriots, veterans and national holidays while promoting religious blessings and anti-government/propaganda narratives.\"}"
+  },
+  {
+    "Topic": 111,
+    "Count": 655,
+    "Original_Name": "111_university_protester_student_campus",
+    "Title": "Campus Pro-Palestine Encampments",
+    "Summary": "Student-led pro-Palestinian encampments and protests at universities worldwide involving campus occupations, clashes with authorities, administrative suspensions, and controversies over antisemitism and solidarity actions.",
+    "Raw_Response": "{\"Title\":\"Campus Pro-Palestine Encampments\",\"Summary\":\"Student-led pro-Palestinian encampments and protests at universities worldwide involving campus occupations, clashes with authorities, administrative suspensions, and controversies over antisemitism and solidarity actions.\"}"
+  },
+  {
+    "Topic": 112,
+    "Count": 649,
+    "Original_Name": "112_redo_resistance_dog_liquidity",
+    "Title": "TON Token Buy Alerts",
+    "Summary": "Telegram messages issuing 'Resistance' buy alerts for trending TON tokens (e.g., REDO, RECA), showing buy amounts, position gains, market cap, liquidity and sniper-bot trading signals.",
+    "Raw_Response": "{\"Title\":\"TON Token Buy Alerts\",\"Summary\":\"Telegram messages issuing 'Resistance' buy alerts for trending TON tokens (e.g., REDO, RECA), showing buy amounts, position gains, market cap, liquidity and sniper-bot trading signals.\"}"
+  },
+  {
+    "Topic": 113,
+    "Count": 646,
+    "Original_Name": "113_draidboard_retweets_raid_bookmark",
+    "Title": "Raidboard Crypto Raids",
+    "Summary": "Cluster of automated Raidboard posts announcing new X/Twitter \"raid\" campaigns for crypto/token accounts, listing likes, retweets, replies, bookmarks and trending chart metrics.",
+    "Raw_Response": "{\"Title\":\"Raidboard Crypto Raids\",\"Summary\":\"Cluster of automated Raidboard posts announcing new X/Twitter \\\"raid\\\" campaigns for crypto/token accounts, listing likes, retweets, replies, bookmarks and trending chart metrics.\"}"
+  },
+  {
+    "Topic": 114,
+    "Count": 643,
+    "Original_Name": "114_charles_kate_royal_prince",
+    "Title": "British Royal Family News",
+    "Summary": "Messages discussing recent events, public greetings, portraits and controversies involving King Charles, Prince William, Kate Middleton and Prince Harry, including calls to remove royal titles.",
+    "Raw_Response": "{\"Title\":\"British Royal Family News\",\"Summary\":\"Messages discussing recent events, public greetings, portraits and controversies involving King Charles, Prince William, Kate Middleton and Prince Harry, including calls to remove royal titles.\"}"
+  },
+  {
+    "Topic": 115,
+    "Count": 630,
+    "Original_Name": "115_ethtrending_unidexai_weth_develop",
+    "Title": "ETH Trending Buy Alerts",
+    "Summary": "Automated alerts reporting recent WETH purchases of trending Ethereum tokens including amounts spent, tokens received, market cap, buyer/position status and UniDexAI chart/trade links.",
+    "Raw_Response": "{\"Title\":\"ETH Trending Buy Alerts\",\"Summary\":\"Automated alerts reporting recent WETH purchases of trending Ethereum tokens including amounts spent, tokens received, market cap, buyer/position status and UniDexAI chart/trade links.\"}"
+  },
+  {
+    "Topic": 116,
+    "Count": 624,
+    "Original_Name": "116_flood_rain_heavy_rainfall",
+    "Title": "Global Severe Flooding Events",
+    "Summary": "Cluster of reports about heavy rainfall, typhoons and dam releases causing catastrophic floods, landslides and high casualties across multiple countries including Spain, China, India, the Philippines, Vietnam, Saudi Arabia and France.",
+    "Raw_Response": "{\"Title\":\"Global Severe Flooding Events\",\"Summary\":\"Cluster of reports about heavy rainfall, typhoons and dam releases causing catastrophic floods, landslides and high casualties across multiple countries including Spain, China, India, the Philippines, Vietnam, Saudi Arabia and France.\"}"
+  },
+  {
+    "Topic": 117,
+    "Count": 623,
+    "Original_Name": "117_graphene_oxide_brain_nano",
+    "Title": "Graphene Oxide Nanotech Conspiracies",
+    "Summary": "Cluster of messages alleging graphene oxide and other nanotechnology are present in vaccines, rain and consumer items to enable brain-computer interfaces, bio-cyber surveillance, and related DARPA/Neuralink-linked control efforts.",
+    "Raw_Response": "{\"Title\":\"Graphene Oxide Nanotech Conspiracies\",\"Summary\":\"Cluster of messages alleging graphene oxide and other nanotechnology are present in vaccines, rain and consumer items to enable brain-computer interfaces, bio-cyber surveillance, and related DARPA/Neuralink-linked control efforts.\"}"
+  },
+  {
+    "Topic": 118,
+    "Count": 623,
+    "Original_Name": "118_shiba_shib_wbnb_pancakeswap",
+    "Title": "Shiba Inu Buy Alerts",
+    "Summary": "Alerts of SHIBA INU (SHIB) buy transactions on PancakeSwap showing amount spent, SHIB received, price, holders, and market cap.",
+    "Raw_Response": "{\"Title\":\"Shiba Inu Buy Alerts\",\"Summary\":\"Alerts of SHIBA INU (SHIB) buy transactions on PancakeSwap showing amount spent, SHIB received, price, holders, and market cap.\"}"
+  },
+  {
+    "Topic": 119,
+    "Count": 622,
+    "Original_Name": "119_emf_radiation_wifi_proven",
+    "Title": "EMF and 5G Protection",
+    "Summary": "Posts promoting a 'tested and proven' EMF/5G/WiFi radiation protection product and spreading anti-5G/EMF health claims while linking to herbalist/healing Telegram and Facebook groups.",
+    "Raw_Response": "{\"Title\":\"EMF and 5G Protection\",\"Summary\":\"Posts promoting a 'tested and proven' EMF/5G/WiFi radiation protection product and spreading anti-5G/EMF health claims while linking to herbalist/healing Telegram and Facebook groups.\"}"
+  },
+  {
+    "Topic": 120,
+    "Count": 621,
+    "Original_Name": "120_token_deployer_developer_deploy",
+    "Title": "Trump-themed Meme Tokens",
+    "Summary": "Announcements of newly minted low-market-cap meme tokens (mostly Trump-themed) listing token names, symbols, MCAP, mint and deployer addresses, and social links shared by @pumpfundetector.",
+    "Raw_Response": "{\"Title\":\"Trump-themed Meme Tokens\",\"Summary\":\"Announcements of newly minted low-market-cap meme tokens (mostly Trump-themed) listing token names, symbols, MCAP, mint and deployer addresses, and social links shared by @pumpfundetector.\"}"
+  },
+  {
+    "Topic": 121,
+    "Count": 617,
+    "Original_Name": "121_hodl_snip_airdrop_scan",
+    "Title": "Solana Trending Token Alerts",
+    "Summary": "Telegram messages announcing newly launched/trending Solana tokens with market metrics (market cap, liquidity, volume, ATH), scan/hodl stats and buy/DYOR signals.",
+    "Raw_Response": "{\"Title\":\"Solana Trending Token Alerts\",\"Summary\":\"Telegram messages announcing newly launched/trending Solana tokens with market metrics (market cap, liquidity, volume, ATH), scan/hodl stats and buy/DYOR signals.\"}"
+  },
+  {
+    "Topic": 122,
+    "Count": 617,
+    "Original_Name": "122_diddy_comb_sean_diddys",
+    "Title": "Sean Diddy Combs Indictment",
+    "Summary": "News and social-media discussion about Sean 'Diddy' Combs's arrest, grand-jury indictment and May 2025 trial over alleged sexual abuse, human trafficking, and related conspiracy claims.",
+    "Raw_Response": "{\"Title\":\"Sean Diddy Combs Indictment\",\"Summary\":\"News and social-media discussion about Sean 'Diddy' Combs's arrest, grand-jury indictment and May 2025 trial over alleged sexual abuse, human trafficking, and related conspiracy claims.\"}"
+  },
+  {
+    "Topic": 123,
+    "Count": 615,
+    "Original_Name": "123_tesla_car_electric_wind",
+    "Title": "EVs and Renewable Energy Concerns",
+    "Summary": "Discussion about Tesla and electric vehicles, battery safety and charging problems, and related renewable energy, storage reliability, and policy debates.",
+    "Raw_Response": "{\"Title\":\"EVs and Renewable Energy Concerns\",\"Summary\":\"Discussion about Tesla and electric vehicles, battery safety and charging problems, and related renewable energy, storage reliability, and policy debates.\"}"
+  },
+  {
+    "Topic": 124,
+    "Count": 610,
+    "Original_Name": "124_genre_metal_music_song",
+    "Title": "Rock and Metal Releases",
+    "Summary": "Posts sharing news, singles and album updates, genre tags and commentary focused on rock, metal and related alternative/metalcore music.",
+    "Raw_Response": "{\"Title\":\"Rock and Metal Releases\",\"Summary\":\"Posts sharing news, singles and album updates, genre tags and commentary focused on rock, metal and related alternative/metalcore music.\"}"
+  },
+  {
+    "Topic": 125,
+    "Count": 599,
+    "Original_Name": "125_iran_iranian_pezeshkian_irans",
+    "Title": "Iran Presidential Election",
+    "Summary": "Coverage and discussion of Iran's presidential race and aftermath, focusing on Masoud Pezeshkian's victory over hard-liner Saeed Jalili, candidate profiles, interim leadership after Raisi's death, and domestic and international reactions including security and diplomatic concerns.",
+    "Raw_Response": "{\"Title\":\"Iran Presidential Election\",\"Summary\":\"Coverage and discussion of Iran's presidential race and aftermath, focusing on Masoud Pezeshkian's victory over hard-liner Saeed Jalili, candidate profiles, interim leadership after Raisi's death, and domestic and international reactions including security and diplomatic concerns.\"}"
+  },
+  {
+    "Topic": 126,
+    "Count": 592,
+    "Original_Name": "126_provider_pair_rugcheck_fdv",
+    "Title": "New Raydium Pair Alerts",
+    "Summary": "Notifications of newly detected token/SOL pairs on Raydium reporting price, FDV, liquidity, trades and RugCheck flags—highlighting low liquidity, few LP providers, concentrated ownership and other rug-risk indicators.",
+    "Raw_Response": "{\"Title\":\"New Raydium Pair Alerts\",\"Summary\":\"Notifications of newly detected token/SOL pairs on Raydium reporting price, FDV, liquidity, trades and RugCheck flags—highlighting low liquidity, few LP providers, concentrated ownership and other rug-risk indicators.\"}"
+  },
+  {
+    "Topic": 127,
+    "Count": 590,
+    "Original_Name": "127_readyswap_trading_tuf_burn",
+    "Title": "Solana LP Burn Alerts",
+    "Summary": "Telegram alerts announcing new Solana token LP burns with token stats (marketcap, liquidity), mint/freeze authority revocations, owner transfer info, buy links via bots/DEXes, and promotion/community invites.",
+    "Raw_Response": "{\"Title\":\"Solana LP Burn Alerts\",\"Summary\":\"Telegram alerts announcing new Solana token LP burns with token stats (marketcap, liquidity), mint/freeze authority revocations, owner transfer info, buy links via bots/DEXes, and promotion/community invites.\"}"
+  },
+  {
+    "Topic": 128,
+    "Count": 584,
+    "Original_Name": "128_siren_sound_galilee_sirens",
+    "Title": "Northern Israel Sirens",
+    "Summary": "Air-raid sirens and rocket alarms reported across northern Israel and the Golan/Sea of Galilee area amid reports of rocket barrages, drone infiltration, and cross-border attacks from Lebanon, Syria, and Palestinian border zones.",
+    "Raw_Response": "{\"Title\":\"Northern Israel Sirens\",\"Summary\":\"Air-raid sirens and rocket alarms reported across northern Israel and the Golan/Sea of Galilee area amid reports of rocket barrages, drone infiltration, and cross-border attacks from Lebanon, Syria, and Palestinian border zones.\"}"
+  },
+  {
+    "Topic": 129,
+    "Count": 568,
+    "Original_Name": "129_enter_position_trend_entry",
+    "Title": "Solana Trending Token Alerts",
+    "Summary": "Automated alerts announcing tokens that have entered the @SOL_TRENDING list, listing each token's address and its current ranking position.",
+    "Raw_Response": "{\"Title\":\"Solana Trending Token Alerts\",\"Summary\":\"Automated alerts announcing tokens that have entered the @SOL_TRENDING list, listing each token's address and its current ranking position.\"}"
+  },
+  {
+    "Topic": 130,
+    "Count": 562,
+    "Original_Name": "130_buyer_event_txn_chart",
+    "Title": "Solana Token Buy Alerts",
+    "Summary": "Telegram-style buy alerts for Solana tokens reporting buyer/txn details, USD and SOL amounts, market cap, chart/events/trending indicators, and social links.",
+    "Raw_Response": "{\"Title\":\"Solana Token Buy Alerts\",\"Summary\":\"Telegram-style buy alerts for Solana tokens reporting buyer/txn details, USD and SOL amounts, market cap, chart/events/trending indicators, and social links.\"}"
+  },
+  {
+    "Topic": 131,
+    "Count": 555,
+    "Original_Name": "131_epstein_jeffrey_epsteins_clinton",
+    "Title": "Jeffrey Epstein Documents",
+    "Summary": "Posts about unsealed Jeffrey Epstein documents alleging sex trafficking and misconduct involving high-profile figures (Clinton, Prince Andrew, Dershowitz, Branson, etc.), along with related lawsuits, denials, and media coverage.",
+    "Raw_Response": "{\"Title\":\"Jeffrey Epstein Documents\",\"Summary\":\"Posts about unsealed Jeffrey Epstein documents alleging sex trafficking and misconduct involving high-profile figures (Clinton, Prince Andrew, Dershowitz, Branson, etc.), along with related lawsuits, denials, and media coverage.\"}"
+  },
+  {
+    "Topic": 132,
+    "Count": 544,
+    "Original_Name": "132_ton_coins_holder_fjt",
+    "Title": "TON Trending Token Buys",
+    "Summary": "Telegram buy-alert posts promoting trending TON blockchain tokens (e.g., MrFancySocks, Trump/TONALD), listing transaction amounts, buyer wallets, holder counts, market caps and prompts to buy on DEXs.",
+    "Raw_Response": "{\"Title\":\"TON Trending Token Buys\",\"Summary\":\"Telegram buy-alert posts promoting trending TON blockchain tokens (e.g., MrFancySocks, Trump/TONALD), listing transaction amounts, buyer wallets, holder counts, market caps and prompts to buy on DEXs.\"}"
+  },
+  {
+    "Topic": 133,
+    "Count": 542,
+    "Original_Name": "133_redo_resistance_dog_ton",
+    "Title": "Resistance Dog (REDO) Alerts",
+    "Summary": "Telegram buy alerts for the Resistance Dog (REDO) token on the TON network, posting DexS listing/buy notifications with TON spent, REDO received, holder counts, price, market cap and position updates.",
+    "Raw_Response": "{\"Title\":\"Resistance Dog (REDO) Alerts\",\"Summary\":\"Telegram buy alerts for the Resistance Dog (REDO) token on the TON network, posting DexS listing/buy notifications with TON spent, REDO received, holder counts, price, market cap and position updates.\"}"
+  },
+  {
+    "Topic": 134,
+    "Count": 542,
+    "Original_Name": "134_retweets_draidboard_raid_bookmark",
+    "Title": "X Raidboard Campaign Alerts",
+    "Summary": "Notifications of coordinated X (Twitter) raid campaigns listing likes, retweets, replies, bookmarks, links and D.RAIDBOARD ranking/metrics for community-promoted posts.",
+    "Raw_Response": "{\"Title\":\"X Raidboard Campaign Alerts\",\"Summary\":\"Notifications of coordinated X (Twitter) raid campaigns listing likes, retweets, replies, bookmarks, links and D.RAIDBOARD ranking/metrics for community-promoted posts.\"}"
+  },
+  {
+    "Topic": 135,
+    "Count": 542,
+    "Original_Name": "135_volcano_eruption_autotranslated_ash",
+    "Title": "Volcano Eruptions and Advisories",
+    "Summary": "Collection of reports and advisories on recent volcanic eruptions, ash plumes, eruption column heights, seismic recordings, and alert-level changes primarily in Indonesia, the Philippines, and other global volcanoes.",
+    "Raw_Response": "{\"Title\":\"Volcano Eruptions and Advisories\",\"Summary\":\"Collection of reports and advisories on recent volcanic eruptions, ash plumes, eruption column heights, seismic recordings, and alert-level changes primarily in Indonesia, the Philippines, and other global volcanoes.\"}"
+  },
+  {
+    "Topic": 136,
+    "Count": 529,
+    "Original_Name": "136_xpr_seller_nft_collection",
+    "Title": "Soon.market NFT Auctions",
+    "Summary": "Announcements of NFT auctions, bids, listings and sale results on Soon.market (priced in XPR/XUSDC) showing collection, seller, starting bid/end time and scam warnings.",
+    "Raw_Response": "{\"Title\":\"Soon.market NFT Auctions\",\"Summary\":\"Announcements of NFT auctions, bids, listings and sale results on Soon.market (priced in XPR/XUSDC) showing collection, seller, starting bid/end time and scam warnings.\"}"
+  },
+  {
+    "Topic": 137,
+    "Count": 526,
+    "Original_Name": "137_nasa_space_moon_astronaut",
+    "Title": "NASA Conspiracy and Space News",
+    "Summary": "Messages combine recent spaceflight updates (SpaceX, NASA, international missions) with conspiracy theories alleging NASA deception and a fake Moon landing.",
+    "Raw_Response": "{\"Title\":\"NASA Conspiracy and Space News\",\"Summary\":\"Messages combine recent spaceflight updates (SpaceX, NASA, international missions) with conspiracy theories alleging NASA deception and a fake Moon landing.\"}"
+  },
+  {
+    "Topic": 138,
+    "Count": 522,
+    "Original_Name": "138_enter_event_position_trend",
+    "Title": "Solana Trending Tokens",
+    "Summary": "Notifications announcing Solana tokens entering trending leaderboards (D.RaidBoard / SOL TRENDING), showing token name or address, position, chart/metrics and power points.",
+    "Raw_Response": "{\"Title\":\"Solana Trending Tokens\",\"Summary\":\"Notifications announcing Solana tokens entering trending leaderboards (D.RaidBoard / SOL TRENDING), showing token name or address, position, chart/metrics and power points.\"}"
+  },
+  {
+    "Topic": 139,
+    "Count": 519,
+    "Original_Name": "139_baltimore_bridge_ship_collapse",
+    "Title": "Francis Scott Key Bridge Collapse",
+    "Summary": "Reports and live updates on the Francis Scott Key Bridge in Baltimore collapsing after being struck by a cargo/container ship, including casualty reports, footage, and speculation about the cause.",
+    "Raw_Response": "{\"Title\":\"Francis Scott Key Bridge Collapse\",\"Summary\":\"Reports and live updates on the Francis Scott Key Bridge in Baltimore collapsing after being struck by a cargo/container ship, including casualty reports, footage, and speculation about the cause.\"}"
+  },
+  {
+    "Topic": 140,
+    "Count": 515,
+    "Original_Name": "140_palestine_propalestine_protester_protest",
+    "Title": "Global Pro-Palestine Protests",
+    "Summary": "Reports of pro-Palestine demonstrations worldwide—mass rallies, solidarity actions, political interruptions, and counter-protests responding to the Gaza conflict and accusations of Israeli genocide.",
+    "Raw_Response": "{\"Title\":\"Global Pro-Palestine Protests\",\"Summary\":\"Reports of pro-Palestine demonstrations worldwide—mass rallies, solidarity actions, political interruptions, and counter-protests responding to the Gaza conflict and accusations of Israeli genocide.\"}"
+  },
+  {
+    "Topic": 141,
+    "Count": 513,
+    "Original_Name": "141_trade_pair_sponsored_wease",
+    "Title": "New Solana DEX Pairs",
+    "Summary": "Automated announcements of newly listed token pairs on Solana DEXes (Raydium, Fluxbeam, Meteora, Pump.fun) reporting base/quote tokens, liquidity/FDV and repeatedly promoting Birdeye trading links and Trojan trading bot ads.",
+    "Raw_Response": "{\"Title\":\"New Solana DEX Pairs\",\"Summary\":\"Automated announcements of newly listed token pairs on Solana DEXes (Raydium, Fluxbeam, Meteora, Pump.fun) reporting base/quote tokens, liquidity/FDV and repeatedly promoting Birdeye trading links and Trojan trading bot ads.\"}"
+  },
+  {
+    "Topic": 142,
+    "Count": 510,
+    "Original_Name": "142_contract_raydium_decimal_flux",
+    "Title": "New Solana Token Deployments",
+    "Summary": "Announcements of newly deployed Solana token contracts (often meme tokens) listing token metadata, developer balances, and buy links with Raydium/sniper-bot instructions, promoted by SolDex.",
+    "Raw_Response": "{\"Title\":\"New Solana Token Deployments\",\"Summary\":\"Announcements of newly deployed Solana token contracts (often meme tokens) listing token metadata, developer balances, and buy links with Raydium/sniper-bot instructions, promoted by SolDex.\"}"
+  },
+  {
+    "Topic": 143,
+    "Count": 503,
+    "Original_Name": "143_sniffer_screener_list_dext",
+    "Title": "DEX Token Trend Alerts",
+    "Summary": "Telegram alerts reporting newly listed crypto tokens (ETH/TON) with percent gains since listing, using DexT/Sniffer/Screener data and buy/holding details plus group links.",
+    "Raw_Response": "{\"Title\":\"DEX Token Trend Alerts\",\"Summary\":\"Telegram alerts reporting newly listed crypto tokens (ETH/TON) with percent gains since listing, using DexT/Sniffer/Screener data and buy/holding details plus group links.\"}"
+  },
+  {
+    "Topic": 144,
+    "Count": 500,
+    "Original_Name": "144_zionist_zionism_jew_zionists",
+    "Title": "Antisemitic Anti-Zionist Rhetoric",
+    "Summary": "Messages expressing hostility toward Zionism and Jewish people, using slurs, conspiratorial 'Jew World Order' claims, and calls to oppose supposed Zionist influence.",
+    "Raw_Response": "{\"Title\":\"Antisemitic Anti-Zionist Rhetoric\",\"Summary\":\"Messages expressing hostility toward Zionism and Jewish people, using slurs, conspiratorial 'Jew World Order' claims, and calls to oppose supposed Zionist influence.\"}"
+  },
+  {
+    "Topic": 145,
+    "Count": 490,
+    "Original_Name": "145_mascot_token_deployer_developer",
+    "Title": "New Mascot Tokens",
+    "Summary": "Bot announcements listing newly deployed low-market-cap crypto tokens named Mascot, including mint addresses, deployer wallets, MCAP and social links.",
+    "Raw_Response": "{\"Title\":\"New Mascot Tokens\",\"Summary\":\"Bot announcements listing newly deployed low-market-cap crypto tokens named Mascot, including mint addresses, deployer wallets, MCAP and social links.\"}"
+  },
+  {
+    "Topic": 146,
+    "Count": 478,
+    "Original_Name": "146_enter_trade_group_bsc",
+    "Title": "Trending BSC & ETH Tokens",
+    "Summary": "Announcements of newly trending Binance Smart Chain and Ethereum tokens listing token addresses, group names, and links to charts and trading info.",
+    "Raw_Response": "{\"Title\":\"Trending BSC & ETH Tokens\",\"Summary\":\"Announcements of newly trending Binance Smart Chain and Ethereum tokens listing token addresses, group names, and links to charts and trading info.\"}"
+  },
+  {
+    "Topic": 147,
+    "Count": 478,
+    "Original_Name": "147_dog_ton_listing_listingdextbuy",
+    "Title": "DOGS Token Buy Alerts",
+    "Summary": "Buy-alert messages reporting DOGS token purchases on the TON network, showing TON spent, DOGS quantity, transaction info, holder counts, price, market cap, and listing/bridge status.",
+    "Raw_Response": "{\"Title\":\"DOGS Token Buy Alerts\",\"Summary\":\"Buy-alert messages reporting DOGS token purchases on the TON network, showing TON spent, DOGS quantity, transaction info, holder counts, price, market cap, and listing/bridge status.\"}"
+  },
+  {
+    "Topic": 148,
+    "Count": 475,
+    "Original_Name": "148_own_dev_description_creator",
+    "Title": "Trump-themed crypto tokens",
+    "Summary": "Listings of newly minted Trump- and MAGA-themed tokens (mint addresses) showing creators, market caps, and developer/whale ownership percentages.",
+    "Raw_Response": "{\"Title\":\"Trump-themed crypto tokens\",\"Summary\":\"Listings of newly minted Trump- and MAGA-themed tokens (mint addresses) showing creators, market caps, and developer/whale ownership percentages.\"}"
+  },
+  {
+    "Topic": 149,
+    "Count": 468,
+    "Original_Name": "149_tucker_carlson_interview_putin",
+    "Title": "Tucker Carlson Putin Interview",
+    "Summary": "Posts discuss Carlson's trip to Moscow and his released interview with Russian President Vladimir Putin, and the resulting reactions and controversy over its timing and political implications.",
+    "Raw_Response": "{\"Title\":\"Tucker Carlson Putin Interview\",\"Summary\":\"Posts discuss Carlson's trip to Moscow and his released interview with Russian President Vladimir Putin, and the resulting reactions and controversy over its timing and political implications.\"}"
+  },
+  {
+    "Topic": 150,
+    "Count": 465,
+    "Original_Name": "150_tiktok_ban_tik_tok",
+    "Title": "TikTok Ban Debate",
+    "Summary": "Cluster of messages about U.S. efforts and political debate to ban TikTok, covering proposed bills, Trump joining the platform, privacy/national security concerns, and related conspiratorial claims.",
+    "Raw_Response": "{\"Title\":\"TikTok Ban Debate\",\"Summary\":\"Cluster of messages about U.S. efforts and political debate to ban TikTok, covering proposed bills, Trump joining the platform, privacy/national security concerns, and related conspiratorial claims.\"}"
+  },
+  {
+    "Topic": 151,
+    "Count": 462,
+    "Original_Name": "151_taylor_swift_nfl_bowl",
+    "Title": "Taylor Swift NFL Conspiracies",
+    "Summary": "Cluster contains messages and links promoting conspiracies that Taylor Swift is connected to the NFL/Super Bowl (including Travis Kelce and the Chiefs), alleging rigging, psyops, satanic imagery, and child trafficking.",
+    "Raw_Response": "{\"Title\":\"Taylor Swift NFL Conspiracies\",\"Summary\":\"Cluster contains messages and links promoting conspiracies that Taylor Swift is connected to the NFL/Super Bowl (including Travis Kelce and the Chiefs), alleging rigging, psyops, satanic imagery, and child trafficking.\"}"
+  },
+  {
+    "Topic": 152,
+    "Count": 461,
+    "Original_Name": "152_ath_dex_web_power",
+    "Title": "Crypto Token ATH Alerts",
+    "Summary": "Telegram posts by MajorTrending announcing new all-time highs (ATH) for various crypto tokens and providing DEX/buy links plus Telegram and web references.",
+    "Raw_Response": "{\"Title\":\"Crypto Token ATH Alerts\",\"Summary\":\"Telegram posts by MajorTrending announcing new all-time highs (ATH) for various crypto tokens and providing DEX/buy links plus Telegram and web references.\"}"
+  },
+  {
+    "Topic": 153,
+    "Count": 461,
+    "Original_Name": "153_detect_mint_token_mcap",
+    "Title": "New Token Detection Alerts",
+    "Summary": "Automated alerts announcing newly deployed (mostly Solana) tokens with mint addresses, market cap, deployer information and social/mint links for quick discovery.",
+    "Raw_Response": "{\"Title\":\"New Token Detection Alerts\",\"Summary\":\"Automated alerts announcing newly deployed (mostly Solana) tokens with mint addresses, market cap, deployer information and social/mint links for quick discovery.\"}"
+  },
+  {
+    "Topic": 154,
+    "Count": 455,
+    "Original_Name": "154_abortion_parenthood_baby_ban",
+    "Title": "Abortion Rights and Restrictions",
+    "Summary": "Cluster of messages about abortion rights and restrictions, covering bans and legal rulings (e.g., Roe, state and international laws), regulation of abortion pills, demographic and policy changes, and polarized pro‑choice versus pro‑life reactions.",
+    "Raw_Response": "{\"Title\":\"Abortion Rights and Restrictions\",\"Summary\":\"Cluster of messages about abortion rights and restrictions, covering bans and legal rulings (e.g., Roe, state and international laws), regulation of abortion pills, demographic and policy changes, and polarized pro‑choice versus pro‑life reactions.\"}"
+  },
+  {
+    "Topic": 155,
+    "Count": 451,
+    "Original_Name": "155_notcoin_bridge_listing_cati",
+    "Title": "TON Token Buy Alerts",
+    "Summary": "Telegram posts reporting buy alerts and trending listings for TON-based tokens (e.g., Catizen, Notcoin), showing amounts, prices, holders, market caps and DEX/bridge details.",
+    "Raw_Response": "{\"Title\":\"TON Token Buy Alerts\",\"Summary\":\"Telegram posts reporting buy alerts and trending listings for TON-based tokens (e.g., Catizen, Notcoin), showing amounts, prices, holders, market caps and DEX/bridge details.\"}"
+  },
+  {
+    "Topic": 156,
+    "Count": 448,
+    "Original_Name": "156_tucker_carlson_interview_carlsons",
+    "Title": "Tucker Carlson Interviews & Media",
+    "Summary": "Promotional posts and discussions about Tucker Carlson's interviews, speeches, platform launches, and channel subscriptions.",
+    "Raw_Response": "{\"Title\":\"Tucker Carlson Interviews & Media\",\"Summary\":\"Promotional posts and discussions about Tucker Carlson's interviews, speeches, platform launches, and channel subscriptions.\"}"
+  },
+  {
+    "Topic": 157,
+    "Count": 444,
+    "Original_Name": "157_elonalertscom_musk_elon_view",
+    "Title": "Elon Musk replies and quotes",
+    "Summary": "Messages documenting Elon Musk's replies, quoted posts and interactions on X (formerly Twitter), often presented as elon-alerts.com notifications and links.",
+    "Raw_Response": "{\"Title\":\"Elon Musk replies and quotes\",\"Summary\":\"Messages documenting Elon Musk's replies, quoted posts and interactions on X (formerly Twitter), often presented as elon-alerts.com notifications and links.\"}"
+  },
+  {
+    "Topic": 158,
+    "Count": 442,
+    "Original_Name": "158_assange_julian_wikileaks_extradition",
+    "Title": "Julian Assange Extradition Case",
+    "Summary": "Updates and commentary on Julian Assange’s extradition hearing, alleged plea deal and release, media coverage and public reactions regarding WikiLeaks and his imprisonment.",
+    "Raw_Response": "{\"Title\":\"Julian Assange Extradition Case\",\"Summary\":\"Updates and commentary on Julian Assange’s extradition hearing, alleged plea deal and release, media coverage and public reactions regarding WikiLeaks and his imprisonment.\"}"
+  },
+  {
+    "Topic": 159,
+    "Count": 439,
+    "Original_Name": "159_thank_qsi_love_beautiful",
+    "Title": "Expressions of Gratitude and Love",
+    "Summary": "Community members expressing thanks and appreciation—thanking contributors to the HOLYSPIRIT ICO and sharing love, gratitude, and praise for one another.",
+    "Raw_Response": "{\"Title\":\"Expressions of Gratitude and Love\",\"Summary\":\"Community members expressing thanks and appreciation—thanking contributors to the HOLYSPIRIT ICO and sharing love, gratitude, and praise for one another.\"}"
+  },
+  {
+    "Topic": 160,
+    "Count": 439,
+    "Original_Name": "160_buyer_pesto_value_michi",
+    "Title": "Solana Token Buy Alerts",
+    "Summary": "Real-time Telegram-style notifications of purchases in Solana-based tokens and meme coins, showing amount spent in SOL/USD, tokens received, price, market cap and brief transaction/chart details.",
+    "Raw_Response": "{\"Title\":\"Solana Token Buy Alerts\",\"Summary\":\"Real-time Telegram-style notifications of purchases in Solana-based tokens and meme coins, showing amount spent in SOL/USD, tokens received, price, market cap and brief transaction/chart details.\"}"
+  },
+  {
+    "Topic": 161,
+    "Count": 435,
+    "Original_Name": "161_soul_snip_bundle_burnt",
+    "Title": "Soul Trending Token Alerts",
+    "Summary": "Telegram posts tracking trending Soul/Solana tokens with market metrics (market cap, liquidity, volume), LP burn status, mint/freeze and dev-snipe warnings, holder distribution, and analytics/tool links.",
+    "Raw_Response": "{\"Title\":\"Soul Trending Token Alerts\",\"Summary\":\"Telegram posts tracking trending Soul/Solana tokens with market metrics (market cap, liquidity, volume), LP burn status, mint/freeze and dev-snipe warnings, holder distribution, and analytics/tool links.\"}"
+  },
+  {
+    "Topic": 162,
+    "Count": 433,
+    "Original_Name": "162_admins_admin_spam_report",
+    "Title": "User Reports to Admins",
+    "Summary": "Messages about reporting users and spam to group admins and discussing moderation actions, admin responsibilities, and related account questions.",
+    "Raw_Response": "{\"Title\":\"User Reports to Admins\",\"Summary\":\"Messages about reporting users and spam to group admins and discussing moderation actions, admin responsibilities, and related account questions.\"}"
+  },
+  {
+    "Topic": 163,
+    "Count": 429,
+    "Original_Name": "163_tinu_gt_buyer_marketcap",
+    "Title": "TON Token Buy Alerts",
+    "Summary": "Automated Telegram notifications announcing recent token purchases on the TON blockchain, reporting TON spent, token amounts, holder counts, market cap, and trending/status indicators.",
+    "Raw_Response": "{\"Title\":\"TON Token Buy Alerts\",\"Summary\":\"Automated Telegram notifications announcing recent token purchases on the TON blockchain, reporting TON spent, token amounts, holder counts, market cap, and trending/status indicators.\"}"
+  },
+  {
+    "Topic": 164,
+    "Count": 429,
+    "Original_Name": "164_dexid_mutable_metadata_verify",
+    "Title": "Trending Solana DEX Tokens",
+    "Summary": "Telegram posts listing trending Solana tokens on decentralized exchanges (primarily Raydium), showing market stats (market cap, liquidity, volume, price), token addresses/pairs and warnings such as mutable metadata or renounced ownership.",
+    "Raw_Response": "{\"Title\":\"Trending Solana DEX Tokens\",\"Summary\":\"Telegram posts listing trending Solana tokens on decentralized exchanges (primarily Raydium), showing market stats (market cap, liquidity, volume, price), token addresses/pairs and warnings such as mutable metadata or renounced ownership.\"}"
+  },
+  {
+    "Topic": 165,
+    "Count": 422,
+    "Original_Name": "165_trade_pair_dca_basetoken",
+    "Title": "New SOL Token Pairs",
+    "Summary": "Automated Telegram posts announcing newly listed SOL-based token pairs on DEXs (Raydium, Pump.fun, Meteora) with liquidity figures, trading links, buy/trending alerts, and promotional Trojan bot ads.",
+    "Raw_Response": "{\"Title\":\"New SOL Token Pairs\",\"Summary\":\"Automated Telegram posts announcing newly listed SOL-based token pairs on DEXs (Raydium, Pump.fun, Meteora) with liquidity figures, trading links, buy/trending alerts, and promotional Trojan bot ads.\"}"
+  },
+  {
+    "Topic": 166,
+    "Count": 417,
+    "Original_Name": "166_chat_gigabased_invite_chatgpt",
+    "Title": "Telegram Chat Invites & AI Bots",
+    "Summary": "Messages promoting Telegram group invites and links that advertise ChatGPT/ChadGPT-style bots and gigachad personas, often asking users to invite others to unlock private chat features.",
+    "Raw_Response": "{\"Title\":\"Telegram Chat Invites & AI Bots\",\"Summary\":\"Messages promoting Telegram group invites and links that advertise ChatGPT/ChadGPT-style bots and gigachad personas, often asking users to invite others to unlock private chat features.\"}"
+  },
+  {
+    "Topic": 167,
+    "Count": 415,
+    "Original_Name": "167_getmoneroorg_boost_late_sec",
+    "Title": "QAnon and Conspiracy Channels",
+    "Summary": "Telegram posts promoting QAnon-style and other conspiracy theories (chemtrails, anti-Zionist/anti-establishment) that recruit users to channels like @Fraud_Inc and @davidavocadowolfe and use memes and donation/boost links (getmonero.org).",
+    "Raw_Response": "{\"Title\":\"QAnon and Conspiracy Channels\",\"Summary\":\"Telegram posts promoting QAnon-style and other conspiracy theories (chemtrails, anti-Zionist/anti-establishment) that recruit users to channels like @Fraud_Inc and @davidavocadowolfe and use memes and donation/boost links (getmonero.org).\"}"
+  },
+  {
+    "Topic": 168,
+    "Count": 415,
+    "Original_Name": "168_ownership_provider_pair_fluxbeam",
+    "Title": "Fluxbeam Pair RugCheck Alerts",
+    "Summary": "Notifications of newly detected Fluxbeam token/SOL pairs including prices, FDV and liquidity details alongside RugCheck warnings about high holder concentration, unlocked or low LP, mutable metadata and rug-pull risk.",
+    "Raw_Response": "{\"Title\":\"Fluxbeam Pair RugCheck Alerts\",\"Summary\":\"Notifications of newly detected Fluxbeam token/SOL pairs including prices, FDV and liquidity details alongside RugCheck warnings about high holder concentration, unlocked or low LP, mutable metadata and rug-pull risk.\"}"
+  },
+  {
+    "Topic": 169,
+    "Count": 410,
+    "Original_Name": "169_solana_token_deployer_developer",
+    "Title": "New Solana Token Alerts",
+    "Summary": "Announcements of newly deployed Solana tokens providing mint addresses, deployer wallets, market caps and social links, posted by @pumpfundetector.",
+    "Raw_Response": "{\"Title\":\"New Solana Token Alerts\",\"Summary\":\"Announcements of newly deployed Solana tokens providing mint addresses, deployer wallets, market caps and social links, posted by @pumpfundetector.\"}"
+  },
+  {
+    "Topic": 170,
+    "Count": 408,
+    "Original_Name": "170_hill_king_deployer_developer",
+    "Title": "New Token Listings",
+    "Summary": "Telegram posts announcing newly deployed crypto tokens (King of the Hill series) that list name, symbol, market cap, mint address, deployer details and social links.",
+    "Raw_Response": "{\"Title\":\"New Token Listings\",\"Summary\":\"Telegram posts announcing newly deployed crypto tokens (King of the Hill series) that list name, symbol, market cap, mint address, deployer details and social links.\"}"
+  },
+  {
+    "Topic": 171,
+    "Count": 404,
+    "Original_Name": "171_allah_resistance_victory_almighty",
+    "Title": "Islamic Resistance Statements",
+    "Summary": "Cluster of militant communiqués from the “Islamic Resistance” claiming artillery, rocket, and drone attacks on Israeli forces in defense of Lebanon and Gaza while invoking Quranic permission to fight, victory from Allah, and martyrdom rhetoric.",
+    "Raw_Response": "{\"Title\":\"Islamic Resistance Statements\",\"Summary\":\"Cluster of militant communiqués from the “Islamic Resistance” claiming artillery, rocket, and drone attacks on Israeli forces in defense of Lebanon and Gaza while invoking Quranic permission to fight, victory from Allah, and martyrdom rhetoric.\"}"
+  },
+  {
+    "Topic": 172,
+    "Count": 402,
+    "Original_Name": "172_tax_irs_income_pay",
+    "Title": "Income Tax Conspiracy Claims",
+    "Summary": "Posts promoting misinformation that U.S. law does not require paying income tax, citing alleged hidden footage and ex-IRS agents, plus claims of IRS misconduct and mass surveillance.",
+    "Raw_Response": "{\"Title\":\"Income Tax Conspiracy Claims\",\"Summary\":\"Posts promoting misinformation that U.S. law does not require paying income tax, citing alleged hidden footage and ex-IRS agents, plus claims of IRS misconduct and mass surveillance.\"}"
+  },
+  {
+    "Topic": 173,
+    "Count": 402,
+    "Original_Name": "173_joe_biden_bidens_mock",
+    "Title": "Biden Mockery and Memes",
+    "Summary": "Cluster of derogatory posts, memes, and clips mocking President Joe Biden and Dr. Jill—questioning his mental acuity, behavior, and fitness for office.",
+    "Raw_Response": "{\"Title\":\"Biden Mockery and Memes\",\"Summary\":\"Cluster of derogatory posts, memes, and clips mocking President Joe Biden and Dr. Jill—questioning his mental acuity, behavior, and fitness for office.\"}"
+  },
+  {
+    "Topic": 174,
+    "Count": 399,
+    "Original_Name": "174_milestone_increase_ticker_reach",
+    "Title": "Token Price Increase Alerts",
+    "Summary": "Telegram messages promoting cryptocurrency tokens that announce large price-increase milestones and urge purchases via DEX, web links, or presales.",
+    "Raw_Response": "{\"Title\":\"Token Price Increase Alerts\",\"Summary\":\"Telegram messages promoting cryptocurrency tokens that announce large price-increase milestones and urge purchases via DEX, web links, or presales.\"}"
+  },
+  {
+    "Topic": 175,
+    "Count": 398,
+    "Original_Name": "175_fish_memecoin_notcoin_ton",
+    "Title": "TON Memecoin Buy Alerts",
+    "Summary": "Promotional buy-alert messages for trending TON blockchain memecoins (e.g., FISH, NOT, DUGGY), reporting purchase amounts, token prices, market caps, holder counts and urging trades/links.",
+    "Raw_Response": "{\"Title\":\"TON Memecoin Buy Alerts\",\"Summary\":\"Promotional buy-alert messages for trending TON blockchain memecoins (e.g., FISH, NOT, DUGGY), reporting purchase amounts, token prices, market caps, holder counts and urging trades/links.\"}"
+  },
+  {
+    "Topic": 176,
+    "Count": 393,
+    "Original_Name": "176_elonalertscom_musk_elon_view",
+    "Title": "Elon Musk X Activity Alerts",
+    "Summary": "Automated notifications from elon-alerts.com reporting Elon Musk’s likes, replies, quotes, and new posts on X (formerly Twitter).",
+    "Raw_Response": "{\"Title\":\"Elon Musk X Activity Alerts\",\"Summary\":\"Automated notifications from elon-alerts.com reporting Elon Musk’s likes, replies, quotes, and new posts on X (formerly Twitter).\"}"
+  },
+  {
+    "Topic": 177,
+    "Count": 392,
+    "Original_Name": "177_shur_snip_troj_bulx",
+    "Title": "Solana Meme Token Alerts",
+    "Summary": "Telegram alerts on newly launched Solana meme/token listings and pump activity, showing market cap, liquidity, volume, LP burn status, holder concentration and warnings about dev/bundle snipes and rug risks.",
+    "Raw_Response": "{\"Title\":\"Solana Meme Token Alerts\",\"Summary\":\"Telegram alerts on newly launched Solana meme/token listings and pump activity, showing market cap, liquidity, volume, LP burn status, holder concentration and warnings about dev/bundle snipes and rug risks.\"}"
+  },
+  {
+    "Topic": 178,
+    "Count": 392,
+    "Original_Name": "178_whale_cat_own_supply",
+    "Title": "Cat-themed Token Listings",
+    "Summary": "Cluster of cat-themed cryptocurrency tokens/NFTs showing mint addresses, names/symbols, creators, market caps, and whale/dev supply percentages.",
+    "Raw_Response": "{\"Title\":\"Cat-themed Token Listings\",\"Summary\":\"Cluster of cat-themed cryptocurrency tokens/NFTs showing mint addresses, names/symbols, creators, market caps, and whale/dev supply percentages.\"}"
+  },
+  {
+    "Topic": 179,
+    "Count": 391,
+    "Original_Name": "179_hourly_early_neiro_cat",
+    "Title": "Hourly Trending Meme Tokens",
+    "Summary": "Telegram posts listing hourly/early trending meme and novelty cryptocurrency tokens and community coins (e.g., Baby Neiro, BabyBonk, Pepe, cat/inu tokens) highlighting top movers and trending tickers.",
+    "Raw_Response": "{\"Title\":\"Hourly Trending Meme Tokens\",\"Summary\":\"Telegram posts listing hourly/early trending meme and novelty cryptocurrency tokens and community coins (e.g., Baby Neiro, BabyBonk, Pepe, cat/inu tokens) highlighting top movers and trending tickers.\"}"
+  },
+  {
+    "Topic": 180,
+    "Count": 390,
+    "Original_Name": "180_abnormal_volume_spot_screener",
+    "Title": "Abnormal Token Volume Alerts",
+    "Summary": "Telegram alerts reporting abnormal trading volume and rapid price spikes for tokens (mainly SOL/ETH), generated by DexT/screener/sniffer tools with snipe/trending tags and group links.",
+    "Raw_Response": "{\"Title\":\"Abnormal Token Volume Alerts\",\"Summary\":\"Telegram alerts reporting abnormal trading volume and rapid price spikes for tokens (mainly SOL/ETH), generated by DexT/screener/sniffer tools with snipe/trending tags and group links.\"}"
+  },
+  {
+    "Topic": 181,
+    "Count": 387,
+    "Original_Name": "181_paint_rope_wood_designdecor",
+    "Title": "DIY Home Decor & Furniture",
+    "Summary": "Posts sharing bedroom and lighting design ideas alongside DIY woodworking, painting, and furniture decor tips for home projects.",
+    "Raw_Response": "{\"Title\":\"DIY Home Decor & Furniture\",\"Summary\":\"Posts sharing bedroom and lighting design ideas alongside DIY woodworking, painting, and furniture decor tips for home projects.\"}"
+  },
+  {
+    "Topic": 182,
+    "Count": 386,
+    "Original_Name": "182_news_bulletin_headline_tmeconspiracyfiles",
+    "Title": "News Bulletins & Live Broadcasts",
+    "Summary": "Messages sharing and promoting news bulletins, live broadcasts and patriotic/conspiratorial livestreams (e.g., Euronews, NTD, Telegram channels), including headline updates and interruption notices.",
+    "Raw_Response": "{\"Title\":\"News Bulletins & Live Broadcasts\",\"Summary\":\"Messages sharing and promoting news bulletins, live broadcasts and patriotic/conspiratorial livestreams (e.g., Euronews, NTD, Telegram channels), including headline updates and interruption notices.\"}"
+  },
+  {
+    "Topic": 183,
+    "Count": 381,
+    "Original_Name": "183_milestone_ticker_reach_dex",
+    "Title": "Crypto Token Milestone Announcements",
+    "Summary": "Telegram posts (powered by @MajorTrending) announcing crypto token milestones with ticker symbols, holder counts and links to buy on DEX, Telegram chats, and websites.",
+    "Raw_Response": "{\"Title\":\"Crypto Token Milestone Announcements\",\"Summary\":\"Telegram posts (powered by @MajorTrending) announcing crypto token milestones with ticker symbols, holder counts and links to buy on DEX, Telegram chats, and websites.\"}"
+  },
+  {
+    "Topic": 184,
+    "Count": 376,
+    "Original_Name": "184_pyramid_ancient_cave_archaeologist",
+    "Title": "Ancient Pyramids and Megaliths",
+    "Summary": "Messages discuss discoveries, claims and speculative theories about ancient stone structures—pyramids, temples, caves and megaliths worldwide, often presented with sensational or conspiratorial framing.",
+    "Raw_Response": "{\"Title\":\"Ancient Pyramids and Megaliths\",\"Summary\":\"Messages discuss discoveries, claims and speculative theories about ancient stone structures—pyramids, temples, caves and megaliths worldwide, often presented with sensational or conspiratorial framing.\"}"
+  },
+  {
+    "Topic": 185,
+    "Count": 376,
+    "Original_Name": "185_gpt_chad_coin_cap",
+    "Title": "ChadGPT Coin Promotions",
+    "Summary": "Chat messages and reply templates repeatedly appended with promotional spam for the CHAD/ChadGPT cryptocurrency, including buy calls, market cap figures, and a link to @chadgptcoin.",
+    "Raw_Response": "{\"Title\":\"ChadGPT Coin Promotions\",\"Summary\":\"Chat messages and reply templates repeatedly appended with promotional spam for the CHAD/ChadGPT cryptocurrency, including buy calls, market cap figures, and a link to @chadgptcoin.\"}"
+  },
+  {
+    "Topic": 186,
+    "Count": 374,
+    "Original_Name": "186_profit_entry_target_crypto",
+    "Title": "Crypto Futures Trade Signals",
+    "Summary": "Group of leveraged crypto trade signals for USDT pairs showing entry prices, leverage (e.g., x20), take-profit tiers, invalidation/stop-loss levels, and trade outcomes on exchanges like Bybit and Binance.",
+    "Raw_Response": "{\"Title\":\"Crypto Futures Trade Signals\",\"Summary\":\"Group of leveraged crypto trade signals for USDT pairs showing entry prices, leverage (e.g., x20), take-profit tiers, invalidation/stop-loss levels, and trade outcomes on exchanges like Bybit and Binance.\"}"
+  },
+  {
+    "Topic": 187,
+    "Count": 368,
+    "Original_Name": "187_plus_call_first_demo",
+    "Title": "Crypto Pump Alerts and Spam",
+    "Summary": "Cluster of Telegram messages mixing crypto pump trading calls (e.g., x-plus from call, token tickers and Dex links) with explicit escort/WhatsApp spam and promotional posts.",
+    "Raw_Response": "{\"Title\":\"Crypto Pump Alerts and Spam\",\"Summary\":\"Cluster of Telegram messages mixing crypto pump trading calls (e.g., x-plus from call, token tickers and Dex links) with explicit escort/WhatsApp spam and promotional posts.\"}"
+  },
+  {
+    "Topic": 188,
+    "Count": 367,
+    "Original_Name": "188_liberal_conservative_leftist_liberalism",
+    "Title": "Right Wing Anti-Liberal Rhetoric",
+    "Summary": "Messages feature insults and derogatory labels for liberals/leftists, debates over who qualifies as a liberal versus a conservative, and endorsement or justification of confrontational rhetoric toward progressives.",
+    "Raw_Response": "{\"Title\":\"Right Wing Anti-Liberal Rhetoric\",\"Summary\":\"Messages feature insults and derogatory labels for liberals/leftists, debates over who qualifies as a liberal versus a conservative, and endorsement or justification of confrontational rhetoric toward progressives.\"}"
+  },
+  {
+    "Topic": 189,
+    "Count": 366,
+    "Original_Name": "189_call_ethereum_chain_stay",
+    "Title": "Telegram Token Call Alerts",
+    "Summary": "Telegram messages announcing buy 'calls' for crypto tokens that include token names and addresses, chain (Ethereum/Base), market cap, caller info, charts and ranking details to track pump alerts.",
+    "Raw_Response": "{\"Title\":\"Telegram Token Call Alerts\",\"Summary\":\"Telegram messages announcing buy 'calls' for crypto tokens that include token names and addresses, chain (Ethereum/Base), market cap, caller info, charts and ranking details to track pump alerts.\"}"
+  },
+  {
+    "Topic": 190,
+    "Count": 359,
+    "Original_Name": "190_tracker_txn_telegram_chart",
+    "Title": "Solana Meme Token Alerts",
+    "Summary": "Telegram posts promoting purchases of Solana-based meme tokens, listing SOL prices, transaction hashes, market caps, social links and chart/tracker/trending badges to drive trading.",
+    "Raw_Response": "{\"Title\":\"Solana Meme Token Alerts\",\"Summary\":\"Telegram posts promoting purchases of Solana-based meme tokens, listing SOL prices, transaction hashes, market caps, social links and chart/tracker/trending badges to drive trading.\"}"
+  },
+  {
+    "Topic": 191,
+    "Count": 357,
+    "Original_Name": "191_politician_government_politics_corrupt",
+    "Title": "Political Corruption and Distrust",
+    "Summary": "Cluster of messages expressing anger and distrust toward politicians and government, accusing widespread corruption, calling for their removal or collapse, and criticizing state power and media control.",
+    "Raw_Response": "{\"Title\":\"Political Corruption and Distrust\",\"Summary\":\"Cluster of messages expressing anger and distrust toward politicians and government, accusing widespread corruption, calling for their removal or collapse, and criticizing state power and media control.\"}"
+  },
+  {
+    "Topic": 192,
+    "Count": 357,
+    "Original_Name": "192_soul_discovery_ttf_scan",
+    "Title": "Trending NFT Profit Alerts",
+    "Summary": "Announcements of NFT projects that surged multiple‑fold after trending, reporting discovery and current values, trending rank, market cap/tx examples and referencing tracking tools like Birdeye, DexS, Soul Scan/Sniper, TTF and Magnum bots.",
+    "Raw_Response": "{\"Title\":\"Trending NFT Profit Alerts\",\"Summary\":\"Announcements of NFT projects that surged multiple‑fold after trending, reporting discovery and current values, trending rank, market cap/tx examples and referencing tracking tools like Birdeye, DexS, Soul Scan/Sniper, TTF and Magnum bots.\"}"
+  },
+  {
+    "Topic": 193,
+    "Count": 353,
+    "Original_Name": "193_download_app_version_protocol",
+    "Title": "App Download and Install Issues",
+    "Summary": "Users are reporting problems downloading, installing, and updating apps—experiencing errors or version confusion between web/APK/Play Store/TestFlight builds and asking for help or fixes.",
+    "Raw_Response": "{\"Title\":\"App Download and Install Issues\",\"Summary\":\"Users are reporting problems downloading, installing, and updating apps—experiencing errors or version confusion between web/APK/Play Store/TestFlight builds and asking for help or fixes.\"}"
+  },
+  {
+    "Topic": 194,
+    "Count": 350,
+    "Original_Name": "194_wmm_welcome_chat_respectful",
+    "Title": "Chat Welcome Messages",
+    "Summary": "Standardized welcome messages used to greet new members across various Telegram chat groups, typically including the chat name and a brief prompt or reminder to follow rules and be respectful.",
+    "Raw_Response": "{\"Title\":\"Chat Welcome Messages\",\"Summary\":\"Standardized welcome messages used to greet new members across various Telegram chat groups, typically including the chat name and a brief prompt or reminder to follow rules and be respectful.\"}"
+  },
+  {
+    "Topic": 195,
+    "Count": 347,
+    "Original_Name": "195_member_track_count_pbor",
+    "Title": "New Token Tracking Alerts",
+    "Summary": "Automated Telegram announcements listing newly added tokens to track, including token addresses, group links, member counts and chart/trending/event tags.",
+    "Raw_Response": "{\"Title\":\"New Token Tracking Alerts\",\"Summary\":\"Automated Telegram announcements listing newly added tokens to track, including token addresses, group links, member counts and chart/trending/event tags.\"}"
+  },
+  {
+    "Topic": 196,
+    "Count": 346,
+    "Original_Name": "196_coin_group_trend_chart",
+    "Title": "Trending Meme Coin Alerts",
+    "Summary": "Promotional Telegram posts announcing newly trending meme/altcoins with contract addresses, group names and chart links, commonly used to shill tokens.",
+    "Raw_Response": "{\"Title\":\"Trending Meme Coin Alerts\",\"Summary\":\"Promotional Telegram posts announcing newly trending meme/altcoins with contract addresses, group names and chart links, commonly used to shill tokens.\"}"
+  },
+  {
+    "Topic": 197,
+    "Count": 345,
+    "Original_Name": "197_facial_recognition_biometric_digital",
+    "Title": "Facial Recognition & Digital IDs",
+    "Summary": "Discussion and activism opposing the expansion of facial recognition and biometric digital ID systems, highlighting government and private surveillance, data collection (passports, fingerprints), regulatory responses (EU AI Act, digital ID wallets), and calls to ban or restrict the technology.",
+    "Raw_Response": "{\"Title\":\"Facial Recognition & Digital IDs\",\"Summary\":\"Discussion and activism opposing the expansion of facial recognition and biometric digital ID systems, highlighting government and private surveillance, data collection (passports, fingerprints), regulatory responses (EU AI Act, digital ID wallets), and calls to ban or restrict the technology.\"}"
+  },
+  {
+    "Topic": 198,
+    "Count": 343,
+    "Original_Name": "198_top_flux_utc_soldex",
+    "Title": "SolDex Fresh Wallet Buys",
+    "Summary": "Alerts reporting newly created wallet purchases of Solana tokens, listing token and distribution details, SolScan/Dex links, and suggested sniper bots (BONK, FLUX, MAGNUM).",
+    "Raw_Response": "{\"Title\":\"SolDex Fresh Wallet Buys\",\"Summary\":\"Alerts reporting newly created wallet purchases of Solana tokens, listing token and distribution details, SolScan/Dex links, and suggested sniper bots (BONK, FLUX, MAGNUM).\"}"
+  },
+  {
+    "Topic": 199,
+    "Count": 342,
+    "Original_Name": "199_outage_crowdstrike_att_microsoft",
+    "Title": "Global CrowdStrike Outage",
+    "Summary": "A widespread outage of CrowdStrike's cybersecurity platform disrupted airlines, banks, emergency services and telecoms worldwide, triggering reports of cyberattacks and conspiratorial speculation about election interference.",
+    "Raw_Response": "{\"Title\":\"Global CrowdStrike Outage\",\"Summary\":\"A widespread outage of CrowdStrike's cybersecurity platform disrupted airlines, banks, emergency services and telecoms worldwide, triggering reports of cyberattacks and conspiratorial speculation about election interference.\"}"
+  },
+  {
+    "Topic": 200,
+    "Count": 335,
+    "Original_Name": "200_africa_south_african_anc",
+    "Title": "South African racial politics",
+    "Summary": "Discussion of South African elections and racial tensions, highlighting extremist rhetoric by figures like Julius Malema, apartheid-era references, and broader claims about violence and instability across Africa.",
+    "Raw_Response": "{\"Title\":\"South African racial politics\",\"Summary\":\"Discussion of South African elections and racial tensions, highlighting extremist rhetoric by figures like Julius Malema, apartheid-era references, and broader claims about violence and instability across Africa.\"}"
+  },
+  {
+    "Topic": 201,
+    "Count": 334,
+    "Original_Name": "201_screener_dext_list_increase",
+    "Title": "Solana Trending Token Alerts",
+    "Summary": "Automated DexT screener posts announcing percentage gains of newly listed Solana tokens and ranking them as trending with links to Telegram groups.",
+    "Raw_Response": "{\"Title\":\"Solana Trending Token Alerts\",\"Summary\":\"Automated DexT screener posts announcing percentage gains of newly listed Solana tokens and ranking them as trending with links to Telegram groups.\"}"
+  },
+  {
+    "Topic": 202,
+    "Count": 334,
+    "Original_Name": "202_token_deployer_developer_deploy",
+    "Title": "New Solana Meme Tokens",
+    "Summary": "Telegram announcements of newly deployed low‑marketcap Solana (SPL) meme tokens listing mint and deployer addresses, market cap, and social links (posted by @pumpfundetector).",
+    "Raw_Response": "{\"Title\":\"New Solana Meme Tokens\",\"Summary\":\"Telegram announcements of newly deployed low‑marketcap Solana (SPL) meme tokens listing mint and deployer addresses, market cap, and social links (posted by @pumpfundetector).\"}"
+  },
+  {
+    "Topic": 203,
+    "Count": 333,
+    "Original_Name": "203_birthday_happy_wish_ivan",
+    "Title": "Happy Birthday Messages",
+    "Summary": "Cluster of messages sharing birthday greetings, wishes, celebration notes, and requests for birthday-related memes and shout-outs.",
+    "Raw_Response": "{\"Title\":\"Happy Birthday Messages\",\"Summary\":\"Cluster of messages sharing birthday greetings, wishes, celebration notes, and requests for birthday-related memes and shout-outs.\"}"
+  },
+  {
+    "Topic": 204,
+    "Count": 331,
+    "Original_Name": "204_fish_memecoin_hamster_pomepoo",
+    "Title": "TON Meme Coin Buys",
+    "Summary": "Channel buy-alert posts for TON and other memecoins (e.g., FISH, POMEPOO, Hamster Kombat) reporting purchases, token amounts, holders, price and market-cap/trending info.",
+    "Raw_Response": "{\"Title\":\"TON Meme Coin Buys\",\"Summary\":\"Channel buy-alert posts for TON and other memecoins (e.g., FISH, POMEPOO, Hamster Kombat) reporting purchases, token amounts, holders, price and market-cap/trending info.\"}"
+  },
+  {
+    "Topic": 205,
+    "Count": 330,
+    "Original_Name": "205_teeth_dental_tooth_gum",
+    "Title": "Dental Care and Home Remedies",
+    "Summary": "Messages discussing teeth and oral health, covering hygiene, tooth and gum restoration claims, natural/DIY remedies, dental procedures, and promotional ads for dental products.",
+    "Raw_Response": "{\"Title\":\"Dental Care and Home Remedies\",\"Summary\":\"Messages discussing teeth and oral health, covering hygiene, tooth and gum restoration claims, natural/DIY remedies, dental procedures, and promotional ads for dental products.\"}"
+  },
+  {
+    "Topic": 206,
+    "Count": 330,
+    "Original_Name": "206_ivermectin_fenbendazole_cancer_parasite",
+    "Title": "Ivermectin and Fenbendazole Claims",
+    "Summary": "Messages promoting antiparasitic drugs (ivermectin, fenbendazole) and hydroxychloroquine as cures or preventives for COVID-19, cancer, and other conditions, often including dosing advice, sourcing links, and conspiratorial claims.",
+    "Raw_Response": "{\"Title\":\"Ivermectin and Fenbendazole Claims\",\"Summary\":\"Messages promoting antiparasitic drugs (ivermectin, fenbendazole) and hydroxychloroquine as cures or preventives for COVID-19, cancer, and other conditions, often including dosing advice, sourcing links, and conspiratorial claims.\"}"
+  },
+  {
+    "Topic": 207,
+    "Count": 328,
+    "Original_Name": "207_enter_trade_trend_chart",
+    "Title": "SOL Trending Tokens",
+    "Summary": "Announcements of new Solana tokens entering a \"Trending\" or \"Finder Trending\" list, listing token names and addresses, rank/position and market cap with links to charts, trade and Telegram/socials.",
+    "Raw_Response": "{\"Title\":\"SOL Trending Tokens\",\"Summary\":\"Announcements of new Solana tokens entering a \\\"Trending\\\" or \\\"Finder Trending\\\" list, listing token names and addresses, rank/position and market cap with links to charts, trade and Telegram/socials.\"}"
+  },
+  {
+    "Topic": 208,
+    "Count": 326,
+    "Original_Name": "208_portal_member_count_create",
+    "Title": "New Crypto Telegram Portals",
+    "Summary": "Announcements of newly created Telegram portals for crypto/NFT projects listing portal links, member counts, and trending/events tags.",
+    "Raw_Response": "{\"Title\":\"New Crypto Telegram Portals\",\"Summary\":\"Announcements of newly created Telegram portals for crypto/NFT projects listing portal links, member counts, and trending/events tags.\"}"
+  },
+  {
+    "Topic": 209,
+    "Count": 324,
+    "Original_Name": "209_durov_pavel_france_founder",
+    "Title": "Pavel Durov Arrest in France",
+    "Summary": "Telegram founder Pavel Durov was arrested in France on allegations related to the messaging app’s role in criminal activity and moderation failures, triggering legal scrutiny, a Telegram privacy policy shift, and widespread international reaction.",
+    "Raw_Response": "{\"Title\":\"Pavel Durov Arrest in France\",\"Summary\":\"Telegram founder Pavel Durov was arrested in France on allegations related to the messaging app’s role in criminal activity and moderation failures, triggering legal scrutiny, a Telegram privacy policy shift, and widespread international reaction.\"}"
+  },
+  {
+    "Topic": 210,
+    "Count": 322,
+    "Original_Name": "210_coin_liberty_secure_surrender",
+    "Title": "Never Surrender Gold Coins",
+    "Summary": "A flood of promotional messages pushing Trump-branded \"Never Surrender\"/Liberty coins that claim guaranteed massive bank-exchange returns, bulk bonus deals, and political endorsements with affiliate links.",
+    "Raw_Response": "{\"Title\":\"Never Surrender Gold Coins\",\"Summary\":\"A flood of promotional messages pushing Trump-branded \\\"Never Surrender\\\"/Liberty coins that claim guaranteed massive bank-exchange returns, bulk bonus deals, and political endorsements with affiliate links.\"}"
+  },
+  {
+    "Topic": 211,
+    "Count": 321,
+    "Original_Name": "211_redo_bridge_resistance_listing",
+    "Title": "Resistance Dog REDO Token",
+    "Summary": "Promotional buy alerts for the Resistance Dog (REDO) token on the TON network showing recent transactions, TON amounts, token price, holders, market cap, and DexS/bridge listing details.",
+    "Raw_Response": "{\"Title\":\"Resistance Dog REDO Token\",\"Summary\":\"Promotional buy alerts for the Resistance Dog (REDO) token on the TON network showing recent transactions, TON amounts, token price, holders, market cap, and DexS/bridge listing details.\"}"
+  },
+  {
+    "Topic": 212,
+    "Count": 320,
+    "Original_Name": "212_shitcoin_shit_ton_campaigns",
+    "Title": "TON Shitcoin Buy Alerts",
+    "Summary": "Promotional buy-alert posts for low-cap shitcoin tokens on the TON blockchain listing transaction details, token amounts, holder counts, market caps and trend/campaign info.",
+    "Raw_Response": "{\"Title\":\"TON Shitcoin Buy Alerts\",\"Summary\":\"Promotional buy-alert posts for low-cap shitcoin tokens on the TON blockchain listing transaction details, token amounts, holder counts, market caps and trend/campaign info.\"}"
+  },
+  {
+    "Topic": 213,
+    "Count": 320,
+    "Original_Name": "213_gender_transgender_puberty_blocker",
+    "Title": "Opposition to Gender-Affirming Care",
+    "Summary": "Cluster criticizing gender-affirming medical treatments for minors and advocating bans, legal action, and child-protection against puberty blockers, hormones, and surgeries.",
+    "Raw_Response": "{\"Title\":\"Opposition to Gender-Affirming Care\",\"Summary\":\"Cluster criticizing gender-affirming medical treatments for minors and advocating bans, legal action, and child-protection against puberty blockers, hormones, and surgeries.\"}"
+  },
+  {
+    "Topic": 214,
+    "Count": 319,
+    "Original_Name": "214_cati_catizen_listing_dexs",
+    "Title": "Catizen (CATI) Buy Alerts",
+    "Summary": "Buy/listing notifications for the Catizen (CATI) token on the TON network via DexS, showing TON spent, CATI received, transaction sender, holder counts, price and market cap.",
+    "Raw_Response": "{\"Title\":\"Catizen (CATI) Buy Alerts\",\"Summary\":\"Buy/listing notifications for the Catizen (CATI) token on the TON network via DexS, showing TON spent, CATI received, transaction sender, holder counts, price and market cap.\"}"
+  },
+  {
+    "Topic": 215,
+    "Count": 319,
+    "Original_Name": "215_tdog_games_ton_holder",
+    "Title": "TDOG Token Buy Alerts",
+    "Summary": "Automated TON blockchain buy alerts for TDOG and related dog tokens, reporting TON spent, token amounts received, transaction IDs, holder counts, market cap/price and links to chart/buy.",
+    "Raw_Response": "{\"Title\":\"TDOG Token Buy Alerts\",\"Summary\":\"Automated TON blockchain buy alerts for TDOG and related dog tokens, reporting TON spent, token amounts received, transaction IDs, holder counts, market cap/price and links to chart/buy.\"}"
+  },
+  {
+    "Topic": 216,
+    "Count": 319,
+    "Original_Name": "216_flu_bird_pandemic_avian",
+    "Title": "Bird Flu Pandemic Claims",
+    "Summary": "Messages discuss warnings and conspiracies about an imminent avian influenza (bird flu) pandemic—citing rare human cases, simulations, officials' warnings, vaccine preparedness, and skepticism that this is a planned \"plandemic\" affecting people and livestock.",
+    "Raw_Response": "{\"Title\":\"Bird Flu Pandemic Claims\",\"Summary\":\"Messages discuss warnings and conspiracies about an imminent avian influenza (bird flu) pandemic—citing rare human cases, simulations, officials' warnings, vaccine preparedness, and skepticism that this is a planned \\\"plandemic\\\" affecting people and livestock.\"}"
+  },
+  {
+    "Topic": 217,
+    "Count": 317,
+    "Original_Name": "217_ath_legacy_killer_woody",
+    "Title": "New ATH Crypto Alerts",
+    "Summary": "Telegram bot posts (powered by @BirdyBuyBot) announcing tokens hitting new all-time highs, trending rankings, market caps and notable buys/transactions for SOL/TON and meme tokens.",
+    "Raw_Response": "{\"Title\":\"New ATH Crypto Alerts\",\"Summary\":\"Telegram bot posts (powered by @BirdyBuyBot) announcing tokens hitting new all-time highs, trending rankings, market caps and notable buys/transactions for SOL/TON and meme tokens.\"}"
+  },
+  {
+    "Topic": 218,
+    "Count": 316,
+    "Original_Name": "218_que_mafia_esta_history",
+    "Title": "International Jewish Mafia Conspiracy",
+    "Summary": "Bilingual messages promoting an antisemitic conspiracy that an \"international Jewish mafia\" controls governments, media, banks, vaccines and world events and urging people to \"wake up\".",
+    "Raw_Response": "{\"Title\":\"International Jewish Mafia Conspiracy\",\"Summary\":\"Bilingual messages promoting an antisemitic conspiracy that an \\\"international Jewish mafia\\\" controls governments, media, banks, vaccines and world events and urging people to \\\"wake up\\\".\"}"
+  },
+  {
+    "Topic": 219,
+    "Count": 314,
+    "Original_Name": "219_bsc_enter_event_group",
+    "Title": "Token Trending Announcements",
+    "Summary": "Telegram alerts announcing new tokens that have entered trending lists on BSC, ETH, and SOL, providing contract addresses, token/group names, and links to charts and events.",
+    "Raw_Response": "{\"Title\":\"Token Trending Announcements\",\"Summary\":\"Telegram alerts announcing new tokens that have entered trending lists on BSC, ETH, and SOL, providing contract addresses, token/group names, and links to charts and events.\"}"
+  },
+  {
+    "Topic": 220,
+    "Count": 311,
+    "Original_Name": "220_original_hashtag_sidenotes_automatically",
+    "Title": "Volcaholic Automated X Posts",
+    "Summary": "Automated Telegram reposts of X (Twitter) content using #Volcaholic and similar hashtags, with notes about posting delays, auto-translation errors, and potential differing views.",
+    "Raw_Response": "{\"Title\":\"Volcaholic Automated X Posts\",\"Summary\":\"Automated Telegram reposts of X (Twitter) content using #Volcaholic and similar hashtags, with notes about posting delays, auto-translation errors, and potential differing views.\"}"
+  },
+  {
+    "Topic": 221,
+    "Count": 305,
+    "Original_Name": "221_leaflet_tmemillionlightpaperandleaflet_tmeberkshirefreedom_yellow",
+    "Title": "Freedom Leaflet Distribution",
+    "Summary": "Telegram posts sharing printable 'freedom' leaflets and yellow-board ideas for local UK campaigns (Berkshire/Bracknell), urging distribution to oppose vaccines, 5G, climate policy and other government actions.",
+    "Raw_Response": "{\"Title\":\"Freedom Leaflet Distribution\",\"Summary\":\"Telegram posts sharing printable 'freedom' leaflets and yellow-board ideas for local UK campaigns (Berkshire/Bracknell), urging distribution to oppose vaccines, 5G, climate policy and other government actions.\"}"
+  },
+  {
+    "Topic": 222,
+    "Count": 303,
+    "Original_Name": "222_rumichi_beanr_nfa_tg",
+    "Title": "Token Buy Alert Posts",
+    "Summary": "Automated Telegram messages announcing small-cap token buys (e.g., RUMICHI, NOTCOIN, BEANR, SHEP) that list market cap, purchase amount/price, holder counts, profile/txn links and DYOR/NFA disclaimers.",
+    "Raw_Response": "{\"Title\":\"Token Buy Alert Posts\",\"Summary\":\"Automated Telegram messages announcing small-cap token buys (e.g., RUMICHI, NOTCOIN, BEANR, SHEP) that list market cap, purchase amount/price, holder counts, profile/txn links and DYOR/NFA disclaimers.\"}"
+  },
+  {
+    "Topic": 223,
+    "Count": 303,
+    "Original_Name": "223_project_team_development_let",
+    "Title": "Web3 Project Team Recruitment",
+    "Summary": "Messages about recruiting and supporting a Web3 project team, covering hiring, community engagement, developer updates, technical writeups, and partnership inquiries.",
+    "Raw_Response": "{\"Title\":\"Web3 Project Team Recruitment\",\"Summary\":\"Messages about recruiting and supporting a Web3 project team, covering hiring, community engagement, developer updates, technical writeups, and partnership inquiries.\"}"
+  },
+  {
+    "Topic": 224,
+    "Count": 301,
+    "Original_Name": "224_burgs_peacup_nfa_tg",
+    "Title": "Small-Cap Crypto Buy Alerts",
+    "Summary": "Telegram posts promoting trending low-market-cap token buys (e.g., BURGS, PEACUP, REFA) with market cap, token amounts, SOL/TON prices, buyer profiles and DYOR/NFA disclaimers.",
+    "Raw_Response": "{\"Title\":\"Small-Cap Crypto Buy Alerts\",\"Summary\":\"Telegram posts promoting trending low-market-cap token buys (e.g., BURGS, PEACUP, REFA) with market cap, token amounts, SOL/TON prices, buyer profiles and DYOR/NFA disclaimers.\"}"
+  },
+  {
+    "Topic": 225,
+    "Count": 298,
+    "Original_Name": "225_sadmeow_sad_meow_listing",
+    "Title": "TON Meme Token Buy Alerts",
+    "Summary": "Telegram posts promoting TON-based meme tokens (e.g., SAD MEOW, MAYBE) that announce buys/listings with transaction amounts, token quantities, holder counts, market caps, and Dex call-to-action.",
+    "Raw_Response": "{\"Title\":\"TON Meme Token Buy Alerts\",\"Summary\":\"Telegram posts promoting TON-based meme tokens (e.g., SAD MEOW, MAYBE) that announce buys/listings with transaction amounts, token quantities, holder counts, market caps, and Dex call-to-action.\"}"
+  },
+  {
+    "Topic": 226,
+    "Count": 294,
+    "Original_Name": "226_tether_bridge_listing_usd",
+    "Title": "Tether (USDT) Buys on TON",
+    "Summary": "Repeated Telegram alerts reporting USDT buys on the TON network with transaction amounts in TON and USD₮, holder counts, market cap estimates, and DexS/bridge listing status.",
+    "Raw_Response": "{\"Title\":\"Tether (USDT) Buys on TON\",\"Summary\":\"Repeated Telegram alerts reporting USDT buys on the TON network with transaction amounts in TON and USD₮, holder counts, market cap estimates, and DexS/bridge listing status.\"}"
+  },
+  {
+    "Topic": 227,
+    "Count": 293,
+    "Original_Name": "227_eth_txn_chart_brett",
+    "Title": "Ethereum Token Buy Alerts",
+    "Summary": "Short Telegram posts promoting small-cap ETH/Base tokens with buy signals showing ETH amount (USD), market cap, emojis, and links to chart and txn.",
+    "Raw_Response": "{\"Title\":\"Ethereum Token Buy Alerts\",\"Summary\":\"Short Telegram posts promoting small-cap ETH/Base tokens with buy signals showing ETH amount (USD), market cap, emojis, and links to chart and txn.\"}"
+  },
+  {
+    "Topic": 228,
+    "Count": 290,
+    "Original_Name": "228_cancer_chemotherapy_cure_oncologist",
+    "Title": "Cancer Conspiracy Theories",
+    "Summary": "A cluster of messages spreading misinformation and conspiratorial claims about cancer—arguing chemotherapy and hospitals do more harm than good, promoting unproven alternative cures, and linking cancer spikes to COVID-19 injections, vaccines, or government actors.",
+    "Raw_Response": "{\"Title\":\"Cancer Conspiracy Theories\",\"Summary\":\"A cluster of messages spreading misinformation and conspiratorial claims about cancer—arguing chemotherapy and hospitals do more harm than good, promoting unproven alternative cures, and linking cancer spikes to COVID-19 injections, vaccines, or government actors.\"}"
+  },
+  {
+    "Topic": 229,
+    "Count": 290,
+    "Original_Name": "229_tdog_campaigns_ton_games",
+    "Title": "TON Meme Token Buys",
+    "Summary": "Alerts reporting buys and transaction details for TON-based meme tokens (TDOG, REDO), showing amounts, wallet TXNs, holder counts, market caps, charts, bridges and campaign notes.",
+    "Raw_Response": "{\"Title\":\"TON Meme Token Buys\",\"Summary\":\"Alerts reporting buys and transaction details for TON-based meme tokens (TDOG, REDO), showing amounts, wallet TXNs, holder counts, market caps, charts, bridges and campaign notes.\"}"
+  },
+  {
+    "Topic": 230,
+    "Count": 290,
+    "Original_Name": "230_badge_liberty_secure_trump",
+    "Title": "Trump Liberty Badges Scam",
+    "Summary": "Spammy promotional messages touting \"Trump Liberty\"/\"Golden\" badges as limited-time investment opportunities with fraudulent claims of massive cash returns, urgent buy links, and pressure tactics.",
+    "Raw_Response": "{\"Title\":\"Trump Liberty Badges Scam\",\"Summary\":\"Spammy promotional messages touting \\\"Trump Liberty\\\"/\\\"Golden\\\" badges as limited-time investment opportunities with fraudulent claims of massive cash returns, urgent buy links, and pressure tactics.\"}"
+  },
+  {
+    "Topic": 231,
+    "Count": 288,
+    "Original_Name": "231_iraq_drone_syria_base",
+    "Title": "Iran‑backed Militia Drone Strikes",
+    "Summary": "Reports of Iran-backed 'Islamic Resistance in Iraq' and allied militias conducting drone and missile attacks on US/coalition bases and regional infrastructure across Iraq, Syria and nearby Israeli targets such as Erbil Airport and power plants.",
+    "Raw_Response": "{\"Title\":\"Iran‑backed Militia Drone Strikes\",\"Summary\":\"Reports of Iran-backed 'Islamic Resistance in Iraq' and allied militias conducting drone and missile attacks on US/coalition bases and regional infrastructure across Iraq, Syria and nearby Israeli targets such as Erbil Airport and power plants.\"}"
+  },
+  {
+    "Topic": 232,
+    "Count": 287,
+    "Original_Name": "232_ktc_nfa_tg_profile",
+    "Title": "Telegram K-Token Buy Alerts",
+    "Summary": "Cluster of Telegram posts announcing 'New [token] Buy' alerts for small-cap Solana tokens (KTC, KAT, KATOL, KARTO, KOTH, etc.) including market cap, token amounts, SOL price, buyer profile links, and DYOR/NFA disclaimers.",
+    "Raw_Response": "{\"Title\":\"Telegram K-Token Buy Alerts\",\"Summary\":\"Cluster of Telegram posts announcing 'New [token] Buy' alerts for small-cap Solana tokens (KTC, KAT, KATOL, KARTO, KOTH, etc.) including market cap, token amounts, SOL price, buyer profile links, and DYOR/NFA disclaimers.\"}"
+  },
+  {
+    "Topic": 233,
+    "Count": 287,
+    "Original_Name": "233_rank_volume_chain_solana",
+    "Title": "Solana DEXTools Trending Alerts",
+    "Summary": "Automated Telegram bot messages announcing DEXTools-trending Solana tokens with rank, market cap, 24h volume and links to website, Twitter, Telegram, chart and contract.",
+    "Raw_Response": "{\"Title\":\"Solana DEXTools Trending Alerts\",\"Summary\":\"Automated Telegram bot messages announcing DEXTools-trending Solana tokens with rank, market cap, 24h volume and links to website, Twitter, Telegram, chart and contract.\"}"
+  },
+  {
+    "Topic": 234,
+    "Count": 286,
+    "Original_Name": "234_article_linux_engine_model",
+    "Title": "Hacker News Tech Posts",
+    "Summary": "A collection of shared tech articles and Show HN items with comments discussing Linux, open-source projects, security, SQL/SQLite, browsers, and AI/chat models.",
+    "Raw_Response": "{\"Title\":\"Hacker News Tech Posts\",\"Summary\":\"A collection of shared tech articles and Show HN items with comments discussing Linux, open-source projects, security, SQL/SQLite, browsers, and AI/chat models.\"}"
+  },
+  {
+    "Topic": 235,
+    "Count": 284,
+    "Original_Name": "235_tunnel_underground_synagogue_chabad",
+    "Title": "Underground Tunnel Conspiracies",
+    "Summary": "Social posts and fringe-media claims about secret underground tunnel networks and D.U.M.B.S., alleging hidden military bases, child trafficking, and tunnels beneath NYC/Chabad locations.",
+    "Raw_Response": "{\"Title\":\"Underground Tunnel Conspiracies\",\"Summary\":\"Social posts and fringe-media claims about secret underground tunnel networks and D.U.M.B.S., alleging hidden military bases, child trafficking, and tunnels beneath NYC/Chabad locations.\"}"
+  },
+  {
+    "Topic": 236,
+    "Count": 284,
+    "Original_Name": "236_truth_twitter_social_twitterigtruth",
+    "Title": "SGTnewsNetwork Promotion Posts",
+    "Summary": "Short, pro‑MAGA social media crossposts promoting and directing users to the SGTnewsNetwork account on Truth Social, Twitter/X, and Instagram.",
+    "Raw_Response": "{\"Title\":\"SGTnewsNetwork Promotion Posts\",\"Summary\":\"Short, pro‑MAGA social media crossposts promoting and directing users to the SGTnewsNetwork account on Truth Social, Twitter/X, and Instagram.\"}"
+  },
+  {
+    "Topic": 237,
+    "Count": 282,
+    "Original_Name": "237_dexid_soul_mutable_metadata",
+    "Title": "Trending Solana Raydium Tokens",
+    "Summary": "Cluster of trending Solana-based tokens listed on Raydium—many with renounced ownership and mutable metadata—showing market stats (market cap, liquidity, volume), trading pairs and token addresses, with frequent mentions of scanner/bot tools (Soul Scan, TTF, Magnum).",
+    "Raw_Response": "{\"Title\":\"Trending Solana Raydium Tokens\",\"Summary\":\"Cluster of trending Solana-based tokens listed on Raydium—many with renounced ownership and mutable metadata—showing market stats (market cap, liquidity, volume), trading pairs and token addresses, with frequent mentions of scanner/bot tools (Soul Scan, TTF, Magnum).\"}"
+  },
+  {
+    "Topic": 238,
+    "Count": 281,
+    "Original_Name": "238_notcoin_games_ton_holder",
+    "Title": "Notcoin (NOT) TON Alerts",
+    "Summary": "Automated buy notifications and transaction summaries for Notcoin (NOT) on the TON blockchain showing TON spent, NOT received, holder counts, price, and market cap.",
+    "Raw_Response": "{\"Title\":\"Notcoin (NOT) TON Alerts\",\"Summary\":\"Automated buy notifications and transaction summaries for Notcoin (NOT) on the TON blockchain showing TON spent, NOT received, holder counts, price, and market cap.\"}"
+  },
+  {
+    "Topic": 239,
+    "Count": 279,
+    "Original_Name": "239_notcoin_foru_uwu_listingdexsbuy",
+    "Title": "TON Token Buy Alerts",
+    "Summary": "Telegram posts promoting purchases of TON-based tokens (Notcoin, ForU/UWU) showing transaction amounts, holder counts, prices, market caps and DexS listing/buy prompts.",
+    "Raw_Response": "{\"Title\":\"TON Token Buy Alerts\",\"Summary\":\"Telegram posts promoting purchases of TON-based tokens (Notcoin, ForU/UWU) showing transaction amounts, holder counts, prices, market caps and DexS listing/buy prompts.\"}"
+  },
+  {
+    "Topic": 240,
+    "Count": 279,
+    "Original_Name": "240_pedo_pedophile_pedos_pedophilia",
+    "Title": "Anti-Pedophile Vigilantism",
+    "Summary": "Cluster of messages accusing individuals of pedophilia, sharing alleged cases and sightings, and promoting identification, protective measures, or vigilante/violent responses to defend children.",
+    "Raw_Response": "{\"Title\":\"Anti-Pedophile Vigilantism\",\"Summary\":\"Cluster of messages accusing individuals of pedophilia, sharing alleged cases and sightings, and promoting identification, protective measures, or vigilante/violent responses to defend children.\"}"
+  },
+  {
+    "Topic": 241,
+    "Count": 279,
+    "Original_Name": "241_haiti_haitian_gang_clinton",
+    "Title": "Haiti gang violence crisis",
+    "Summary": "Posts discuss escalating gang violence and humanitarian collapse in Haiti, reporting attacks and migrant flows alongside calls for US/UN intervention and political or conspiracy commentary about foreign involvement.",
+    "Raw_Response": "{\"Title\":\"Haiti gang violence crisis\",\"Summary\":\"Posts discuss escalating gang violence and humanitarian collapse in Haiti, reporting attacks and migrant flows alongside calls for US/UN intervention and political or conspiracy commentary about foreign involvement.\"}"
+  },
+  {
+    "Topic": 242,
+    "Count": 276,
+    "Original_Name": "242_dog_liquidity_sniper_position",
+    "Title": "DOGS Token Buy Alerts",
+    "Summary": "Automated Telegram buy alerts for the DOGS token showing TON purchase amounts, position gains, market cap, liquidity, and chart/trending/sniper-bot indicators.",
+    "Raw_Response": "{\"Title\":\"DOGS Token Buy Alerts\",\"Summary\":\"Automated Telegram buy alerts for the DOGS token showing TON purchase amounts, position gains, market cap, liquidity, and chart/trending/sniper-bot indicators.\"}"
+  },
+  {
+    "Topic": 243,
+    "Count": 275,
+    "Original_Name": "243_gardeners_secrets_plant_grow",
+    "Title": "Home Gardening Tips",
+    "Summary": "Practical tips and resources for home gardeners on planting, growing and caring for vegetables, flowers, seeds, soil health and compost.",
+    "Raw_Response": "{\"Title\":\"Home Gardening Tips\",\"Summary\":\"Practical tips and resources for home gardeners on planting, growing and caring for vegetables, flowers, seeds, soil health and compost.\"}"
+  },
+  {
+    "Topic": 244,
+    "Count": 273,
+    "Original_Name": "244_lets_contact_goo_wait",
+    "Title": "YourDigitalSoldier Telegram Recruitment",
+    "Summary": "Promotional pro‑QAnon/pro‑Trump Telegram posts urging users to join and share the 'yourdigitalsoldier' channel with countdowns, conspiracy content, and viral calls-to-action.",
+    "Raw_Response": "{\"Title\":\"YourDigitalSoldier Telegram Recruitment\",\"Summary\":\"Promotional pro‑QAnon/pro‑Trump Telegram posts urging users to join and share the 'yourdigitalsoldier' channel with countdowns, conspiracy content, and viral calls-to-action.\"}"
+  },
+  {
+    "Topic": 245,
+    "Count": 271,
+    "Original_Name": "245_screener_snipe_dext_list",
+    "Title": "Solana Trending Token Alerts",
+    "Summary": "Notifications of newly listed Solana (SOL) tokens showing percentage gains since listing, listing rank, token name and Telegram group links, often tagged with DexT, Screener, and Snipe tools.",
+    "Raw_Response": "{\"Title\":\"Solana Trending Token Alerts\",\"Summary\":\"Notifications of newly listed Solana (SOL) tokens showing percentage gains since listing, listing rank, token name and Telegram group links, often tagged with DexT, Screener, and Snipe tools.\"}"
+  },
+  {
+    "Topic": 246,
+    "Count": 271,
+    "Original_Name": "246_uncx_amm_weth_date",
+    "Title": "Token-WETH Liquidity Locks",
+    "Summary": "Notifications of token liquidity pool locks and relocks for token–WETH pairs on Uniswap (via UNCX), detailing reserve amounts, lock percentages, unlock dates, AMM version and reference links.",
+    "Raw_Response": "{\"Title\":\"Token-WETH Liquidity Locks\",\"Summary\":\"Notifications of token liquidity pool locks and relocks for token–WETH pairs on Uniswap (via UNCX), detailing reserve amounts, lock percentages, unlock dates, AMM version and reference links.\"}"
+  },
+  {
+    "Topic": 247,
+    "Count": 271,
+    "Original_Name": "247_pharma_pharmaceutical_big_drug",
+    "Title": "Criticism of Big Pharma",
+    "Summary": "Cluster of messages expressing distrust and criticism of the pharmaceutical industry, alleging corruption, media influence via ad spending, high drug prices and PBM profiteering, and political or financial conflicts involving companies and regulators.",
+    "Raw_Response": "{\"Title\":\"Criticism of Big Pharma\",\"Summary\":\"Cluster of messages expressing distrust and criticism of the pharmaceutical industry, alleging corruption, media influence via ad spending, high drug prices and PBM profiteering, and political or financial conflicts involving companies and regulators.\"}"
+  },
+  {
+    "Topic": 248,
+    "Count": 270,
+    "Original_Name": "248_redo_games_resistance_dog",
+    "Title": "Resistance Dog (REDO) Token",
+    "Summary": "Promotional buy alerts for the Resistance Dog (REDO) cryptocurrency on the TON network, repeatedly posting transaction amounts in TON, holder counts, price and market cap details with buy/chart prompts.",
+    "Raw_Response": "{\"Title\":\"Resistance Dog (REDO) Token\",\"Summary\":\"Promotional buy alerts for the Resistance Dog (REDO) cryptocurrency on the TON network, repeatedly posting transaction amounts in TON, holder counts, price and market cap details with buy/chart prompts.\"}"
+  },
+  {
+    "Topic": 249,
+    "Count": 269,
+    "Original_Name": "249_freemasonry_freemason_masonic_lodge",
+    "Title": "Freemasonry Conspiracy Theories",
+    "Summary": "Cluster of messages alleging Freemasonry secretly infiltrates governments, institutions and elites, practices occult rituals and abuses, and is the focus of hostile, conspiratorial claims.",
+    "Raw_Response": "{\"Title\":\"Freemasonry Conspiracy Theories\",\"Summary\":\"Cluster of messages alleging Freemasonry secretly infiltrates governments, institutions and elites, practices occult rituals and abuses, and is the focus of hostile, conspiratorial claims.\"}"
+  },
+  {
+    "Topic": 250,
+    "Count": 268,
+    "Original_Name": "250_golden_eagle_sticker_trump",
+    "Title": "Trump Golden Eagles Scam",
+    "Summary": "Coordinated promotional spam pushing 'Trump Golden Eagles' stickers/plates as a bogus investment that falsely promises massive guaranteed cash payouts and urges urgent purchases via suspicious links.",
+    "Raw_Response": "{\"Title\":\"Trump Golden Eagles Scam\",\"Summary\":\"Coordinated promotional spam pushing 'Trump Golden Eagles' stickers/plates as a bogus investment that falsely promises massive guaranteed cash payouts and urges urgent purchases via suspicious links.\"}"
+  },
+  {
+    "Topic": 251,
+    "Count": 268,
+    "Original_Name": "251_tweet_twitter_thedustinnemos_kris",
+    "Title": "Twitter/X Tweets and Threads",
+    "Summary": "Posts sharing, promoting, and commenting on tweets and threads across Twitter/X, including links, retweet requests, account mentions, and humor.",
+    "Raw_Response": "{\"Title\":\"Twitter/X Tweets and Threads\",\"Summary\":\"Posts sharing, promoting, and commenting on tweets and threads across Twitter/X, including links, retweet requests, account mentions, and humor.\"}"
+  },
+  {
+    "Topic": 252,
+    "Count": 267,
+    "Original_Name": "252_bjp_modi_sabha_congress",
+    "Title": "2024 Indian Lok Sabha Elections",
+    "Summary": "Discussion of the 2024 Indian Lok Sabha elections, highlighting BJP and Modi's weakened showing, opposition alliances (INDIA bloc, AAP, Congress, regional fronts), state-level seat shifts, caste-based campaigning and related electoral law and funding issues.",
+    "Raw_Response": "{\"Title\":\"2024 Indian Lok Sabha Elections\",\"Summary\":\"Discussion of the 2024 Indian Lok Sabha elections, highlighting BJP and Modi's weakened showing, opposition alliances (INDIA bloc, AAP, Congress, regional fronts), state-level seat shifts, caste-based campaigning and related electoral law and funding issues.\"}"
+  },
+  {
+    "Topic": 253,
+    "Count": 265,
+    "Original_Name": "253_recognise_print_wide_you",
+    "Title": "Anti-vaccine Globalist Conspiracy",
+    "Summary": "Messages accusing 'globalist' elites of harming society via COVID vaccines, promoting fear of 'parasites', and urging readers to print, share widely, and join anti-establishment groups.",
+    "Raw_Response": "{\"Title\":\"Anti-vaccine Globalist Conspiracy\",\"Summary\":\"Messages accusing 'globalist' elites of harming society via COVID vaccines, promoting fear of 'parasites', and urging readers to print, share widely, and join anti-establishment groups.\"}"
+  },
+  {
+    "Topic": 254,
+    "Count": 263,
+    "Original_Name": "254_tether_listing_usd_dexs",
+    "Title": "Tether USD buys on TON",
+    "Summary": "Alerts promoting Tether (USDT) buy transactions on the TON blockchain, showing TON and USD₮ amounts, transaction links, holder counts, market cap, and DEX listing/trending information.",
+    "Raw_Response": "{\"Title\":\"Tether USD buys on TON\",\"Summary\":\"Alerts promoting Tether (USDT) buy transactions on the TON blockchain, showing TON and USD₮ amounts, transaction links, holder counts, market cap, and DEX listing/trending information.\"}"
+  },
+  {
+    "Topic": 255,
+    "Count": 263,
+    "Original_Name": "255_transfer_leftcurve_burn_prelaunch",
+    "Title": "Solana LP Burn Alerts",
+    "Summary": "Telegram alerts announcing newly detected Solana token liquidity pool burns and prelaunch/listing details including market cap, liquidity, owner transfers, contract address, and buy-platform links.",
+    "Raw_Response": "{\"Title\":\"Solana LP Burn Alerts\",\"Summary\":\"Telegram alerts announcing newly detected Solana token liquidity pool burns and prelaunch/listing details including market cap, liquidity, owner transfers, contract address, and buy-platform links.\"}"
+  },
+  {
+    "Topic": 256,
+    "Count": 262,
+    "Original_Name": "256_uncx_amm_weth_ether",
+    "Title": "WETH Liquidity Withdrawals",
+    "Summary": "UNCX Network alerts reporting large withdrawals (near 99%→0%) of liquidity from Uniswap V2 pools paired with Wrapped Ether (WETH) on Ethereum, highlighting token reserve drains and potential rug pulls.",
+    "Raw_Response": "{\"Title\":\"WETH Liquidity Withdrawals\",\"Summary\":\"UNCX Network alerts reporting large withdrawals (near 99%→0%) of liquidity from Uniswap V2 pools paired with Wrapped Ether (WETH) on Ethereum, highlighting token reserve drains and potential rug pulls.\"}"
+  },
+  {
+    "Topic": 257,
+    "Count": 260,
+    "Original_Name": "257_daddychill_daddy_chill_bluki",
+    "Title": "Token Buy Alerts",
+    "Summary": "Telegram notifications announcing buys of small-cap tokens (notably DaddyChill on SOL and Whiskers on TON), listing transaction amounts, token quantities, price, market cap, holder counts, and trending status.",
+    "Raw_Response": "{\"Title\":\"Token Buy Alerts\",\"Summary\":\"Telegram notifications announcing buys of small-cap tokens (notably DaddyChill on SOL and Whiskers on TON), listing transaction amounts, token quantities, price, market cap, holder counts, and trending status.\"}"
+  },
+  {
+    "Topic": 258,
+    "Count": 260,
+    "Original_Name": "258_boxer_khelif_womens_imane",
+    "Title": "Imane Khelif Olympic Controversy",
+    "Summary": "Discussion centers on Algerian boxer Imane Khelif, who was disqualified by the International Boxing Association for having XY chromosomes and failing a testosterone test in 2023 yet cleared by the IOC to compete at the Paris Olympics, where her quick win over a female opponent ignited controversy about competitive fairness and athlete safety.",
+    "Raw_Response": "{\"Title\":\"Imane Khelif Olympic Controversy\",\"Summary\":\"Discussion centers on Algerian boxer Imane Khelif, who was disqualified by the International Boxing Association for having XY chromosomes and failing a testosterone test in 2023 yet cleared by the IOC to compete at the Paris Olympics, where her quick win over a female opponent ignited controversy about competitive fairness and athlete safety.\"}"
+  },
+  {
+    "Topic": 259,
+    "Count": 260,
+    "Original_Name": "259_izfeed_block_blockworks_dl",
+    "Title": "BizFeed Crypto News",
+    "Summary": "A Telegram news feed aggregating crypto headlines from outlets like The Block, Blockworks, and DL News covering Bitcoin, ETFs, tokens, regulatory actions, and market movements.",
+    "Raw_Response": "{\"Title\":\"BizFeed Crypto News\",\"Summary\":\"A Telegram news feed aggregating crypto headlines from outlets like The Block, Blockworks, and DL News covering Bitcoin, ETFs, tokens, regulatory actions, and market movements.\"}"
+  },
+  {
+    "Topic": 260,
+    "Count": 259,
+    "Original_Name": "260_chain_group_add_trade",
+    "Title": "Buy Bot New Group Alerts",
+    "Summary": "Alerts announcing newly added groups to a buy bot for various blockchain tokens (ETH, BSC, BASE), listing token addresses, group names, and trade/chart/trending tags.",
+    "Raw_Response": "{\"Title\":\"Buy Bot New Group Alerts\",\"Summary\":\"Alerts announcing newly added groups to a buy bot for various blockchain tokens (ETH, BSC, BASE), listing token addresses, group names, and trade/chart/trending tags.\"}"
+  },
+  {
+    "Topic": 261,
+    "Count": 258,
+    "Original_Name": "261_tmeagentsoftruthchat_tmeagentsoftruth_tmetheferrymanstoll_tmeawaketotruthchat",
+    "Title": "Agents of Truth Telegram Channels",
+    "Summary": "Promotional posts linking to Telegram channels (AgentsOfTruth and similar) that share conspiracy theories, anti-elite rhetoric, and provocative/extremist content.",
+    "Raw_Response": "{\"Title\":\"Agents of Truth Telegram Channels\",\"Summary\":\"Promotional posts linking to Telegram channels (AgentsOfTruth and similar) that share conspiracy theories, anti-elite rhetoric, and provocative/extremist content.\"}"
+  },
+  {
+    "Topic": 262,
+    "Count": 257,
+    "Original_Name": "262_resistance_ton_reno_reduck",
+    "Title": "Resistance Tokens on TON",
+    "Summary": "Promotional buy alerts for various 'Resistance' themed tokens (e.g., REDUCK, RETON, REBE, RECO) on the TON blockchain showing purchase amounts, txns, holder counts and market cap.",
+    "Raw_Response": "{\"Title\":\"Resistance Tokens on TON\",\"Summary\":\"Promotional buy alerts for various 'Resistance' themed tokens (e.g., REDUCK, RETON, REBE, RECO) on the TON blockchain showing purchase amounts, txns, holder counts and market cap.\"}"
+  },
+  {
+    "Topic": 263,
+    "Count": 256,
+    "Original_Name": "263_interview_interviewer_full_listen",
+    "Title": "Enthusiastic Interview Sharing",
+    "Summary": "Messages sharing and promoting interviews with enthusiastic reactions, links to full watch/listen versions, and comments about interviewers and interview quality.",
+    "Raw_Response": "{\"Title\":\"Enthusiastic Interview Sharing\",\"Summary\":\"Messages sharing and promoting interviews with enthusiastic reactions, links to full watch/listen versions, and comments about interviewers and interview quality.\"}"
+  },
+  {
+    "Topic": 264,
+    "Count": 256,
+    "Original_Name": "264_mittens_cat_ton_mitten",
+    "Title": "Mittens Token (Telegram Cat)",
+    "Summary": "Frequent Telegram buy-alert posts tracking purchases, TON amounts spent, Mittens token quantities, holder counts, price and market-cap updates for the Telegram's Cat (Mittens) token.",
+    "Raw_Response": "{\"Title\":\"Mittens Token (Telegram Cat)\",\"Summary\":\"Frequent Telegram buy-alert posts tracking purchases, TON amounts spent, Mittens token quantities, holder counts, price and market-cap updates for the Telegram's Cat (Mittens) token.\"}"
+  },
+  {
+    "Topic": 265,
+    "Count": 256,
+    "Original_Name": "265_eclipse_solar_moon_april",
+    "Title": "April 8, 2024 Solar Eclipse",
+    "Summary": "Discussion about the April 8, 2024 total solar eclipse across North America, covering its path and visibility, duration on land, preparedness, photos, and related reactions and rumors.",
+    "Raw_Response": "{\"Title\":\"April 8, 2024 Solar Eclipse\",\"Summary\":\"Discussion about the April 8, 2024 total solar eclipse across North America, covering its path and visibility, duration on land, preparedness, photos, and related reactions and rumors.\"}"
+  },
+  {
+    "Topic": 266,
+    "Count": 254,
+    "Original_Name": "266_pool_top_flux_utc",
+    "Title": "New Solana Meme Pools",
+    "Summary": "Announcements of newly created Solana liquidity pools for meme tokens with pool details (contract, market cap, LP, holder distribution), useful links (SolScan, DexScreener) and buy/sniper bot instructions, typically posted by SolDex.",
+    "Raw_Response": "{\"Title\":\"New Solana Meme Pools\",\"Summary\":\"Announcements of newly created Solana liquidity pools for meme tokens with pool details (contract, market cap, LP, holder distribution), useful links (SolScan, DexScreener) and buy/sniper bot instructions, typically posted by SolDex.\"}"
+  },
+  {
+    "Topic": 267,
+    "Count": 252,
+    "Original_Name": "267_notcoin_games_holder_price",
+    "Title": "Notcoin Buy Notifications",
+    "Summary": "Automated TON-channel alerts announcing Notcoin purchases including USD value, NOT quantity, transaction link, holder counts, price and market-cap details.",
+    "Raw_Response": "{\"Title\":\"Notcoin Buy Notifications\",\"Summary\":\"Automated TON-channel alerts announcing Notcoin purchases including USD value, NOT quantity, transaction link, holder counts, price and market-cap details.\"}"
+  },
+  {
+    "Topic": 268,
+    "Count": 249,
+    "Original_Name": "268_dog_liquidity_sniper_dpepe",
+    "Title": "DOGS DPEPE Token Promotions",
+    "Summary": "Promotional posts for DOGS and DPEPE meme tokens on the TON blockchain highlighting buy signals, prices, market caps, liquidity, charts, trends, and sniper-bot activity.",
+    "Raw_Response": "{\"Title\":\"DOGS DPEPE Token Promotions\",\"Summary\":\"Promotional posts for DOGS and DPEPE meme tokens on the TON blockchain highlighting buy signals, prices, market caps, liquidity, charts, trends, and sniper-bot activity.\"}"
+  },
+  {
+    "Topic": 269,
+    "Count": 249,
+    "Original_Name": "269_peegee_porbg_nfa_tg",
+    "Title": "Solana Meme Token Alerts",
+    "Summary": "Telegram-style buy alerts (DYOR/NFA) for small-cap Solana meme tokens listing market cap, token amounts, SOL price, and links to profile/web/TG.",
+    "Raw_Response": "{\"Title\":\"Solana Meme Token Alerts\",\"Summary\":\"Telegram-style buy alerts (DYOR/NFA) for small-cap Solana meme tokens listing market cap, token amounts, SOL price, and links to profile/web/TG.\"}"
+  },
+  {
+    "Topic": 270,
+    "Count": 246,
+    "Original_Name": "270_euro_football_madrid_messi",
+    "Title": "Football News and Fan Content",
+    "Summary": "Messages about football/soccer—covering match reports and tournaments (e.g., Asian Cup), club and player talk (Messi, Ronaldo, Madrid, Euro) plus fan memes and football‑themed crypto tokens.",
+    "Raw_Response": "{\"Title\":\"Football News and Fan Content\",\"Summary\":\"Messages about football/soccer—covering match reports and tournaments (e.g., Asian Cup), club and player talk (Messi, Ronaldo, Madrid, Euro) plus fan memes and football‑themed crypto tokens.\"}"
+  },
+  {
+    "Topic": 271,
+    "Count": 245,
+    "Original_Name": "271_nigger_fuck_black_hate",
+    "Title": "Anti-Black and Homophobic Slurs",
+    "Summary": "Cluster contains repeated demeaning and abusive messages using anti-Black racial slurs and homophobic insults to harass and denigrate individuals.",
+    "Raw_Response": "{\"Title\":\"Anti-Black and Homophobic Slurs\",\"Summary\":\"Cluster contains repeated demeaning and abusive messages using anti-Black racial slurs and homophobic insults to harass and denigrate individuals.\"}"
+  },
+  {
+    "Topic": 272,
+    "Count": 245,
+    "Original_Name": "272_dust_bite_reason_ban",
+    "Title": "User Bans and Warnings",
+    "Summary": "Announcements of chat moderation actions—posting banned users and one-to-three warning notices with short reasons (spam, bad language, links, crypto) to notify members and maintain the blocklist.",
+    "Raw_Response": "{\"Title\":\"User Bans and Warnings\",\"Summary\":\"Announcements of chat moderation actions—posting banned users and one-to-three warning notices with short reasons (spam, bad language, links, crypto) to notify members and maintain the blocklist.\"}"
+  },
+  {
+    "Topic": 273,
+    "Count": 244,
+    "Original_Name": "273_meme_token_deployer_developer",
+    "Title": "Meme Token Launch Alerts",
+    "Summary": "Notifications announcing newly deployed meme-themed cryptocurrency tokens that list mint and deployer addresses, market cap and social links, posted by @pumpfundetector.",
+    "Raw_Response": "{\"Title\":\"Meme Token Launch Alerts\",\"Summary\":\"Notifications announcing newly deployed meme-themed cryptocurrency tokens that list mint and deployer addresses, market cap and social links, posted by @pumpfundetector.\"}"
+  },
+  {
+    "Topic": 274,
+    "Count": 244,
+    "Original_Name": "274_promo_buyer_bought_spent",
+    "Title": "TON Meme Token Buy Alerts",
+    "Summary": "Telegram bot alerts reporting new purchases of TON-chain meme tokens, listing amount spent, tokens bought, market cap, buyer wallet checks, holder counts, trending positions, chart links and promotional tags.",
+    "Raw_Response": "{\"Title\":\"TON Meme Token Buy Alerts\",\"Summary\":\"Telegram bot alerts reporting new purchases of TON-chain meme tokens, listing amount spent, tokens bought, market cap, buyer wallet checks, holder counts, trending positions, chart links and promotional tags.\"}"
+  },
+  {
+    "Topic": 275,
+    "Count": 242,
+    "Original_Name": "275_germany_german_afd_chancellor",
+    "Title": "Rise of AfD in Germany",
+    "Summary": "Coverage of the right-wing Alternative for Germany’s electoral gains in Thuringia and Saxony, the ensuing protests and policy debates, and the pressure these results place on Chancellor Olaf Scholz and coalition dynamics.",
+    "Raw_Response": "{\"Title\":\"Rise of AfD in Germany\",\"Summary\":\"Coverage of the right-wing Alternative for Germany’s electoral gains in Thuringia and Saxony, the ensuing protests and policy debates, and the pressure these results place on Chancellor Olaf Scholz and coalition dynamics.\"}"
+  },
+  {
+    "Topic": 276,
+    "Count": 241,
+    "Original_Name": "276_american_america_country_degradation",
+    "Title": "Critical Messages to Americans",
+    "Summary": "Cluster of alarmist, nationalistic, and sometimes profane posts addressing Americans, warning of national decline or conflict and urging patriotism or action.",
+    "Raw_Response": "{\"Title\":\"Critical Messages to Americans\",\"Summary\":\"Cluster of alarmist, nationalistic, and sometimes profane posts addressing Americans, warning of national decline or conflict and urging patriotism or action.\"}"
+  },
+  {
+    "Topic": 277,
+    "Count": 238,
+    "Original_Name": "277_hindu_girl_islamist_police",
+    "Title": "Alleged Islamist Crimes Against Hindus",
+    "Summary": "Social-media posts alleging crimes and communal violence by Muslims—portraying 'love jihad', rape, forced conversions, mob attacks, and threats targeting Hindus.",
+    "Raw_Response": "{\"Title\":\"Alleged Islamist Crimes Against Hindus\",\"Summary\":\"Social-media posts alleging crimes and communal violence by Muslims—portraying 'love jihad', rape, forced conversions, mob attacks, and threats targeting Hindus.\"}"
+  },
+  {
+    "Topic": 278,
+    "Count": 238,
+    "Original_Name": "278_gram_mev_xcept_backrun",
+    "Title": "MEV Trades and Token Listings",
+    "Summary": "Telegram posts reporting MEV (frontrun/backrun) profits by the XCEPT bot alongside promotional buy/listing alerts for tokens like GRAM on TON/DexS.",
+    "Raw_Response": "{\"Title\":\"MEV Trades and Token Listings\",\"Summary\":\"Telegram posts reporting MEV (frontrun/backrun) profits by the XCEPT bot alongside promotional buy/listing alerts for tokens like GRAM on TON/DexS.\"}"
+  },
+  {
+    "Topic": 279,
+    "Count": 237,
+    "Original_Name": "279_brazil_brazilian_bolsonaro_moraes",
+    "Title": "Brazil Free Speech Crisis",
+    "Summary": "Messages discuss political unrest in Brazil centered on Supreme Court actions by Judge Alexandre de Moraes—protests over the suspension/ban of X (Twitter), VPN fines, arrests linked to Bolsonaro allies, and Elon Musk’s accusations of judicial election interference.",
+    "Raw_Response": "{\"Title\":\"Brazil Free Speech Crisis\",\"Summary\":\"Messages discuss political unrest in Brazil centered on Supreme Court actions by Judge Alexandre de Moraes—protests over the suspension/ban of X (Twitter), VPN fines, arrests linked to Bolsonaro allies, and Elon Musk’s accusations of judicial election interference.\"}"
+  },
+  {
+    "Topic": 280,
+    "Count": 237,
+    "Original_Name": "280_xverse_welcome_weeoo_zelda",
+    "Title": "Community Welcome Messages",
+    "Summary": "Personalized greeting lines welcoming new users to community servers (e.g., Xverse, Remilia World Order, Rachel Vaughan), often with enthusiastic exclamations and party-style phrasing.",
+    "Raw_Response": "{\"Title\":\"Community Welcome Messages\",\"Summary\":\"Personalized greeting lines welcoming new users to community servers (e.g., Xverse, Remilia World Order, Rachel Vaughan), often with enthusiastic exclamations and party-style phrasing.\"}"
+  },
+  {
+    "Topic": 281,
+    "Count": 237,
+    "Original_Name": "281_redo_resistance_dog_liquidity",
+    "Title": "REDO Resistance Dog Alerts",
+    "Summary": "Repeated buy-signal posts promoting the REDO (Resistance Dog) token on the TON blockchain, listing purchase size, market cap, liquidity, chart/trending status, and sniper-bot alerts.",
+    "Raw_Response": "{\"Title\":\"REDO Resistance Dog Alerts\",\"Summary\":\"Repeated buy-signal posts promoting the REDO (Resistance Dog) token on the TON blockchain, listing purchase size, market cap, liquidity, chart/trending status, and sniper-bot alerts.\"}"
+  },
+  {
+    "Topic": 282,
+    "Count": 235,
+    "Original_Name": "282_pandemic_treaty_health_amendment",
+    "Title": "Opposition to WHO Pandemic Treaty",
+    "Summary": "Discussion and mobilisation against the WHO Pandemic Treaty and proposed IHR amendments, framing them as a threat to national sovereignty, individual freedoms, and free speech and warning of enforced health measures and censorship.",
+    "Raw_Response": "{\"Title\":\"Opposition to WHO Pandemic Treaty\",\"Summary\":\"Discussion and mobilisation against the WHO Pandemic Treaty and proposed IHR amendments, framing them as a threat to national sovereignty, individual freedoms, and free speech and warning of enforced health measures and censorship.\"}"
+  },
+  {
+    "Topic": 283,
+    "Count": 235,
+    "Original_Name": "283_israel_palestine_support_fuck",
+    "Title": "Anti-Israel Sentiment",
+    "Summary": "Messages expressing hostility toward Israel and Zionism, featuring profane anti-Israel slogans, calls to oppose Israel, accusations of Israeli support for extremists, and debates over pro-Israel support.",
+    "Raw_Response": "{\"Title\":\"Anti-Israel Sentiment\",\"Summary\":\"Messages expressing hostility toward Israel and Zionism, featuring profane anti-Israel slogans, calls to oppose Israel, accusations of Israeli support for extremists, and debates over pro-Israel support.\"}"
+  },
+  {
+    "Topic": 284,
+    "Count": 233,
+    "Original_Name": "284_wbnb_holders_shib_mafia",
+    "Title": "Shiba Inu Buy Alerts",
+    "Summary": "Cluster of messages reporting Shiba Inu (SHIB) purchases on PancakeSwap, ApeSwap and BiSwap with transaction stats (WBNB spent, SHIB received, price, holders, market cap) and promotional 'join our 100X call group' ads.",
+    "Raw_Response": "{\"Title\":\"Shiba Inu Buy Alerts\",\"Summary\":\"Cluster of messages reporting Shiba Inu (SHIB) purchases on PancakeSwap, ApeSwap and BiSwap with transaction stats (WBNB spent, SHIB received, price, holders, market cap) and promotional 'join our 100X call group' ads.\"}"
+  },
+  {
+    "Topic": 285,
+    "Count": 233,
+    "Original_Name": "285_ban_rule_interwebz_lulz",
+    "Title": "User Bans and Moderation",
+    "Summary": "Discussion of banning and moderation in chats, including ban commands, reports of banned words/accounts, insults, and unban requests.",
+    "Raw_Response": "{\"Title\":\"User Bans and Moderation\",\"Summary\":\"Discussion of banning and moderation in chats, including ban commands, reports of banned words/accounts, insults, and unban requests.\"}"
+  },
+  {
+    "Topic": 286,
+    "Count": 232,
+    "Original_Name": "286_warrant_icc_netanyahu_arrest",
+    "Title": "ICC Arrest Warrants for Netanyahu",
+    "Summary": "News and international reactions to the ICC's arrest warrants for Israeli leaders Benjamin Netanyahu and Yoav Gallant, detailing allegations, travel restrictions, and legal and political responses from countries and politicians.",
+    "Raw_Response": "{\"Title\":\"ICC Arrest Warrants for Netanyahu\",\"Summary\":\"News and international reactions to the ICC's arrest warrants for Israeli leaders Benjamin Netanyahu and Yoav Gallant, detailing allegations, travel restrictions, and legal and political responses from countries and politicians.\"}"
+  },
+  {
+    "Topic": 287,
+    "Count": 232,
+    "Original_Name": "287_cati_catizen_liquidity_sniper",
+    "Title": "Catizen (CATI) Buy Alerts",
+    "Summary": "Telegram posts announcing CATI (Catizen) token buys on the TON network, showing purchase amounts in TON, position gains, market cap, liquidity and chart/trending/sniper bot details.",
+    "Raw_Response": "{\"Title\":\"Catizen (CATI) Buy Alerts\",\"Summary\":\"Telegram posts announcing CATI (Catizen) token buys on the TON network, showing purchase amounts in TON, position gains, market cap, liquidity and chart/trending/sniper bot details.\"}"
+  },
+  {
+    "Topic": 288,
+    "Count": 231,
+    "Original_Name": "288_truth_lie_believe_liar",
+    "Title": "Accusations of Lying",
+    "Summary": "Cluster of messages accusing others of dishonesty, debating truth versus lies, and expressing distrust and condemnation of perceived liars.",
+    "Raw_Response": "{\"Title\":\"Accusations of Lying\",\"Summary\":\"Cluster of messages accusing others of dishonesty, debating truth versus lies, and expressing distrust and condemnation of perceived liars.\"}"
+  },
+  {
+    "Topic": 289,
+    "Count": 231,
+    "Original_Name": "289_science_reptilian_evolution_lizard",
+    "Title": "Science Skepticism and Conspiracies",
+    "Summary": "Posts expressing skepticism and mockery of mainstream science—ranging from creationism vs. evolution debates and pharma/vaccine distrust to reptilian/lizard people conspiracy claims.",
+    "Raw_Response": "{\"Title\":\"Science Skepticism and Conspiracies\",\"Summary\":\"Posts expressing skepticism and mockery of mainstream science—ranging from creationism vs. evolution debates and pharma/vaccine distrust to reptilian/lizard people conspiracy claims.\"}"
+  },
+  {
+    "Topic": 290,
+    "Count": 230,
+    "Original_Name": "290_migrant_denver_springfield_illegals",
+    "Title": "Migrant Crisis in US Cities",
+    "Summary": "Reports and commentary about large influxes of migrants—particularly Haitian arrivals—overwhelming shelters and services in cities like Denver, Springfield, and New York City, prompting increased spending, evictions, shelter limits, and local backlash.",
+    "Raw_Response": "{\"Title\":\"Migrant Crisis in US Cities\",\"Summary\":\"Reports and commentary about large influxes of migrants—particularly Haitian arrivals—overwhelming shelters and services in cities like Denver, Springfield, and New York City, prompting increased spending, evictions, shelter limits, and local backlash.\"}"
+  },
+  {
+    "Topic": 291,
+    "Count": 228,
+    "Original_Name": "291_war_world_start_fight",
+    "Title": "US Warmongering and War Fears",
+    "Summary": "Cluster contains angry anti-war commentary accusing the U.S. and Western elites of instigating and prolonging conflicts, risking wider/global war and prioritizing power over peace.",
+    "Raw_Response": "{\"Title\":\"US Warmongering and War Fears\",\"Summary\":\"Cluster contains angry anti-war commentary accusing the U.S. and Western elites of instigating and prolonging conflicts, risking wider/global war and prioritizing power over peace.\"}"
+  },
+  {
+    "Topic": 292,
+    "Count": 228,
+    "Original_Name": "292_hif_hedgehog_fog_games",
+    "Title": "Hedgehog in the Fog (HIF)",
+    "Summary": "Promotional buy alerts for the \"Hedgehog in the Fog\" (HIF) token on the TON blockchain showing transaction amounts, HIF received, holder counts, market cap and buy/chart/bridge links.",
+    "Raw_Response": "{\"Title\":\"Hedgehog in the Fog (HIF)\",\"Summary\":\"Promotional buy alerts for the \\\"Hedgehog in the Fog\\\" (HIF) token on the TON blockchain showing transaction amounts, HIF received, holder counts, market cap and buy/chart/bridge links.\"}"
+  },
+  {
+    "Topic": 293,
+    "Count": 226,
+    "Original_Name": "293_trade_michicard_copytrade_dca",
+    "Title": "Solana Token Pair Alerts",
+    "Summary": "Automated alerts announcing new token pair listings on Solana DEXes (Raydium, Pump.fun, Fluxbeam) with liquidity details, accompanied by repeated promotional ads for an auto-trading/copytrade bot and occasional token buy alerts like MICHICARD.",
+    "Raw_Response": "{\"Title\":\"Solana Token Pair Alerts\",\"Summary\":\"Automated alerts announcing new token pair listings on Solana DEXes (Raydium, Pump.fun, Fluxbeam) with liquidity details, accompanied by repeated promotional ads for an auto-trading/copytrade bot and occasional token buy alerts like MICHICARD.\"}"
+  },
+  {
+    "Topic": 294,
+    "Count": 226,
+    "Original_Name": "294_revolver_news_berenson_trump",
+    "Title": "Revolver News political headlines",
+    "Summary": "Collection of Revolver News posts offering right-leaning, often provocative coverage and commentary on Trump, Biden, Democrats, and related political scandals and culture-war topics.",
+    "Raw_Response": "{\"Title\":\"Revolver News political headlines\",\"Summary\":\"Collection of Revolver News posts offering right-leaning, often provocative coverage and commentary on Trump, Biden, Democrats, and related political scandals and culture-war topics.\"}"
+  },
+  {
+    "Topic": 295,
+    "Count": 224,
+    "Original_Name": "295_turkey_turkish_erdogan_syria",
+    "Title": "Turkey–Syria Relations and Conflict",
+    "Summary": "Discussion of Turkey's relations and tensions with Syria under Erdogan, covering Turkish forces in Syrian territory, operations against Kurdish militants, border actions in Iraq, rapprochement talks with Assad, and allegations of abuses in occupied areas.",
+    "Raw_Response": "{\"Title\":\"Turkey–Syria Relations and Conflict\",\"Summary\":\"Discussion of Turkey's relations and tensions with Syria under Erdogan, covering Turkish forces in Syrian territory, operations against Kurdish militants, border actions in Iraq, rapprochement talks with Assad, and allegations of abuses in occupied areas.\"}"
+  },
+  {
+    "Topic": 296,
+    "Count": 223,
+    "Original_Name": "296_fluoride_fluoridation_water_drinking",
+    "Title": "Water Fluoridation Controversy",
+    "Summary": "Discussion and activism opposing municipal water fluoridation, emphasizing alleged health risks from studies, claims of government suppression, and political efforts to remove fluoride from drinking water.",
+    "Raw_Response": "{\"Title\":\"Water Fluoridation Controversy\",\"Summary\":\"Discussion and activism opposing municipal water fluoridation, emphasizing alleged health risks from studies, claims of government suppression, and political efforts to remove fluoride from drinking water.\"}"
+  },
+  {
+    "Topic": 297,
+    "Count": 223,
+    "Original_Name": "297_antarctica_ice_antarctic_pole",
+    "Title": "Antarctica Conspiracy Theories",
+    "Summary": "Cluster of messages promoting conspiracy claims about Antarctica — ice walls, hidden continents and civilizations, secret bases and restricted expeditions, and alleged suppression of maps and research.",
+    "Raw_Response": "{\"Title\":\"Antarctica Conspiracy Theories\",\"Summary\":\"Cluster of messages promoting conspiracy claims about Antarctica — ice walls, hidden continents and civilizations, secret bases and restricted expeditions, and alleged suppression of maps and research.\"}"
+  },
+  {
+    "Topic": 298,
+    "Count": 219,
+    "Original_Name": "298_scammer_scammed_beware_scams",
+    "Title": "Scammer Warnings and Alerts",
+    "Summary": "Messages warning about suspected scammers and fake accounts on Telegram, sharing reports, cautions, and advice to avoid spam and fraud.",
+    "Raw_Response": "{\"Title\":\"Scammer Warnings and Alerts\",\"Summary\":\"Messages warning about suspected scammers and fake accounts on Telegram, sharing reports, cautions, and advice to avoid spam and fraud.\"}"
+  },
+  {
+    "Topic": 299,
+    "Count": 217,
+    "Original_Name": "299_barrel_rifle_gun_bullet",
+    "Title": "Rifle Ballistics and Barrels",
+    "Summary": "Discussions about firearms—especially rifles and AR-15s—covering barrel length effects on velocity and noise, rifle vs pistol handling, ammunition types, and parts/pricing.",
+    "Raw_Response": "{\"Title\":\"Rifle Ballistics and Barrels\",\"Summary\":\"Discussions about firearms—especially rifles and AR-15s—covering barrel length effects on velocity and noise, rifle vs pistol handling, ammunition types, and parts/pricing.\"}"
+  },
+  {
+    "Topic": 300,
+    "Count": 217,
+    "Original_Name": "300_chemtrails_chemtrail_chem_spray",
+    "Title": "Chemtrails Conspiracy Theories",
+    "Summary": "Messages asserting that persistent aircraft contrails are deliberate chemical 'chemtrails', featuring alleged evidence, eyewitness sightings, pilot/radar claims, and conspiracy commentary.",
+    "Raw_Response": "{\"Title\":\"Chemtrails Conspiracy Theories\",\"Summary\":\"Messages asserting that persistent aircraft contrails are deliberate chemical 'chemtrails', featuring alleged evidence, eyewitness sightings, pilot/radar claims, and conspiracy commentary.\"}"
+  },
+  {
+    "Topic": 301,
+    "Count": 215,
+    "Original_Name": "301_dbuybot_member_count_add",
+    "Title": "D.BuyBot Group Additions",
+    "Summary": "Notifications announcing that various Telegram communities have just added the D.BuyBot, typically showing member counts and tags like Trending or Events and often relating to crypto/Solana groups.",
+    "Raw_Response": "{\"Title\":\"D.BuyBot Group Additions\",\"Summary\":\"Notifications announcing that various Telegram communities have just added the D.BuyBot, typically showing member counts and tags like Trending or Events and often relating to crypto/Solana groups.\"}"
+  },
+  {
+    "Topic": 302,
+    "Count": 215,
+    "Original_Name": "302_izfeed_terminal_hedgeye_metamask",
+    "Title": "On-chain Crypto Dashboards",
+    "Summary": "Tweets and updates highlighting on-chain analytics and dashboard tools (Token Terminal, DeFiLlama, Nansen, CryptoQuant, MetaMask) sharing data charts, revenue/fees metrics, and product news.",
+    "Raw_Response": "{\"Title\":\"On-chain Crypto Dashboards\",\"Summary\":\"Tweets and updates highlighting on-chain analytics and dashboard tools (Token Terminal, DeFiLlama, Nansen, CryptoQuant, MetaMask) sharing data charts, revenue/fees metrics, and product news.\"}"
+  },
+  {
+    "Topic": 303,
+    "Count": 214,
+    "Original_Name": "303_enemy_resistance_islamic_israeli",
+    "Title": "Hezbollah Attacks on Israel",
+    "Summary": "Cluster of messages reporting Hezbollah and allied ‘Islamic Resistance’ operations—rockets, guided missiles and suicide drones—targeting Israeli military sites and northern settlements in support of Gaza, accompanied by rhetoric honoring martyrs and Axis of Resistance allies.",
+    "Raw_Response": "{\"Title\":\"Hezbollah Attacks on Israel\",\"Summary\":\"Cluster of messages reporting Hezbollah and allied ‘Islamic Resistance’ operations—rockets, guided missiles and suicide drones—targeting Israeli military sites and northern settlements in support of Gaza, accompanied by rhetoric honoring martyrs and Axis of Resistance allies.\"}"
+  },
+  {
+    "Topic": 304,
+    "Count": 214,
+    "Original_Name": "304_elonmusk_tweet_date_reply",
+    "Title": "Elon Musk Twitter Activity",
+    "Summary": "Cluster of notifications capturing Elon Musk's recent tweets, replies, and retweets with brief text snippets and timestamps.",
+    "Raw_Response": "{\"Title\":\"Elon Musk Twitter Activity\",\"Summary\":\"Cluster of notifications capturing Elon Musk's recent tweets, replies, and retweets with brief text snippets and timestamps.\"}"
+  },
+  {
+    "Topic": 305,
+    "Count": 212,
+    "Original_Name": "305_genocide_icj_court_south",
+    "Title": "South Africa v. Israel at ICJ",
+    "Summary": "South Africa has taken Israel to the International Court of Justice alleging breaches of the Genocide Convention in Gaza, leading to emergency hearings and provisional orders requiring Israel to prevent genocidal acts, allow humanitarian access, and preserve evidence.",
+    "Raw_Response": "{\"Title\":\"South Africa v. Israel at ICJ\",\"Summary\":\"South Africa has taken Israel to the International Court of Justice alleging breaches of the Genocide Convention in Gaza, leading to emergency hearings and provisional orders requiring Israel to prevent genocidal acts, allow humanitarian access, and preserve evidence.\"}"
+  },
+  {
+    "Topic": 306,
+    "Count": 210,
+    "Original_Name": "306_access_log_rdp_debit",
+    "Title": "Compromised Bank Account Logs",
+    "Summary": "Cluster of Telegram posts advertising stolen bank account 'logs' and fullz—offering online/RDP access, debit card details and ATM PINs, SSNs/DOB/MMN, billing and carrier info, account balances and prices for sale via DMs.",
+    "Raw_Response": "{\"Title\":\"Compromised Bank Account Logs\",\"Summary\":\"Cluster of Telegram posts advertising stolen bank account 'logs' and fullz—offering online/RDP access, debit card details and ATM PINs, SSNs/DOB/MMN, billing and carrier info, account balances and prices for sale via DMs.\"}"
+  },
+  {
+    "Topic": 307,
+    "Count": 209,
+    "Original_Name": "307_trump_christian_god_pray",
+    "Title": "Christian Support for Trump",
+    "Summary": "Messages linking Christian faith, prayer, and clergy endorsements to vocal support and calls to vote for Donald Trump, alongside debate over his religious suitability for Christian voters.",
+    "Raw_Response": "{\"Title\":\"Christian Support for Trump\",\"Summary\":\"Messages linking Christian faith, prayer, and clergy endorsements to vocal support and calls to vote for Donald Trump, alongside debate over his religious suitability for Christian voters.\"}"
+  },
+  {
+    "Topic": 308,
+    "Count": 208,
+    "Original_Name": "308_underdown_cranmer_david_twitter",
+    "Title": "David Cranmer Underdown Tweets",
+    "Summary": "Cluster of tweets and shared links from the Twitter account 'David Cranmer Underdown' posting assorted historical facts, news snippets, and commentary.",
+    "Raw_Response": "{\"Title\":\"David Cranmer Underdown Tweets\",\"Summary\":\"Cluster of tweets and shared links from the Twitter account 'David Cranmer Underdown' posting assorted historical facts, news snippets, and commentary.\"}"
+  },
+  {
+    "Topic": 309,
+    "Count": 207,
+    "Original_Name": "309_notcoin_battle_ton_holder",
+    "Title": "Notcoin Buy Alerts",
+    "Summary": "Notifications of Notcoin purchases on the TON network listing transaction details, amounts bought, current price, holder counts, and market cap for trending updates.",
+    "Raw_Response": "{\"Title\":\"Notcoin Buy Alerts\",\"Summary\":\"Notifications of Notcoin purchases on the TON network listing transaction details, amounts bought, current price, holder counts, and market cap for trending updates.\"}"
+  },
+  {
+    "Topic": 310,
+    "Count": 207,
+    "Original_Name": "310_ath_performing_eth_sol",
+    "Title": "Top 24H Token Performers",
+    "Summary": "Daily Telegram posts listing the best-performing crypto tokens over the last 24 hours with gain multiples, chain (SOL/ETH/etc.), ATHs, and total tokens tracked.",
+    "Raw_Response": "{\"Title\":\"Top 24H Token Performers\",\"Summary\":\"Daily Telegram posts listing the best-performing crypto tokens over the last 24 hours with gain multiples, chain (SOL/ETH/etc.), ATHs, and total tokens tracked.\"}"
+  },
+  {
+    "Topic": 311,
+    "Count": 206,
+    "Original_Name": "311_infowars_jones_alex_analysis",
+    "Title": "Infowars Bankruptcy and Sale",
+    "Summary": "Coverage of Alex Jones and Infowars focusing on legal and financial developments including bankruptcy proceedings, an auction sale (reported purchase by The Onion), emergency court filings, and related news analysis and broadcasts.",
+    "Raw_Response": "{\"Title\":\"Infowars Bankruptcy and Sale\",\"Summary\":\"Coverage of Alex Jones and Infowars focusing on legal and financial developments including bankruptcy proceedings, an auction sale (reported purchase by The Onion), emergency court filings, and related news analysis and broadcasts.\"}"
+  },
+  {
+    "Topic": 312,
+    "Count": 205,
+    "Original_Name": "312_intel_drop_summary_ruaf",
+    "Title": "The Intel Drop",
+    "Summary": "Series of posts from The Intel Drop offering intelligence summaries and commentary on the Russia-Ukraine conflict and related geopolitical and military developments.",
+    "Raw_Response": "{\"Title\":\"The Intel Drop\",\"Summary\":\"Series of posts from The Intel Drop offering intelligence summaries and commentary on the Russia-Ukraine conflict and related geopolitical and military developments.\"}"
+  },
+  {
+    "Topic": 313,
+    "Count": 205,
+    "Original_Name": "313_transfer_unknown_btc_sender",
+    "Title": "Whale Crypto Transfers",
+    "Summary": "Alerts reporting large BTC/ETH/USDC movements between unknown wallets and major exchanges (Coinbase, Bitfinex, Kraken, Binance) and USDC treasury activity including burns.",
+    "Raw_Response": "{\"Title\":\"Whale Crypto Transfers\",\"Summary\":\"Alerts reporting large BTC/ETH/USDC movements between unknown wallets and major exchanges (Coinbase, Bitfinex, Kraken, Binance) and USDC treasury activity including burns.\"}"
+  },
+  {
+    "Topic": 314,
+    "Count": 203,
+    "Original_Name": "314_bianca_censori_mike_wife",
+    "Title": "Kanye West & Bianca Censori",
+    "Summary": "News and social-media chatter about Kanye West and his wife Bianca Censori, covering their public appearances, outfits, and breakup rumors.",
+    "Raw_Response": "{\"Title\":\"Kanye West & Bianca Censori\",\"Summary\":\"News and social-media chatter about Kanye West and his wife Bianca Censori, covering their public appearances, outfits, and breakup rumors.\"}"
+  },
+  {
+    "Topic": 315,
+    "Count": 201,
+    "Original_Name": "315_chinese_pumpfun_balance_wallet",
+    "Title": "Chinese-themed Solana Meme Tokens",
+    "Summary": "Listings of Chinese-themed Solana meme tokens on pump.fun that include contract addresses, supply and owner wallet stats, creator info, transaction history, and cautionary notes about fresh or empty/dev wallets.",
+    "Raw_Response": "{\"Title\":\"Chinese-themed Solana Meme Tokens\",\"Summary\":\"Listings of Chinese-themed Solana meme tokens on pump.fun that include contract addresses, supply and owner wallet stats, creator info, transaction history, and cautionary notes about fresh or empty/dev wallets.\"}"
+  },
+  {
+    "Topic": 316,
+    "Count": 200,
+    "Original_Name": "316_redo_postion_games_resistance",
+    "Title": "Resistance Dog (REDO) Token",
+    "Summary": "Promotional TON network buy alerts for the Resistance Dog (REDO/REDO2) token highlighting TON amounts, price, holders, transactions, position changes, and market cap.",
+    "Raw_Response": "{\"Title\":\"Resistance Dog (REDO) Token\",\"Summary\":\"Promotional TON network buy alerts for the Resistance Dog (REDO/REDO2) token highlighting TON amounts, price, holders, transactions, position changes, and market cap.\"}"
+  }
+]

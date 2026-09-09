@@ -1,0 +1,73 @@
+# configs/classifier_config.yaml
+# Configuração centralizada do pipeline de classificação
+
+paths:
+  text_path: "data/processed/stratified_sample_full"
+  topics_path: "data/processed/topic_modeling_result.parquet"
+  cache_embeddings_dir: "data/cache/embeddings_classifier_macrotopic"
+  output_dir: "reports/classifier_macrotopic_balanced_c"
+
+data:
+  merge_keys: ["id", "group_name"]
+  text_col: "clean_text"
+  label_col: "macro_topic"
+
+corpus:
+  filter: "just_politic"
+  col: "political_category"
+  category: "Politic"
+  
+
+embeddings:
+  models:
+    - "all-distilroberta-v1"
+    - "paraphrase-MiniLM-L6-v2"
+    - "all-MiniLM-L6-v2"
+
+training:
+  validation: "stratified_kfold"
+  n_splits: 5
+
+classifiers:
+  dt:
+    # criterion: 'gini' é mais rápido matematicamente. 'entropy' é clássico em NLP.
+    criterion: ["gini", "entropy"]
+    # max_depth: O freio principal. Nunca coloque 'null' com 1 milhão de embeddings!
+    max_depth: [10, 20, 50]
+    # min_samples_split: Impede a árvore de criar galhos inúteis para poucas mensagens
+    min_samples_split: [20, 100]
+    # class_weight: Lida com o desbalanceamento (se tiver muita mensagem 'Outlier')
+    class_weight: ["balanced"]
+    
+  lr:
+    # C: Força da regularização. Valores menores especificam uma regularização mais forte.
+    C: [0.01, 0.1, 1.0, 10.0, 100.0]
+    # class_weight: Útil se as suas classes (Políticas vs Não Políticas) estiverem desbalanceadas.
+    class_weight: ["balanced"]
+    # solver: 'lbfgs' é rápido e padrão. 'saga' é mais lento mas lida bem com bases gigantes.
+    solver: ["lbfgs", "saga"]
+    max_iter: [1000]
+    #n_jobs: [-1]
+    
+
+  # lgbm:
+  #   # n_estimators: Quantidade de árvores.
+  #   n_estimators: [100, 300, 500]
+  #   # learning_rate: Passos de aprendizado (taxas menores precisam de mais n_estimators).
+  #   learning_rate: [0.01, 0.05, 0.1]
+  #   # num_leaves: Principal parâmetro para controlar complexidade no LightGBM.
+  #   num_leaves: [31, 63, 127]
+  #   # max_depth: Profundidade máxima (-1 significa sem limite).
+  #   max_depth: [-1, 10, 20]
+  #   n_jobs: [-1]
+
+  # rf:
+  #   # n_estimators: Quantidade de árvores na floresta.
+  #   n_estimators: [100, 200, 300]
+  #   # max_depth: Profundidade (null deixa a árvore crescer até classificar tudo, risco de overfit).
+  #   max_depth: [10, 20, 30, null]
+  #   # min_samples_split: Mínimo de amostras necessárias para dividir um nó.
+  #   min_samples_split: [2, 5, 10]
+  #   # min_samples_leaf: Mínimo de amostras permitidas em uma folha final.
+  #   min_samples_leaf: [1, 2, 4]
+  #   n_jobs: [-1]

@@ -1,0 +1,6 @@
+run_id,dataset,embedding,model,fold,best_params,accuracy,f1_macro,f1_weighted
+2026-09-07T19:37:46.376247,stratified_sample_full,all-distilroberta-v1,dt,1,"{'class_weight': 'balanced', 'criterion': 'gini', 'max_depth': 50, 'min_samples_split': 20}",0.49911005892619537,0.4202868754730768,0.5153744395313187
+2026-09-07T20:24:59.683748,stratified_sample_full,all-distilroberta-v1,dt,2,"{'class_weight': 'balanced', 'criterion': 'gini', 'max_depth': 50, 'min_samples_split': 20}",0.49991359646091105,0.41661622277538285,0.5157713744372001
+2026-09-07T21:12:12.711045,stratified_sample_full,all-distilroberta-v1,dt,3,"{'class_weight': 'balanced', 'criterion': 'gini', 'max_depth': 50, 'min_samples_split': 20}",0.49288034837906963,0.4143021076539626,0.5087376721602291
+2026-09-07T21:59:16.328318,stratified_sample_full,all-distilroberta-v1,dt,4,"{'class_weight': 'balanced', 'criterion': 'gini', 'max_depth': 50, 'min_samples_split': 20}",0.49967166655146195,0.42002725706495225,0.5164045508179255
+2026-09-07T22:46:10.712879,stratified_sample_full,all-distilroberta-v1,dt,5,"{'class_weight': 'balanced', 'criterion': 'gini', 'max_depth': 50, 'min_samples_split': 20}",0.5019527199834105,0.4226915170675321,0.5183842643592202

@@ -16,6 +16,10 @@ class ModelTrainer:
         Roda o GridSearch para encontrar a melhor configuração.
         """
 
+        total_cores = os.cpu_count() or 8
+        n_jobs_dynamic = max(1, total_cores // 2)
+        print(f"| Servidor com {total_cores} núcleos. Alocando {n_jobs_dynamic} para o Grid Search.")
+
         if not self.param_grid:
             self.best_params = {}
             self.best_model = self.base_model
@@ -26,7 +30,7 @@ class ModelTrainer:
             param_grid = self.param_grid,
             cv=self.cv,
             scoring = 'accuracy',
-            n_jobs = -1
+            n_jobs = n_jobs_dynamic
         )
         search.fit(X,y)
 
