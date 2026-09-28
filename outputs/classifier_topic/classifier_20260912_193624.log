@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/students/moliveira/paperMessages/src/run_compare_classifieds.py", line 7, in <module>
+    from src.topic_modeling.embeddings import generate_embeddings
+  File "/home/students/moliveira/paperMessages/src/topic_modeling/embeddings.py", line 4, in <module>
+    import torch
+ModuleNotFoundError: No module named 'torch'

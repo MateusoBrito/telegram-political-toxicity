@@ -1,0 +1,46 @@
+Lendo texto com colunas: ['group_name', 'id', 'clean_text']
+Lendo tópicos com colunas: ['group_name', 'political_category', 'id', 'macro_topic']
+Dataset carregado: 996055 documentos
+Filtrando corpus para: political_category == Politic
+Dataset carregado pós filtro: 289341 documentos
+Modelo Vencedor: LR com all-distilroberta-v1
+Classes encontradas para treino: ['MEDIA_PLATFORMS', 'RELIGION_SPIRITUALITY', 'IDEOLOGY_ANTIESTABLISHMENT', 'HEALTH_ANTIVAX_ALTMED', 'WAR_RUSSIA_UKRAINE', 'CRIME_POLICING_JUSTICE', 'US_POLITICS_ELECTIONS', 'NATIONAL_POLITICS_NON_US', 'WAR_MIDDLE_EAST', 'IDENTITY_BASED_HATE_AND_SLURS', 'MORAL_PANIC', 'CONSPIRACY_DEEPSTATE_ELITES', 'FREE_SPEECH_AND_CENSORSHIP', 'PROTEST_MOBILIZATION', 'IMMIGRATION_BORDERS', 'CONSPIRACY_PSEUDOSCIENCE', 'GEOPOLITICS_INTERSTATE', 'CONCERNS_ABOUT_CLIMATE_CHANGE_POLICIES']
+| Gerando/carregando embeddings...
+   -> Carregando da cache: /home/students/moliveira/paperMessages/data/cache/embeddings_classifier_macrotopic/all-distilroberta-v1.npy
+
+Otimizando hiperparâmetros com GridSearchCV em 100% da amostra...
+| Servidor com 72 núcleos. Alocando 36 para o Grid Search.
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+Melhores parâmetros: {'C': 100.0, 'class_weight': 'balanced', 'max_iter': 1000, 'solver': 'lbfgs'}
+Treinando modelo final...
+Modelo salvo em /home/students/moliveira/paperMessages/reports/classifier_macrotopic_balanced_c/lr_all-distilroberta-v1_producao.joblib
+Pipeline de treino concluído. Modelo salvo para inferência em: /home/students/moliveira/paperMessages/reports/classifier_macrotopic_balanced_c/lr_all-distilroberta-v1_producao.joblib

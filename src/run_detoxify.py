@@ -1,5 +1,6 @@
 import os
 import sys 
+from dotenv import load_dotenv
 
 os.environ['PYSPARK_PYTHON'] = sys.executable
 os.environ['PYSPARK_DRIVER_PYTHON'] = sys.executable
@@ -11,11 +12,17 @@ from pyspark.sql.types import StructType, StructField, FloatType
 
 from src.utils.data_loader import get_spark_session, load_data, ROOT
 
-INPUT_PATH  = ROOT / "data" / "processed" / "messages_preprocessed"
-OUTPUT_PATH = ROOT / "data" / "processed" / "toxicity"
+INPUT_PATH  = ROOT / "data" / "processed" / "messages_classified"
+OUTPUT_PATH = ROOT / "data" / "processed" / "toxicity_political"
 OUTPUT_PATH.mkdir(parents=True, exist_ok=True)
 
+filter_category = "Politic"
+col_filter = "political_category"
+col_text = "clean_text"
+cols_time = ["datetime", "year", "month"]
+pk = ["id", "group_name"]
 
+      
 def analyze_partition_iterator(iterator):
     """
     Processa os dados em lotes por partição.
@@ -64,16 +71,29 @@ def analyze_partition_iterator(iterator):
 
 
 if __name__ == "__main__":
+    load_dotenv()
+    
     spark = get_spark_session("processDetoxifyDynamic")
     
     spark.conf.set("spark.sql.execution.arrow.pyspark.enabled", "true")
-    # A mágica: Sobrescreve apenas as partições filtradas, sem apagar a pasta toda
     spark.conf.set("spark.sql.sources.partitionOverwriteMode", "dynamic")
+
+    if "HF_TOKEN" in os.environ:
+        spark.conf.set("spark.executorEnv.HF_TOKEN", os.environ["HF_TOKEN"])
     
     print("Carregando base de dados...")
-    columns_ip = ["id", "group_name", "clean_text", "datetime", "year", "month"]
+    columns_ip = pk + cols_time + [col_text, col_filter]
     df = load_data(spark, INPUT_PATH, columns_ip)
 
+    if col_filter and filter_category:
+        try:
+            print(f"Filtro ativo no config: mantendo apenas registros onde '{col_filter}' == '{filter_category}'")
+            df = df.filter(col(col_filter) == filter_category)
+        except Exception as e:
+            raise TypeError("Coluna de filtro não foi encontada")
+    else:
+        print("Nenhum filtro de corpus ativado no YAML. Inferindo sobre a base completa.")
+    
     # 1. Definir o Schema de saída 
     output_schema = df.schema
     new_columns = ['toxicity', 'severe_toxicity', 'obscene', 'threat', 'insult', 'identity_attack']

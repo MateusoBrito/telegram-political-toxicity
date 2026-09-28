@@ -22,14 +22,14 @@ echo "==================================================="
 echo -e "\n--- 1. Treinando o modelo final ---"
 # Salva a saída apenas no LOG_TRAIN
 #python -u -m src.train_best_classifier \
-#    --config configs/classifier_config.yaml \
+#    --config configs/classifier_political_category.yaml \
 #    --embeddings "all-distilroberta-v1" \
 #    --model "lr" 2>&1 | tee "$LOG_TRAIN"
 
 echo -e "\n--- 2. Executando a inferência no Spark ---"
 # Salva a saída apenas no LOG_INFER (sem o -a, pois é um arquivo novo)
 python -u -m src.run_infer_class \
-    --config configs/classifier_config.yaml \
+    --config configs/classifier_political_category.yaml \
     --embeddings "all-distilroberta-v1" \
     --model "lr" 2>&1 | tee "$LOG_INFER"
 

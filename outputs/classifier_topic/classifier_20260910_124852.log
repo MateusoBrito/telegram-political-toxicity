@@ -1,0 +1,27 @@
+Lendo texto com colunas: ['id', 'clean_text', 'group_name']
+Lendo tópicos com colunas: ['political_category', 'id', 'macro_topic', 'group_name']
+Dataset carregado: 996055 documentos
+Filtrando corpus para: political_category == Politic
+Dataset carregado: 289341 documentos
+Embeddings a testar: ['all-distilroberta-v1', 'paraphrase-MiniLM-L6-v2', 'all-MiniLM-L6-v2']
+Classificadores a testar: ['dt', 'lr']
+Classes encontradas: ['CONCERNS_ABOUT_CLIMATE_CHANGE_POLICIES', 'CONSPIRACY_DEEPSTATE_ELITES', 'CONSPIRACY_PSEUDOSCIENCE', 'CRIME_POLICING_JUSTICE', 'FREE_SPEECH_AND_CENSORSHIP', 'GEOPOLITICS_INTERSTATE', 'HEALTH_ANTIVAX_ALTMED', 'IDENTITY_BASED_HATE_AND_SLURS', 'IDEOLOGY_ANTIESTABLISHMENT', 'IMMIGRATION_BORDERS', 'MEDIA_PLATFORMS', 'MORAL_PANIC', 'NATIONAL_POLITICS_NON_US', 'PROTEST_MOBILIZATION', 'RELIGION_SPIRITUALITY', 'US_POLITICS_ELECTIONS', 'WAR_MIDDLE_EAST', 'WAR_RUSSIA_UKRAINE']
+
+############################################################
+[1/3] Modelo de embedding: all-distilroberta-v1
+############################################################
+| Gerando/carregando embeddings...
+   -> Carregando da cache: /home/students/moliveira/paperMessages/data/cache/embeddings_classifier_macrotopic/all-distilroberta-v1.npy
+
+==================================================
+  Classificador: DT | Embedding: all-distilroberta-v1
+==================================================
+Resultados já encontrados em /home/students/moliveira/paperMessages/reports/classifier_macrotopic_balanced_c/all-distilroberta-v1/dt. Pulando...
+
+==================================================
+  Classificador: LR | Embedding: all-distilroberta-v1
+==================================================
+
+--- Fold 1 ---
+Otimizando parâmetros...
+| Servidor com 72 núcleos. Alocando 36 para o Grid Search.

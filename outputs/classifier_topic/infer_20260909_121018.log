@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/students/moliveira/paperMessages/src/run_infer_class.py", line 166, in <module>
+    main()
+    ~~~~^^
+  File "/home/students/moliveira/paperMessages/src/run_infer_class.py", line 101, in main
+    raise FileNotFoundError(f"Erro: Modelo de produção não encontrado em {model_path}. Execute o script de treino primeiro.")
+FileNotFoundError: Erro: Modelo de produção não encontrado em /home/students/moliveira/paperMessages/reports/classifier_macrotopic_balanced_c/lr_all-distilroberta-v1_producao.joblib. Execute o script de treino primeiro.

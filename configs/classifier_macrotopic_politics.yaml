@@ -17,7 +17,6 @@ corpus:
   col: "political_category"
   category: "Politic"
   
-
 embeddings:
   models:
     - "all-distilroberta-v1"

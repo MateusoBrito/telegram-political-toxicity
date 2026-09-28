@@ -1,0 +1,6 @@
+run_id,dataset,embedding,model,fold,best_params,accuracy,f1_macro,f1_weighted
+2026-09-13T00:00:03.502454,stratified_sample_full,all-MiniLM-L6-v2,lr,1,"{'C': 10.0, 'class_weight': 'balanced', 'max_iter': 1000, 'solver': 'lbfgs'}",0.8226511603794778,0.782875208056556,0.8266137765758578
+2026-09-13T01:56:25.880803,stratified_sample_full,all-MiniLM-L6-v2,lr,2,"{'C': 10.0, 'class_weight': 'balanced', 'max_iter': 1000, 'solver': 'lbfgs'}",0.8208336213451303,0.7789439242647376,0.8248490833659388
+2026-09-13T03:53:01.176479,stratified_sample_full,all-MiniLM-L6-v2,lr,3,"{'C': 10.0, 'class_weight': 'balanced', 'max_iter': 1000, 'solver': 'lbfgs'}",0.8213347618718463,0.7802036033681813,0.8250533147427153
+2026-09-13T05:50:19.480660,stratified_sample_full,all-MiniLM-L6-v2,lr,4,"{'C': 10.0, 'class_weight': 'balanced', 'max_iter': 1000, 'solver': 'lbfgs'}",0.8192610769337112,0.7779824534994918,0.8231102069428962
+2026-09-13T07:47:23.676560,stratified_sample_full,all-MiniLM-L6-v2,lr,5,"{'C': 10.0, 'class_weight': 'balanced', 'max_iter': 1000, 'solver': 'lbfgs'}",0.8183970415428216,0.776686351708119,0.8224818293787773

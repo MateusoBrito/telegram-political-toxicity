@@ -1,0 +1,222 @@
+Lendo texto com colunas: ['clean_text', 'group_name', 'id']
+Lendo tópicos com colunas: ['political_category', 'group_name', 'macro_topic', 'id']
+Dataset carregado: 996055 documentos
+Filtrando corpus para: political_category == Politic
+Dataset carregado: 289341 documentos
+Embeddings a testar: ['all-distilroberta-v1', 'paraphrase-MiniLM-L6-v2', 'all-MiniLM-L6-v2']
+Classificadores a testar: ['dt', 'lr']
+Classes encontradas: ['CONCERNS_ABOUT_CLIMATE_CHANGE_POLICIES', 'CONSPIRACY_DEEPSTATE_ELITES', 'CONSPIRACY_PSEUDOSCIENCE', 'CRIME_POLICING_JUSTICE', 'FREE_SPEECH_AND_CENSORSHIP', 'GEOPOLITICS_INTERSTATE', 'HEALTH_ANTIVAX_ALTMED', 'IDENTITY_BASED_HATE_AND_SLURS', 'IDEOLOGY_ANTIESTABLISHMENT', 'IMMIGRATION_BORDERS', 'MEDIA_PLATFORMS', 'MORAL_PANIC', 'NATIONAL_POLITICS_NON_US', 'PROTEST_MOBILIZATION', 'RELIGION_SPIRITUALITY', 'US_POLITICS_ELECTIONS', 'WAR_MIDDLE_EAST', 'WAR_RUSSIA_UKRAINE']
+
+############################################################
+[1/3] Modelo de embedding: all-distilroberta-v1
+############################################################
+| Gerando/carregando embeddings...
+   -> Carregando da cache: /home/students/moliveira/paperMessages/data/cache/embeddings_classifier_macrotopic/all-distilroberta-v1.npy
+
+==================================================
+  Classificador: DT | Embedding: all-distilroberta-v1
+==================================================
+Resultados já encontrados em /home/students/moliveira/paperMessages/reports/classifier_macrotopic_balanced_c/all-distilroberta-v1/dt. Pulando...
+
+==================================================
+  Classificador: LR | Embedding: all-distilroberta-v1
+==================================================
+Resultados já encontrados em /home/students/moliveira/paperMessages/reports/classifier_macrotopic_balanced_c/all-distilroberta-v1/lr. Pulando...
+
+############################################################
+[2/3] Modelo de embedding: paraphrase-MiniLM-L6-v2
+############################################################
+| Gerando/carregando embeddings...
+   -> Carregando da cache: /home/students/moliveira/paperMessages/data/cache/embeddings_classifier_macrotopic/paraphrase-MiniLM-L6-v2.npy
+
+==================================================
+  Classificador: DT | Embedding: paraphrase-MiniLM-L6-v2
+==================================================
+Resultados já encontrados em /home/students/moliveira/paperMessages/reports/classifier_macrotopic_balanced_c/paraphrase-MiniLM-L6-v2/dt. Pulando...
+
+==================================================
+  Classificador: LR | Embedding: paraphrase-MiniLM-L6-v2
+==================================================
+Resultados já encontrados em /home/students/moliveira/paperMessages/reports/classifier_macrotopic_balanced_c/paraphrase-MiniLM-L6-v2/lr. Pulando...
+
+############################################################
+[3/3] Modelo de embedding: all-MiniLM-L6-v2
+############################################################
+| Gerando/carregando embeddings...
+   -> Carregando da cache: /home/students/moliveira/paperMessages/data/cache/embeddings_classifier_macrotopic/all-MiniLM-L6-v2.npy
+
+==================================================
+  Classificador: DT | Embedding: all-MiniLM-L6-v2
+==================================================
+
+--- Fold 1 ---
+Otimizando parâmetros...
+| Servidor com 72 núcleos. Alocando 36 para o Grid Search.
+Melhores parâmetros: {'class_weight': 'balanced', 'criterion': 'gini', 'max_depth': 50, 'min_samples_split': 20}
+Acurácia: 0.4831 | F1-Macro: 0.4086
+Resultados salvos em: /home/students/moliveira/paperMessages/reports/classifier_macrotopic_balanced_c/all-MiniLM-L6-v2/dt/experiment_log.csv
+
+--- Fold 2 ---
+Otimizando parâmetros...
+| Servidor com 72 núcleos. Alocando 36 para o Grid Search.
+Melhores parâmetros: {'class_weight': 'balanced', 'criterion': 'entropy', 'max_depth': 50, 'min_samples_split': 20}
+Acurácia: 0.4829 | F1-Macro: 0.4083
+Resultados salvos em: /home/students/moliveira/paperMessages/reports/classifier_macrotopic_balanced_c/all-MiniLM-L6-v2/dt/experiment_log.csv
+
+--- Fold 3 ---
+Otimizando parâmetros...
+| Servidor com 72 núcleos. Alocando 36 para o Grid Search.
+Melhores parâmetros: {'class_weight': 'balanced', 'criterion': 'gini', 'max_depth': 50, 'min_samples_split': 20}
+Acurácia: 0.4843 | F1-Macro: 0.4061
+Resultados salvos em: /home/students/moliveira/paperMessages/reports/classifier_macrotopic_balanced_c/all-MiniLM-L6-v2/dt/experiment_log.csv
+
+--- Fold 4 ---
+Otimizando parâmetros...
+| Servidor com 72 núcleos. Alocando 36 para o Grid Search.
+Melhores parâmetros: {'class_weight': 'balanced', 'criterion': 'gini', 'max_depth': 50, 'min_samples_split': 20}
+Acurácia: 0.4861 | F1-Macro: 0.4141
+Resultados salvos em: /home/students/moliveira/paperMessages/reports/classifier_macrotopic_balanced_c/all-MiniLM-L6-v2/dt/experiment_log.csv
+
+--- Fold 5 ---
+Otimizando parâmetros...
+| Servidor com 72 núcleos. Alocando 36 para o Grid Search.
+Melhores parâmetros: {'class_weight': 'balanced', 'criterion': 'gini', 'max_depth': 50, 'min_samples_split': 20}
+Acurácia: 0.4797 | F1-Macro: 0.4078
+Resultados salvos em: /home/students/moliveira/paperMessages/reports/classifier_macrotopic_balanced_c/all-MiniLM-L6-v2/dt/experiment_log.csv
+
+=== Média Final: 0.4832 (+/- 0.0021) ===
+
+==================================================
+  Classificador: LR | Embedding: all-MiniLM-L6-v2
+==================================================
+
+--- Fold 1 ---
+Otimizando parâmetros...
+| Servidor com 72 núcleos. Alocando 36 para o Grid Search.
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+Melhores parâmetros: {'C': 10.0, 'class_weight': 'balanced', 'max_iter': 1000, 'solver': 'lbfgs'}
+Acurácia: 0.8227 | F1-Macro: 0.7829
+Resultados salvos em: /home/students/moliveira/paperMessages/reports/classifier_macrotopic_balanced_c/all-MiniLM-L6-v2/lr/experiment_log.csv
+
+--- Fold 2 ---
+Otimizando parâmetros...
+| Servidor com 72 núcleos. Alocando 36 para o Grid Search.
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+Melhores parâmetros: {'C': 10.0, 'class_weight': 'balanced', 'max_iter': 1000, 'solver': 'lbfgs'}
+Acurácia: 0.8208 | F1-Macro: 0.7789
+Resultados salvos em: /home/students/moliveira/paperMessages/reports/classifier_macrotopic_balanced_c/all-MiniLM-L6-v2/lr/experiment_log.csv
+
+--- Fold 3 ---
+Otimizando parâmetros...
+| Servidor com 72 núcleos. Alocando 36 para o Grid Search.
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+Melhores parâmetros: {'C': 10.0, 'class_weight': 'balanced', 'max_iter': 1000, 'solver': 'lbfgs'}
+Acurácia: 0.8213 | F1-Macro: 0.7802
+Resultados salvos em: /home/students/moliveira/paperMessages/reports/classifier_macrotopic_balanced_c/all-MiniLM-L6-v2/lr/experiment_log.csv
+
+--- Fold 4 ---
+Otimizando parâmetros...
+| Servidor com 72 núcleos. Alocando 36 para o Grid Search.
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+Melhores parâmetros: {'C': 10.0, 'class_weight': 'balanced', 'max_iter': 1000, 'solver': 'lbfgs'}
+Acurácia: 0.8193 | F1-Macro: 0.7780
+Resultados salvos em: /home/students/moliveira/paperMessages/reports/classifier_macrotopic_balanced_c/all-MiniLM-L6-v2/lr/experiment_log.csv
+
+--- Fold 5 ---
+Otimizando parâmetros...
+| Servidor com 72 núcleos. Alocando 36 para o Grid Search.
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+/opt/conda/lib/python3.13/site-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+Melhores parâmetros: {'C': 10.0, 'class_weight': 'balanced', 'max_iter': 1000, 'solver': 'lbfgs'}
+Acurácia: 0.8184 | F1-Macro: 0.7767
+Resultados salvos em: /home/students/moliveira/paperMessages/reports/classifier_macrotopic_balanced_c/all-MiniLM-L6-v2/lr/experiment_log.csv
+
+=== Média Final: 0.8205 (+/- 0.0015) ===
+
+############################################################
+Pipeline concluído! Resultados em: /home/students/moliveira/paperMessages/reports/classifier_macrotopic_balanced_c
+############################################################

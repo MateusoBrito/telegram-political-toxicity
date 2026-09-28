@@ -1,0 +1,6 @@
+run_id,dataset,embedding,model,fold,best_params,accuracy,f1_macro,f1_weighted
+2026-09-12T01:15:30.370423,stratified_sample_full,paraphrase-MiniLM-L6-v2,lr,1,"{'C': 1.0, 'class_weight': 'balanced', 'max_iter': 1000, 'solver': 'saga'}",0.786932554562892,0.7354438180235657,0.7931232247460065
+2026-09-12T03:11:19.740161,stratified_sample_full,paraphrase-MiniLM-L6-v2,lr,2,"{'C': 1.0, 'class_weight': 'balanced', 'max_iter': 1000, 'solver': 'lbfgs'}",0.7878101887053294,0.7344250973139982,0.7938847228817543
+2026-09-12T05:05:54.927122,stratified_sample_full,paraphrase-MiniLM-L6-v2,lr,3,"{'C': 1.0, 'class_weight': 'balanced', 'max_iter': 1000, 'solver': 'lbfgs'}",0.784768784129398,0.7332599075473757,0.790733317380145
+2026-09-12T09:51:31.421609,stratified_sample_full,paraphrase-MiniLM-L6-v2,lr,4,"{'C': 1.0, 'class_weight': 'balanced', 'max_iter': 1000, 'solver': 'saga'}",0.7846305384668556,0.7310260556179558,0.7909267934304166
+2026-09-12T11:47:39.068319,stratified_sample_full,paraphrase-MiniLM-L6-v2,lr,5,"{'C': 1.0, 'class_weight': 'balanced', 'max_iter': 1000, 'solver': 'lbfgs'}",0.782850625561623,0.7284264259246475,0.789172739870028
